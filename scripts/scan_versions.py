@@ -39,14 +39,30 @@ class HuggingFaceScanner:
             result["update_available"] = True  # Needs to be pinned
             return result
 
-        # For now, use a simple HEAD request to check if URL still works
-        # Full implementation would compare commits
         try:
-            url = f"https://huggingface.co/{repo}"
-            async with session.head(url, headers=self.headers) as resp:
+            # Get latest commit info from HF API
+            url = f"{self.api_base}/models/{repo}/commits/main"
+            async with session.get(url, headers=self.headers) as resp:
                 if resp.status == 200:
-                    result["latest_revision"] = "main"  # Placeholder
-                    result["update_available"] = False
+                    data = await resp.json()
+                    if data and len(data) > 0:
+                        # Get the latest commit SHA (could be 'id' or 'oid')
+                        result["latest_revision"] = data[0].get("id") or data[0].get("oid")
+
+                        # Compare with tracked revision
+                        if result["latest_revision"]:
+                            # Support both full SHA and short SHA comparison
+                            if tracked_revision.startswith(result["latest_revision"][:7]) or \
+                               result["latest_revision"].startswith(tracked_revision[:7]):
+                                result["update_available"] = False
+                            else:
+                                result["update_available"] = True
+                elif resp.status == 401:
+                    result["error"] = "auth_required"
+                elif resp.status == 404:
+                    result["error"] = "repo_not_found"
+                elif resp.status == 429:
+                    result["error"] = "rate_limited"
                 else:
                     result["error"] = f"HTTP {resp.status}"
         except Exception as e:
@@ -93,6 +109,9 @@ async def scan_presets(presets_dir: Path, token: Optional[str] = None) -> List[D
                             "file_path": file_info.get("path"),
                             **update
                         })
+
+                        # Rate limiting: delay between requests
+                        await asyncio.sleep(0.5)
 
     return results
 
