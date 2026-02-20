@@ -12,6 +12,9 @@ on:
       - 'presets/**'
       - 'schema.yaml'
 
+permissions:
+  contents: write
+
 jobs:
   validate:
     runs-on: ubuntu-latest
