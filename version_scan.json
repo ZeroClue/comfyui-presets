@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-02-20T17:34:30.298593Z",
+  "scanned_at": "2026-02-20T18:13:53.113017Z",
   "results": [
     {
       "preset_id": "ace-step-v1-3-5b",
@@ -211,7 +211,7 @@
     {
       "preset_id": "qwen-image-complete",
       "file_path": "diffusion_models/qwen_image_fp8_e4m3fn.safetensors",
-      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+      "repo": "Comfy-Org/Qwen-Image-Edit_ComfyUI",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
@@ -220,7 +220,7 @@
     {
       "preset_id": "qwen-image-complete",
       "file_path": "diffusion_models/qwen_image_edit_2509_fp8_e4m3fn.safetensors",
-      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+      "repo": "Comfy-Org/Qwen-Image-Edit_ComfyUI",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
@@ -229,7 +229,7 @@
     {
       "preset_id": "qwen-image-complete",
       "file_path": "text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors",
-      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+      "repo": "Comfy-Org/Qwen-Image-Edit_ComfyUI",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
@@ -238,7 +238,7 @@
     {
       "preset_id": "qwen-image-complete",
       "file_path": "vae/qwen_image_vae.safetensors",
-      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+      "repo": "Comfy-Org/Qwen-Image-Edit_ComfyUI",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
@@ -309,7 +309,7 @@
     },
     {
       "preset_id": "sdxl-turbo-basic",
-      "file_path": "checkpoints/sdxl_turbo_1.0_fp16.safetensors",
+      "file_path": "checkpoints/sd_xl_turbo_1.0_fp16.safetensors",
       "repo": "stabilityai/sdxl-turbo",
       "tracked_revision": null,
       "latest_revision": null,
@@ -544,7 +544,7 @@
     {
       "preset_id": "qwen-image-edit",
       "file_path": "diffusion_models/qwen_image_edit_2509_fp8_e4m3fn.safetensors",
-      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+      "repo": "Comfy-Org/Qwen-Image-Edit_ComfyUI",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
@@ -553,7 +553,7 @@
     {
       "preset_id": "qwen-image-edit",
       "file_path": "text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors",
-      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+      "repo": "Comfy-Org/Qwen-Image-Edit_ComfyUI",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
@@ -562,7 +562,7 @@
     {
       "preset_id": "qwen-image-edit",
       "file_path": "vae/qwen_image_vae.safetensors",
-      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+      "repo": "Comfy-Org/Qwen-Image-Edit_ComfyUI",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
@@ -1173,7 +1173,7 @@
     },
     {
       "preset_id": "wan-2-2-animate",
-      "file_path": "diffusion_models/hunyuan_t2v_720p.safetensors",
+      "file_path": "diffusion_models/hunyuan_video_t2v_720p_bf16.safetensors",
       "repo": "Tencent/HunyuanVideo",
       "tracked_revision": null,
       "latest_revision": null,
@@ -1182,7 +1182,7 @@
     },
     {
       "preset_id": "wan-2-2-animate",
-      "file_path": "diffusion_models/mochi_1_preview_fp8.safetensors",
+      "file_path": "diffusion_models/mochi_preview_fp8_scaled.safetensors",
       "repo": "genmo/mochi-1-preview",
       "tracked_revision": null,
       "latest_revision": null,
