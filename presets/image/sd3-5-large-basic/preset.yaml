@@ -49,4 +49,5 @@ use_case: Professional 1MP resolution image generation with exceptional quality
 created: '2026-02-20T16:36:33.809558Z'
 updated: '2026-02-20T16:36:33.809558Z'
 requirements:
+  vram_gb: 16
   disk_gb: 12.5

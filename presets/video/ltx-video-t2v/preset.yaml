@@ -48,4 +48,5 @@ use_case: Efficient video generation with long descriptive prompts
 created: '2026-02-20T16:36:33.673067Z'
 updated: '2026-02-20T16:36:33.673067Z'
 requirements:
+  vram_gb: 16
   disk_gb: 14.5

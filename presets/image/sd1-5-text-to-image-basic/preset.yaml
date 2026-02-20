@@ -32,4 +32,5 @@ use_case: Basic text-to-image generation following official ComfyUI workflow
 created: '2026-02-20T16:36:33.758219Z'
 updated: '2026-02-20T16:36:33.758219Z'
 requirements:
+  vram_gb: 6
   disk_gb: 5.97

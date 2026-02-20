@@ -48,4 +48,5 @@ use_case: Basic image-to-video conversion following ComfyUI official workflow
 created: '2026-02-20T16:36:33.732951Z'
 updated: '2026-02-20T16:36:33.732951Z'
 requirements:
+  vram_gb: 24
   disk_gb: 15.7

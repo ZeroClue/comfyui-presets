@@ -47,4 +47,5 @@ use_case: Highest quality image generation
 created: '2026-02-20T16:36:33.782376Z'
 updated: '2026-02-20T16:36:33.782376Z'
 requirements:
+  vram_gb: 16
   disk_gb: 24.0

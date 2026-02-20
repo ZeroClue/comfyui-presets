@@ -49,4 +49,5 @@ use_case: Convert static images to animated videos with 8GB VRAM compatibility
 created: '2026-02-20T16:36:33.860663Z'
 updated: '2026-02-20T16:36:33.860663Z'
 requirements:
+  vram_gb: 24
   disk_gb: 13.5

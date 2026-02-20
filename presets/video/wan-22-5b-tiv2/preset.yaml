@@ -40,4 +40,5 @@ use_case: Legacy text-to-video generation - consider migrating to WAN_2_2_T2V_BA
 created: '2026-02-20T16:36:33.730218Z'
 updated: '2026-02-20T16:36:33.730218Z'
 requirements:
+  vram_gb: 24
   disk_gb: 15.5

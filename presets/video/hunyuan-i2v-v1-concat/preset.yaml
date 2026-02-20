@@ -57,4 +57,5 @@ use_case: Image-to-video conversion with better motion fluidity (v1 concat)
 created: '2026-02-20T16:36:33.695580Z'
 updated: '2026-02-20T16:36:33.695580Z'
 requirements:
+  vram_gb: 24
   disk_gb: 11.3

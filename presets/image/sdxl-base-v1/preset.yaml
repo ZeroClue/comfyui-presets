@@ -31,4 +31,5 @@ use_case: Standard high-resolution image generation
 created: '2026-02-20T16:36:33.785949Z'
 updated: '2026-02-20T16:36:33.785949Z'
 requirements:
+  vram_gb: 8
   disk_gb: 6.9

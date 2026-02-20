@@ -48,4 +48,5 @@ use_case: Balanced performance and quality for everyday image generation
 created: '2026-02-20T16:36:33.827422Z'
 updated: '2026-02-20T16:36:33.827422Z'
 requirements:
+  vram_gb: 8
   disk_gb: 6.5

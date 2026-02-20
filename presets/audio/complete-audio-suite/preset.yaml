@@ -63,4 +63,5 @@ use_case: Full audio generation capabilities
 created: '2026-02-20T16:36:33.818934Z'
 updated: '2026-02-20T16:36:33.818934Z'
 requirements:
+  vram_gb: 4
   disk_gb: 10.9

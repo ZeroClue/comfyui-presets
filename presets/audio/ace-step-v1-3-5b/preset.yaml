@@ -24,4 +24,5 @@ use_case: Creating music and songs with voice synthesis
 created: '2026-02-20T16:36:33.822979Z'
 updated: '2026-02-20T16:36:33.822979Z'
 requirements:
+  vram_gb: 4
   disk_gb: 7.17

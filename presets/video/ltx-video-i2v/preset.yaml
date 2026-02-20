@@ -56,4 +56,5 @@ use_case: Convert static images to animated videos with LTX efficiency
 created: '2026-02-20T16:36:33.677666Z'
 updated: '2026-02-20T16:36:33.677666Z'
 requirements:
+  vram_gb: 16
   disk_gb: 16.1

@@ -47,4 +47,5 @@ use_case: Fast, high-quality image generation
 created: '2026-02-20T16:36:33.779112Z'
 updated: '2026-02-20T16:36:33.779112Z'
 requirements:
+  vram_gb: 12
   disk_gb: 24.0

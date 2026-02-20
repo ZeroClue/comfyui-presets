@@ -40,4 +40,5 @@ use_case: Basic text-to-video generation following ComfyUI official workflow
 created: '2026-02-20T16:36:33.724956Z'
 updated: '2026-02-20T16:36:33.724956Z'
 requirements:
+  vram_gb: 24
   disk_gb: 15.5

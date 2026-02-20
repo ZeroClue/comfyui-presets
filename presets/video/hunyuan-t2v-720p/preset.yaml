@@ -48,4 +48,5 @@ use_case: High-resolution 720p text-to-video generation following official workf
 created: '2026-02-20T16:36:33.689970Z'
 updated: '2026-02-20T16:36:33.689970Z'
 requirements:
+  vram_gb: 24
   disk_gb: 7.6
