@@ -1,0 +1,59 @@
+id: wan-2-2-fun-camera
+version: 1.0.0
+name: WAN 2.2 Fun Camera
+category: Video Generation
+type: video
+description: WAN 2.2 camera movement control workflow from ComfyUI documentation
+download_size: 16.9GB
+files:
+- path: diffusion_models/Wan2.2_T2V_5B.safetensors
+  url: https://huggingface.co/Wailicv/Wan2.2/resolve/main/models/Wan2.2_T2V_5B.safetensors
+  size: 9.2GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Wailicv/Wan2.2
+    revision: null
+- path: text_encoders/t5xxl_fp16.safetensors
+  url: https://huggingface.co/Comfy-Org/sd3-t5xxlfp16/resolve/main/t5xxl_fp16.safetensors
+  size: 4.9GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/sd3-t5xxlfp16
+    revision: null
+- path: diffusion_models/wan_nsfw_filter_v140.safetensors
+  url: https://huggingface.co/Wailicv/Wan2.2/resolve/main/models/wan_nsfw_filter_v140.safetensors
+  size: 538MB
+  optional: false
+  source:
+    type: huggingface
+    repo: Wailicv/Wan2.2
+    revision: null
+- path: loras/wan22_lightning.safetensors
+  url: https://huggingface.co/Wailicv/Wan2.2/resolve/main/loras/wan22_lightning.safetensors
+  size: 1.4GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Wailicv/Wan2.2
+    revision: null
+- path: vae/wan2.2_vae.safetensors
+  url: https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors
+  size: 1.41GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/Wan_2.2_ComfyUI_Repackaged
+    revision: null
+tags:
+- wan
+- camera
+- movement
+- control
+- workflow
+use_case: Advanced camera movement control in video generation
+created: '2026-02-20T16:36:33.739741Z'
+updated: '2026-02-20T16:36:33.739741Z'
+requirements:
+  disk_gb: 16.9

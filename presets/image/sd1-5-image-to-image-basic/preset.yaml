@@ -1,0 +1,26 @@
+id: sd1-5-image-to-image-basic
+version: 1.0.0
+name: SD1.5 Image to Image Basic
+category: Image Generation
+type: image
+description: Stable Diffusion 1.5 basic image-to-image workflow from ComfyUI documentation
+download_size: 4.0GB
+files:
+- path: checkpoints/v1-5-pruned-emaonly-fp16.safetensors
+  url: https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-archive/blob/main/v1-5-pruned-emaonly-fp16.safetensors
+  size: 4.0GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/stable-diffusion-v1-5-archive
+    revision: null
+tags:
+- sd1.5
+- image-to-image
+- transform
+- workflow
+use_case: Transform images with text prompts while preserving composition
+created: '2026-02-20T16:36:33.765218Z'
+updated: '2026-02-20T16:36:33.765218Z'
+requirements:
+  disk_gb: 4.0

@@ -1,0 +1,34 @@
+id: sd1-5-lora-basic
+version: 1.0.0
+name: SD1.5 LoRA Basic
+category: Image Generation
+type: image
+description: Stable Diffusion 1.5 basic LoRA workflow from ComfyUI documentation
+download_size: 4.1GB
+files:
+- path: checkpoints/v1-5-pruned-emaonly-fp16.safetensors
+  url: https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-archive/blob/main/v1-5-pruned-emaonly-fp16.safetensors
+  size: 4.0GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/stable-diffusion-v1-5-archive
+    revision: null
+- path: loras/example_lora.safetensors
+  url: https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-archive/blob/main/example_lora.safetensors
+  size: 100MB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/stable-diffusion-v1-5-archive
+    revision: null
+tags:
+- sd1.5
+- lora
+- style
+- workflow
+use_case: Apply custom LoRA models for specific styles or characters
+created: '2026-02-20T16:36:33.773575Z'
+updated: '2026-02-20T16:36:33.773575Z'
+requirements:
+  disk_gb: 4.1

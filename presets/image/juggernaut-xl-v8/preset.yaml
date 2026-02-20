@@ -1,0 +1,34 @@
+id: juggernaut-xl-v8
+version: 1.0.0
+name: Juggernaut XL v8
+category: Image Generation
+type: image
+description: Juggernaut XL v8 for photorealistic images
+download_size: 6.9GB
+files:
+- path: checkpoints/juggernautXL_v8Rundiffusion.safetensors
+  url: https://huggingface.co/cagliostrolab/animagine-xl-3.0/resolve/main/animagine-xl-3.0.safetensors
+  size: 6.9GB
+  optional: false
+  source:
+    type: huggingface
+    repo: cagliostrolab/animagine-xl-3.0
+    revision: null
+- path: vae/sdxl_vae.safetensors
+  url: https://huggingface.co/stabilityai/sdxl-vae-fp16-fix/resolve/main/sdxl_vae_fp16_fix.safetensors
+  size: 335MB
+  optional: false
+  source:
+    type: huggingface
+    repo: stabilityai/sdxl-vae-fp16-fix
+    revision: null
+tags:
+- juggernaut
+- xl
+- photorealistic
+- image
+use_case: Photorealistic image generation
+created: '2026-02-20T16:36:33.788311Z'
+updated: '2026-02-20T16:36:33.788311Z'
+requirements:
+  disk_gb: 6.9

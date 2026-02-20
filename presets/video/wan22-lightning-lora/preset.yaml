@@ -1,0 +1,27 @@
+id: wan22-lightning-lora
+version: 1.0.0
+name: Wan 2.2 Lightning LoRA
+category: Video Generation
+type: video
+description: Wan 2.2 Lightning LoRA for faster inference
+download_size: 1.4GB
+files:
+- path: loras/wan22_lightning.safetensors
+  url: https://huggingface.co/Wailicv/Wan2.2/resolve/main/loras/wan22_lightning.safetensors
+  size: 1.4GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Wailicv/Wan2.2
+    revision: null
+tags:
+- wan
+- lightning
+- lora
+- video
+- speed
+use_case: Speed up video generation by 2-3x
+created: '2026-02-20T16:36:33.705090Z'
+updated: '2026-02-20T16:36:33.705090Z'
+requirements:
+  disk_gb: 1.4

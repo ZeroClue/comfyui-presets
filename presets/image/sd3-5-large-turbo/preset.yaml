@@ -1,0 +1,51 @@
+id: sd3-5-large-turbo
+version: 1.0.0
+name: SD3.5 Large Turbo
+category: Image Generation
+type: image
+description: Stable Diffusion 3.5 Large Turbo with ADD distillation for fast generation
+download_size: 9.5GB
+files:
+- path: diffusion_models/sd3_large_turbo.safetensors
+  url: https://huggingface.co/stabilityai/stable-diffusion-3.5-large-turbo/resolve/main/sd3_large_turbo.safetensors
+  size: 6.4GB
+  optional: false
+  source:
+    type: huggingface
+    repo: stabilityai/stable-diffusion-3.5-large-turbo
+    revision: null
+- path: text_encoders/clip_g.safetensors
+  url: https://huggingface.co/stabilityai/stable-diffusion-3.5-large-turbo/resolve/main/text_encoders/clip_g.safetensors
+  size: 1.7GB
+  optional: false
+  source:
+    type: huggingface
+    repo: stabilityai/stable-diffusion-3.5-large-turbo
+    revision: null
+- path: text_encoders/clip_l.safetensors
+  url: https://huggingface.co/stabilityai/stable-diffusion-3.5-large-turbo/resolve/main/text_encoders/clip_l.safetensors
+  size: 1.2GB
+  optional: false
+  source:
+    type: huggingface
+    repo: stabilityai/stable-diffusion-3.5-large-turbo
+    revision: null
+- path: text_encoders/t5xxl_fp16.safetensors
+  url: https://huggingface.co/Comfy-Org/sd3-t5xxlfp16/resolve/main/t5xxl_fp16.safetensors
+  size: 4.9GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/sd3-t5xxlfp16
+    revision: null
+tags:
+- sd3.5
+- turbo
+- fast
+- professional
+- add
+use_case: Fast professional generation with turbo speed (2-4x faster than base)
+created: '2026-02-20T16:36:33.812871Z'
+updated: '2026-02-20T16:36:33.812871Z'
+requirements:
+  disk_gb: 9.5

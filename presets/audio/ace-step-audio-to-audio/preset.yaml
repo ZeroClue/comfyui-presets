@@ -1,0 +1,37 @@
+id: ace-step-audio-to-audio
+version: 1.0.0
+name: ACE Step Audio to Audio
+category: Audio Generation
+type: audio
+description: ACE Step audio-to-audio processing model for music transformation and
+  remixing
+download_size: 7.2GB
+files:
+- path: checkpoints/ace_step_v1_3.5b.safetensors
+  url: https://huggingface.co/Comfy-Org/ACE-Step_ComfyUI_repackaged/blob/main/all_in_one/ace_step_v1_3.5b.safetensors
+  size: 7.17GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/ACE-Step_ComfyUI_repackaged
+    revision: null
+- path: audio_encoders/ace_audio_encoder.pth
+  url: https://huggingface.co/billwuhao/ComfyUI_ACE-Step/resolve/main/models/audio_encoder.pth
+  size: 100MB
+  optional: false
+  source:
+    type: huggingface
+    repo: billwuhao/ComfyUI_ACE-Step
+    revision: null
+tags:
+- ace
+- step
+- audio-to-audio
+- remix
+- transform
+- music
+use_case: Transform and remix existing audio with music generation capabilities
+created: '2026-02-20T16:36:33.824955Z'
+updated: '2026-02-20T16:36:33.824955Z'
+requirements:
+  disk_gb: 7.2

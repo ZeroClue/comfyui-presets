@@ -1,0 +1,44 @@
+id: ace-step-music-extension
+version: 1.0.0
+name: ACE Step Music Extension
+category: Audio Generation
+type: audio
+description: ACE Step music extension and continuation workflow
+download_size: 7.3GB
+files:
+- path: checkpoints/ace_step_v1_3.5b.safetensors
+  url: https://huggingface.co/Comfy-Org/ACE-Step_ComfyUI_repackaged/blob/main/all_in_one/ace_step_v1_3.5b.safetensors
+  size: 7.17GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/ACE-Step_ComfyUI_repackaged
+    revision: null
+- path: audio_encoders/ace_audio_encoder.pth
+  url: https://huggingface.co/billwuhao/ComfyUI_ACE-Step/resolve/main/models/audio_encoder.pth
+  size: 100MB
+  optional: false
+  source:
+    type: huggingface
+    repo: billwuhao/ComfyUI_ACE-Step
+    revision: null
+- path: audio_encoders/music_continuation_model.pth
+  url: https://huggingface.co/billwuhao/ComfyUI_ACE-Step/resolve/main/models/music_continuation.pth
+  size: 50MB
+  optional: false
+  source:
+    type: huggingface
+    repo: billwuhao/ComfyUI_ACE-Step
+    revision: null
+tags:
+- ace
+- step
+- music
+- extension
+- continuation
+- audio
+use_case: Extend and continue existing music pieces with AI generation
+created: '2026-02-20T16:36:33.839154Z'
+updated: '2026-02-20T16:36:33.839154Z'
+requirements:
+  disk_gb: 7.3

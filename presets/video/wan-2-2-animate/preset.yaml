@@ -1,0 +1,82 @@
+id: wan-2-2-animate
+version: 1.0.0
+name: Complete Video Workflow
+category: Video Generation
+type: video
+description: Complete video generation workflow with all models
+download_size: 26.4GB
+files:
+- path: diffusion_models/LTXV_2B_FP8_SCALED.safetensors
+  url: https://huggingface.co/Lightricks/LTXV/resolve/main/transformers/diffusion_pytorch_model.safetensors
+  size: 4.8GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Lightricks/LTXV
+    revision: null
+- path: diffusion_models/Wan2.2_T2V_5B.safetensors
+  url: https://huggingface.co/Wailicv/Wan2.2/resolve/main/models/Wan2.2_T2V_5B.safetensors
+  size: 9.2GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Wailicv/Wan2.2
+    revision: null
+- path: diffusion_models/hunyuan_t2v_720p.safetensors
+  url: https://huggingface.co/Tencent/HunyuanVideo/resolve/main/hunyuan_t2v_720p.safetensors
+  size: 5.1GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Tencent/HunyuanVideo
+    revision: null
+- path: diffusion_models/mochi_1_preview_fp8.safetensors
+  url: https://huggingface.co/genmo/mochi-1-preview/resolve/main/model.fp8.safetensors
+  size: 9.8GB
+  optional: false
+  source:
+    type: huggingface
+    repo: genmo/mochi-1-preview
+    revision: null
+- path: text_encoders/t5xxl_fp16.safetensors
+  url: https://huggingface.co/Comfy-Org/sd3-t5xxlfp16/resolve/main/t5xxl_fp16.safetensors
+  size: 4.9GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/sd3-t5xxlfp16
+    revision: null
+- path: loras/wan22_lightning.safetensors
+  url: https://huggingface.co/Wailicv/Wan2.2/resolve/main/loras/wan22_lightning.safetensors
+  size: 1.4GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Wailicv/Wan2.2
+    revision: null
+- path: upscale_models/4x_NMKD-Siax_xl.pth
+  url: https://huggingface.co/Guillaume-M/4x_NMKD-Siax_xl/resolve/main/4x_NMKD-Siax_xl.pth
+  size: 690MB
+  optional: false
+  source:
+    type: huggingface
+    repo: Guillaume-M/4x_NMKD-Siax_xl
+    revision: null
+- path: vae/wan2.2_vae.safetensors
+  url: https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors
+  size: 1.41GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/Wan_2.2_ComfyUI_Repackaged
+    revision: null
+tags:
+- complete
+- workflow
+- video
+- all
+use_case: Full video generation capabilities
+created: '2026-02-20T16:36:33.751888Z'
+updated: '2026-02-20T16:36:33.751888Z'
+requirements:
+  disk_gb: 26.4

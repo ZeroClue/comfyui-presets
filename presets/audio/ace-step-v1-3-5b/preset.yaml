@@ -1,0 +1,27 @@
+id: ace-step-v1-3-5b
+version: 1.0.0
+name: ACE Step v1 3.5B
+category: Audio Generation
+type: audio
+description: ACE Step v1 3.5B model for creating music and lyrics
+download_size: 7.17GB
+files:
+- path: checkpoints/ace_step_v1_3.5b.safetensors
+  url: https://huggingface.co/Comfy-Org/ACE-Step_ComfyUI_repackaged/blob/main/all_in_one/ace_step_v1_3.5b.safetensors
+  size: 7.17GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/ACE-Step_ComfyUI_repackaged
+    revision: null
+tags:
+- ace
+- step
+- music
+- lyrics
+- audio
+use_case: Creating music and songs with voice synthesis
+created: '2026-02-20T16:36:33.822979Z'
+updated: '2026-02-20T16:36:33.822979Z'
+requirements:
+  disk_gb: 7.17

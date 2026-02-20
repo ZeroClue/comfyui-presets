@@ -1,0 +1,35 @@
+id: hidream-basic
+version: 1.0.0
+name: HiDream Basic
+category: Image Generation
+type: image
+description: HiDream advanced image generation model with superior capabilities
+download_size: 9.2GB
+files:
+- path: diffusion_models/hidream.safetensors
+  url: https://huggingface.co/HiDream-ai/HiDream/resolve/main/hidream.safetensors
+  size: 9.2GB
+  optional: false
+  source:
+    type: huggingface
+    repo: HiDream-ai/HiDream
+    revision: null
+- path: text_encoders/t5xxl_fp16.safetensors
+  url: https://huggingface.co/Comfy-Org/sd3-t5xxlfp16/resolve/main/t5xxl_fp16.safetensors
+  size: 4.9GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/sd3-t5xxlfp16
+    revision: null
+tags:
+- hidream
+- advanced
+- quality
+- detail
+- generation
+use_case: Advanced image generation with superior quality and detail
+created: '2026-02-20T16:36:33.830481Z'
+updated: '2026-02-20T16:36:33.830481Z'
+requirements:
+  disk_gb: 9.2

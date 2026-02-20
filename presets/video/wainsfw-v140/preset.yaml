@@ -1,0 +1,25 @@
+id: wainsfw-v140
+version: 1.0.0
+name: Wan NSFW Filter v1.40
+category: Video Generation
+type: video
+description: Wan NSFW filter model v1.40
+download_size: 538MB
+files:
+- path: diffusion_models/wan_nsfw_filter_v140.safetensors
+  url: https://huggingface.co/Wailicv/Wan2.2/resolve/main/models/wan_nsfw_filter_v140.safetensors
+  size: 538MB
+  optional: false
+  source:
+    type: huggingface
+    repo: Wailicv/Wan2.2
+    revision: null
+tags:
+- wan
+- nsfw
+- filter
+- video
+- safety
+use_case: Content safety filtering
+created: '2026-02-20T16:36:33.710377Z'
+updated: '2026-02-20T16:36:33.710377Z'

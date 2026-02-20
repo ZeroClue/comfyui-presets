@@ -1,0 +1,34 @@
+id: realvis-xl-v4
+version: 1.0.0
+name: RealVis XL v4
+category: Image Generation
+type: image
+description: RealVis XL v4 for realistic images
+download_size: 6.9GB
+files:
+- path: checkpoints/realvisxlV40.safetensors
+  url: https://huggingface.co/SG161222/RealVisXL_V4.0/resolve/main/RealVisXL_V4.0.safetensors
+  size: 6.9GB
+  optional: false
+  source:
+    type: huggingface
+    repo: SG161222/RealVisXL_V4.0
+    revision: null
+- path: vae/sdxl_vae.safetensors
+  url: https://huggingface.co/stabilityai/sdxl-vae-fp16-fix/resolve/main/sdxl_vae_fp16_fix.safetensors
+  size: 335MB
+  optional: false
+  source:
+    type: huggingface
+    repo: stabilityai/sdxl-vae-fp16-fix
+    revision: null
+tags:
+- realvis
+- xl
+- realistic
+- image
+use_case: Realistic image generation
+created: '2026-02-20T16:36:33.792429Z'
+updated: '2026-02-20T16:36:33.792429Z'
+requirements:
+  disk_gb: 6.9

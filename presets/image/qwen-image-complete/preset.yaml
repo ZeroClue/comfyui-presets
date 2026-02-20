@@ -1,0 +1,52 @@
+id: qwen-image-complete
+version: 1.0.0
+name: Qwen 20B Complete
+category: Image Generation
+type: image
+description: Complete Qwen 20B image generation and editing workflow
+download_size: 57GB
+files:
+- path: diffusion_models/qwen_image_fp8_e4m3fn.safetensors
+  url: https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_fp8_e4m3fn.safetensors
+  size: 19GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/Qwen-Image_ComfyUI
+    revision: null
+- path: diffusion_models/qwen_image_edit_2509_fp8_e4m3fn.safetensors
+  url: https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_edit_2509_fp8_e4m3fn.safetensors
+  size: 19GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/Qwen-Image_ComfyUI
+    revision: null
+- path: text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors
+  url: https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors
+  size: 14GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/Qwen-Image_ComfyUI
+    revision: null
+- path: vae/qwen_image_vae.safetensors
+  url: https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors
+  size: 5GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/Qwen-Image_ComfyUI
+    revision: null
+tags:
+- qwen
+- 20b
+- complete
+- image
+- text
+- edit
+use_case: Complete Qwen image generation and editing workflow
+created: '2026-02-20T16:36:33.799839Z'
+updated: '2026-02-20T16:36:33.799839Z'
+requirements:
+  disk_gb: 57.0

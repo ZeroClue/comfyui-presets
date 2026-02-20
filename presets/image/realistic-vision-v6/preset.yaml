@@ -1,0 +1,26 @@
+id: realistic-vision-v6
+version: 1.0.0
+name: Realistic Vision v6.0
+category: Image Generation
+type: image
+description: Realistic Vision v6.0 for SD 1.5
+download_size: 5.1GB
+files:
+- path: checkpoints/realisticVisionV60B1_v51VAE.safetensors
+  url: https://huggingface.co/SG161222/Realistic_Vision_V6.0_B1_noVAE/resolve/main/realisticVision_v60B1_noVAE.safetensors
+  size: 5.1GB
+  optional: false
+  source:
+    type: huggingface
+    repo: SG161222/Realistic_Vision_V6.0_B1_noVAE
+    revision: null
+tags:
+- realistic
+- vision
+- photorealistic
+- image
+use_case: Photorealistic SD 1.5 generation
+created: '2026-02-20T16:36:33.790405Z'
+updated: '2026-02-20T16:36:33.790405Z'
+requirements:
+  disk_gb: 5.1

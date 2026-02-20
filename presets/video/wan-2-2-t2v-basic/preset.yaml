@@ -1,0 +1,43 @@
+id: wan-2-2-t2v-basic
+version: 1.0.0
+name: WAN 2.2 T2V Basic
+category: Video Generation
+type: video
+description: WAN 2.2 basic text-to-video workflow from ComfyUI documentation
+download_size: 15.5GB
+files:
+- path: diffusion_models/Wan2.2_T2V_5B.safetensors
+  url: https://huggingface.co/Wailicv/Wan2.2/resolve/main/models/Wan2.2_T2V_5B.safetensors
+  size: 9.2GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Wailicv/Wan2.2
+    revision: null
+- path: text_encoders/t5xxl_fp16.safetensors
+  url: https://huggingface.co/Comfy-Org/sd3-t5xxlfp16/resolve/main/t5xxl_fp16.safetensors
+  size: 4.9GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/sd3-t5xxlfp16
+    revision: null
+- path: vae/wan2.2_vae.safetensors
+  url: https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors
+  size: 1.41GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/Wan_2.2_ComfyUI_Repackaged
+    revision: null
+tags:
+- wan
+- t2v
+- basic
+- official
+- workflow
+use_case: Basic text-to-video generation following ComfyUI official workflow
+created: '2026-02-20T16:36:33.724956Z'
+updated: '2026-02-20T16:36:33.724956Z'
+requirements:
+  disk_gb: 15.5

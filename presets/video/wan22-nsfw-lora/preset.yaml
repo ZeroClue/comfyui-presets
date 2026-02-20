@@ -1,0 +1,27 @@
+id: wan22-nsfw-lora
+version: 1.0.0
+name: Wan 2.2 NSFW LoRA
+category: Video Generation
+type: video
+description: Wan 2.2 NSFW filter LoRA
+download_size: 1.2GB
+files:
+- path: loras/wan22_nsfw_filter.safetensors
+  url: https://huggingface.co/Wailicv/Wan2.2/resolve/main/loras/wan22_nsfw_filter.safetensors
+  size: 1.2GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Wailicv/Wan2.2
+    revision: null
+tags:
+- wan
+- nsfw
+- filter
+- lora
+- video
+use_case: Content filtering for video generation
+created: '2026-02-20T16:36:33.707196Z'
+updated: '2026-02-20T16:36:33.707196Z'
+requirements:
+  disk_gb: 1.2

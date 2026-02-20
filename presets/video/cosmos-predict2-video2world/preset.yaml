@@ -1,0 +1,44 @@
+id: cosmos-predict2-video2world
+version: 1.0.0
+name: Cosmos Predict2 Video2World
+category: Video Generation
+type: video
+description: NVIDIA Cosmos Predict2 Video2World for physical world video prediction
+download_size: 31.4GB
+files:
+- path: diffusion_models/cosmos_predict2_video2world.safetensors
+  url: https://huggingface.co/nvidia/Cosmos-Predict2/resolve/main/cosmos_predict2_video2world.safetensors
+  size: 24.5GB
+  optional: false
+  source:
+    type: huggingface
+    repo: nvidia/Cosmos-Predict2
+    revision: null
+- path: vae/wan_2.1_vae.safetensors
+  url: https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors
+  size: 254MB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/Wan_2.2_ComfyUI_Repackaged
+    revision: null
+- path: text_encoders/oldt5_xxl_fp8_e4m3fn_scaled.safetensors
+  url: https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/text_encoders/oldt5_xxl_fp8_e4m3fn_scaled.safetensors
+  size: 6.6GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/Wan_2.2_ComfyUI_Repackaged
+    revision: null
+tags:
+- cosmos
+- predict2
+- nvidia
+- video2world
+- physical
+- video
+use_case: Physical world-aware video generation and prediction
+created: '2026-02-20T16:36:33.832684Z'
+updated: '2026-02-20T16:36:33.832684Z'
+requirements:
+  disk_gb: 31.4

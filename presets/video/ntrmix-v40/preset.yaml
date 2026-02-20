@@ -1,0 +1,26 @@
+id: ntrmix-v40
+version: 1.0.0
+name: Neural Texture Refinement Mix v4.0
+category: Video Generation
+type: video
+description: Neural Texture Refinement Mix v4.0
+download_size: 1.8GB
+files:
+- path: diffusion_models/ntrmix_v40.safetensors
+  url: https://huggingface.co/zero-clue/ntrmix/resolve/main/v40/ntrmix_v40.safetensors
+  size: 1.8GB
+  optional: false
+  source:
+    type: huggingface
+    repo: zero-clue/ntrmix
+    revision: null
+tags:
+- ntrmix
+- texture
+- refinement
+- video
+use_case: Texture refinement and enhancement
+created: '2026-02-20T16:36:33.713586Z'
+updated: '2026-02-20T16:36:33.713586Z'
+requirements:
+  disk_gb: 1.8

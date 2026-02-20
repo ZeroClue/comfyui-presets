@@ -1,0 +1,100 @@
+id: complete-professional-suite
+version: 1.0.0
+name: Complete Professional Suite
+category: Image Generation
+type: image
+description: Complete professional suite with all advanced image generation models
+download_size: 85GB
+files:
+- path: diffusion_models/sd3_large.safetensors
+  url: https://huggingface.co/stabilityai/stable-diffusion-3.5-large/resolve/main/sd3_large.safetensors
+  size: 8.8GB
+  optional: false
+  source:
+    type: huggingface
+    repo: stabilityai/stable-diffusion-3.5-large
+    revision: null
+- path: diffusion_models/sd3_large_turbo.safetensors
+  url: https://huggingface.co/stabilityai/stable-diffusion-3.5-large-turbo/resolve/main/sd3_large_turbo.safetensors
+  size: 6.4GB
+  optional: false
+  source:
+    type: huggingface
+    repo: stabilityai/stable-diffusion-3.5-large-turbo
+    revision: null
+- path: diffusion_models/flux1-dev.safetensors
+  url: https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/flux1-dev.safetensors
+  size: 12GB
+  optional: false
+  source:
+    type: huggingface
+    repo: black-forest-labs/FLUX.1-dev
+    revision: null
+- path: diffusion_models/qwen_image_fp8_e4m3fn.safetensors
+  url: https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_fp8_e4m3fn.safetensors
+  size: 19GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/Qwen-Image_ComfyUI
+    revision: null
+- path: diffusion_models/cosmos_predict2_t2i.safetensors
+  url: https://huggingface.co/nvidia/Cosmos-Predict2/resolve/main/cosmos_predict2_t2i.safetensors
+  size: 13.2GB
+  optional: false
+  source:
+    type: huggingface
+    repo: nvidia/Cosmos-Predict2
+    revision: null
+- path: diffusion_models/omnigen2.safetensors
+  url: https://huggingface.co/stabilityai/omnigen/resolve/main/omnigen2.safetensors
+  size: 8.5GB
+  optional: false
+  source:
+    type: huggingface
+    repo: stabilityai/omnigen
+    revision: null
+- path: text_encoders/t5xxl_fp16.safetensors
+  url: https://huggingface.co/Comfy-Org/sd3-t5xxlfp16/resolve/main/t5xxl_fp16.safetensors
+  size: 4.9GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/sd3-t5xxlfp16
+    revision: null
+- path: text_encoders/clip_g.safetensors
+  url: https://huggingface.co/stabilityai/stable-diffusion-3.5-large/resolve/main/text_encoders/clip_g.safetensors
+  size: 1.7GB
+  optional: false
+  source:
+    type: huggingface
+    repo: stabilityai/stable-diffusion-3.5-large
+    revision: null
+- path: text_encoders/clip_l.safetensors
+  url: https://huggingface.co/stabilityai/stable-diffusion-3.5-large/resolve/main/text_encoders/clip_l.safetensors
+  size: 1.2GB
+  optional: false
+  source:
+    type: huggingface
+    repo: stabilityai/stable-diffusion-3.5-large
+    revision: null
+- path: vae/ae.safetensors
+  url: https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/ae.safetensors
+  size: 335MB
+  optional: false
+  source:
+    type: huggingface
+    repo: black-forest-labs/FLUX.1-dev
+    revision: null
+tags:
+- complete
+- professional
+- suite
+- all
+- advanced
+- generation
+use_case: Complete professional image generation capabilities with all advanced models
+created: '2026-02-20T16:36:33.845473Z'
+updated: '2026-02-20T16:36:33.845473Z'
+requirements:
+  disk_gb: 85.0

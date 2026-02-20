@@ -1,0 +1,50 @@
+id: flux-dev-basic
+version: 1.0.0
+name: FLUX Dev
+category: Image Generation
+type: image
+description: FLUX Dev 12B parameter high-quality image generation model
+download_size: 24GB
+files:
+- path: diffusion_models/flux1-dev.safetensors
+  url: https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/flux1-dev.safetensors
+  size: 12GB
+  optional: false
+  source:
+    type: huggingface
+    repo: black-forest-labs/FLUX.1-dev
+    revision: null
+- path: text_encoders/clip_l.safetensors
+  url: https://huggingface.co/Comfy-Org/FLUX.1-dev/resolve/main/text_encoders/clip_l.safetensors
+  size: 246MB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/FLUX.1-dev
+    revision: null
+- path: text_encoders/t5xxl_fp16.safetensors
+  url: https://huggingface.co/Comfy-Org/sd3-t5xxlfp16/resolve/main/t5xxl_fp16.safetensors
+  size: 4.9GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/sd3-t5xxlfp16
+    revision: null
+- path: vae/ae.safetensors
+  url: https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/ae.safetensors
+  size: 335MB
+  optional: false
+  source:
+    type: huggingface
+    repo: black-forest-labs/FLUX.1-dev
+    revision: null
+tags:
+- flux
+- dev
+- quality
+- image
+use_case: Highest quality image generation
+created: '2026-02-20T16:36:33.782376Z'
+updated: '2026-02-20T16:36:33.782376Z'
+requirements:
+  disk_gb: 24.0

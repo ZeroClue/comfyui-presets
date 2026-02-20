@@ -1,13 +1,1078 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-02-20T16:28:39.550572Z",
-  "presets": {},
+  "generated_at": "2026-02-20T16:36:46.596363Z",
+  "presets": {
+    "wan-2-2-i2v-basic": {
+      "name": "WAN 2.2 I2V Basic",
+      "category": "Video Generation",
+      "type": "video",
+      "download_size": "15.7GB",
+      "vram_gb": 0,
+      "disk_gb": 15.7,
+      "tags": [
+        "wan",
+        "i2v",
+        "basic",
+        "official",
+        "workflow"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.732951Z",
+      "file_count": 4,
+      "path": "presets/video/wan-2-2-i2v-basic/preset.yaml"
+    },
+    "wan22-nsfw-lora": {
+      "name": "Wan 2.2 NSFW LoRA",
+      "category": "Video Generation",
+      "type": "video",
+      "download_size": "1.2GB",
+      "vram_gb": 0,
+      "disk_gb": 1.2,
+      "tags": [
+        "wan",
+        "nsfw",
+        "filter",
+        "lora",
+        "video"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.707196Z",
+      "file_count": 1,
+      "path": "presets/video/wan22-nsfw-lora/preset.yaml"
+    },
+    "wainsfw-v140": {
+      "name": "Wan NSFW Filter v1.40",
+      "category": "Video Generation",
+      "type": "video",
+      "download_size": "538MB",
+      "vram_gb": 0,
+      "disk_gb": 0,
+      "tags": [
+        "wan",
+        "nsfw",
+        "filter",
+        "video",
+        "safety"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.710377Z",
+      "file_count": 1,
+      "path": "presets/video/wainsfw-v140/preset.yaml"
+    },
+    "ntrmix-v40": {
+      "name": "Neural Texture Refinement Mix v4.0",
+      "category": "Video Generation",
+      "type": "video",
+      "download_size": "1.8GB",
+      "vram_gb": 0,
+      "disk_gb": 1.8,
+      "tags": [
+        "ntrmix",
+        "texture",
+        "refinement",
+        "video"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.713586Z",
+      "file_count": 1,
+      "path": "presets/video/ntrmix-v40/preset.yaml"
+    },
+    "wan-2-2-fun-control": {
+      "name": "WAN 2.2 Fun Control",
+      "category": "Video Generation",
+      "type": "video",
+      "download_size": "17.7GB",
+      "vram_gb": 0,
+      "disk_gb": 17.7,
+      "tags": [
+        "wan",
+        "control",
+        "advanced",
+        "workflow"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.744166Z",
+      "file_count": 5,
+      "path": "presets/video/wan-2-2-fun-control/preset.yaml"
+    },
+    "wan-2-1-lightweight-1-3b": {
+      "name": "WAN 2.1 Lightweight 1.3B",
+      "category": "Video Generation",
+      "type": "video",
+      "download_size": "8.5GB",
+      "vram_gb": 0,
+      "disk_gb": 8.5,
+      "tags": [
+        "wan",
+        "wan2.1",
+        "lightweight",
+        "1.3b",
+        "accessible",
+        "consumer"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.835763Z",
+      "file_count": 3,
+      "path": "presets/video/wan-2-1-lightweight-1-3b/preset.yaml"
+    },
+    "cosmos-predict2-video2world": {
+      "name": "Cosmos Predict2 Video2World",
+      "category": "Video Generation",
+      "type": "video",
+      "download_size": "31.4GB",
+      "vram_gb": 0,
+      "disk_gb": 31.4,
+      "tags": [
+        "cosmos",
+        "predict2",
+        "nvidia",
+        "video2world",
+        "physical",
+        "video"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.832684Z",
+      "file_count": 3,
+      "path": "presets/video/cosmos-predict2-video2world/preset.yaml"
+    },
+    "wan22-s2v-fp8-scaled": {
+      "name": "Wan 2.2 S2V FP8",
+      "category": "Video Generation",
+      "type": "video",
+      "download_size": "7.7GB",
+      "vram_gb": 0,
+      "disk_gb": 7.7,
+      "tags": [
+        "wan",
+        "s2v",
+        "sound-to-video",
+        "fp8",
+        "video"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.720494Z",
+      "file_count": 3,
+      "path": "presets/video/wan22-s2v-fp8-scaled/preset.yaml"
+    },
+    "wan-22-5b-tiv2": {
+      "name": "WAN 2.2 T2V Legacy",
+      "category": "Video Generation",
+      "type": "video",
+      "download_size": "15.5GB",
+      "vram_gb": 0,
+      "disk_gb": 15.5,
+      "tags": [
+        "wan",
+        "t2v",
+        "legacy",
+        "deprecated"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.730218Z",
+      "file_count": 3,
+      "path": "presets/video/wan-22-5b-tiv2/preset.yaml"
+    },
+    "ltx-video-multi-frame": {
+      "name": "LTX-Video Multi Frame Control",
+      "category": "Video Generation",
+      "type": "video",
+      "download_size": "14.5GB",
+      "vram_gb": 0,
+      "disk_gb": 14.5,
+      "tags": [
+        "ltx",
+        "multi-frame",
+        "control",
+        "efficient",
+        "workflow"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.685884Z",
+      "file_count": 4,
+      "path": "presets/video/ltx-video-multi-frame/preset.yaml"
+    },
+    "hunyuan-i2v-v1-concat": {
+      "name": "Hunyuan I2V v1 Concat",
+      "category": "Video Generation",
+      "type": "video",
+      "download_size": "11.3GB",
+      "vram_gb": 0,
+      "disk_gb": 11.3,
+      "tags": [
+        "hunyuan",
+        "i2v",
+        "v1",
+        "concat",
+        "official",
+        "workflow"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.695580Z",
+      "file_count": 5,
+      "path": "presets/video/hunyuan-i2v-v1-concat/preset.yaml"
+    },
+    "wan-2-2-s2v": {
+      "name": "WAN 2.2 S2V",
+      "category": "Video Generation",
+      "type": "video",
+      "download_size": "12.6GB",
+      "vram_gb": 0,
+      "disk_gb": 12.6,
+      "tags": [
+        "wan",
+        "s2v",
+        "sound-to-video",
+        "audio",
+        "workflow"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.736035Z",
+      "file_count": 4,
+      "path": "presets/video/wan-2-2-s2v/preset.yaml"
+    },
+    "wan-2-2-t2v-basic": {
+      "name": "WAN 2.2 T2V Basic",
+      "category": "Video Generation",
+      "type": "video",
+      "download_size": "15.5GB",
+      "vram_gb": 0,
+      "disk_gb": 15.5,
+      "tags": [
+        "wan",
+        "t2v",
+        "basic",
+        "official",
+        "workflow"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.724956Z",
+      "file_count": 3,
+      "path": "presets/video/wan-2-2-t2v-basic/preset.yaml"
+    },
+    "ltx-video-t2v": {
+      "name": "LTX-Video Text to Video",
+      "category": "Video Generation",
+      "type": "video",
+      "download_size": "14.5GB",
+      "vram_gb": 0,
+      "disk_gb": 14.5,
+      "tags": [
+        "ltx",
+        "t2v",
+        "text-to-video",
+        "efficient",
+        "workflow"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.673067Z",
+      "file_count": 4,
+      "path": "presets/video/ltx-video-t2v/preset.yaml"
+    },
+    "upscale-models": {
+      "name": "Video Upscale Models",
+      "category": "Video Generation",
+      "type": "video",
+      "download_size": "2.1GB",
+      "vram_gb": 0,
+      "disk_gb": 2.1,
+      "tags": [
+        "upscale",
+        "enhancement",
+        "video",
+        "quality"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.717296Z",
+      "file_count": 3,
+      "path": "presets/video/upscale-models/preset.yaml"
+    },
+    "hunyuan-t2v-720p": {
+      "name": "Hunyuan T2V 720P",
+      "category": "Video Generation",
+      "type": "video",
+      "download_size": "7.6GB",
+      "vram_gb": 0,
+      "disk_gb": 7.6,
+      "tags": [
+        "hunyuan",
+        "t2v",
+        "720p",
+        "official",
+        "workflow"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.689970Z",
+      "file_count": 4,
+      "path": "presets/video/hunyuan-t2v-720p/preset.yaml"
+    },
+    "wan-2-2-animate": {
+      "name": "Complete Video Workflow",
+      "category": "Video Generation",
+      "type": "video",
+      "download_size": "26.4GB",
+      "vram_gb": 0,
+      "disk_gb": 26.4,
+      "tags": [
+        "complete",
+        "workflow",
+        "video",
+        "all"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.751888Z",
+      "file_count": 8,
+      "path": "presets/video/wan-2-2-animate/preset.yaml"
+    },
+    "wan2-2-s2v-14b-fp8-scaled": {
+      "name": "WAN 2.2 S2V 14B FP8 Scaled Complete",
+      "category": "Video Generation",
+      "type": "video",
+      "download_size": "~23GB",
+      "vram_gb": 0,
+      "disk_gb": 23.0,
+      "tags": [
+        "wan",
+        "s2v",
+        "fp8",
+        "scaled",
+        "video",
+        "audio",
+        "official",
+        "workflow",
+        "complete"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.854264Z",
+      "file_count": 4,
+      "path": "presets/video/wan2-2-s2v-14b-fp8-scaled/preset.yaml"
+    },
+    "wan-2-1-i2v-14b": {
+      "name": "WAN 2.1 I2V 14B",
+      "category": "Video Generation",
+      "type": "video",
+      "download_size": "13.5GB",
+      "vram_gb": 0,
+      "disk_gb": 13.5,
+      "tags": [
+        "wan",
+        "wan2.1",
+        "i2v",
+        "14b",
+        "lightweight",
+        "efficient"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.860663Z",
+      "file_count": 4,
+      "path": "presets/video/wan-2-1-i2v-14b/preset.yaml"
+    },
+    "wan22-lightning-lora": {
+      "name": "Wan 2.2 Lightning LoRA",
+      "category": "Video Generation",
+      "type": "video",
+      "download_size": "1.4GB",
+      "vram_gb": 0,
+      "disk_gb": 1.4,
+      "tags": [
+        "wan",
+        "lightning",
+        "lora",
+        "video",
+        "speed"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.705090Z",
+      "file_count": 1,
+      "path": "presets/video/wan22-lightning-lora/preset.yaml"
+    },
+    "wan-2-1-t2v-14b": {
+      "name": "WAN 2.1 T2V 14B",
+      "category": "Video Generation",
+      "type": "video",
+      "download_size": "13.5GB",
+      "vram_gb": 0,
+      "disk_gb": 13.5,
+      "tags": [
+        "wan",
+        "wan2.1",
+        "t2v",
+        "14b",
+        "lightweight",
+        "efficient"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.857769Z",
+      "file_count": 3,
+      "path": "presets/video/wan-2-1-t2v-14b/preset.yaml"
+    },
+    "wan-2-2-fun-inp": {
+      "name": "WAN 2.2 Fun Inpainting",
+      "category": "Video Generation",
+      "type": "video",
+      "download_size": "16.9GB",
+      "vram_gb": 0,
+      "disk_gb": 16.9,
+      "tags": [
+        "wan",
+        "inpainting",
+        "edit",
+        "workflow"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.748297Z",
+      "file_count": 5,
+      "path": "presets/video/wan-2-2-fun-inp/preset.yaml"
+    },
+    "wan-2-2-fun-camera": {
+      "name": "WAN 2.2 Fun Camera",
+      "category": "Video Generation",
+      "type": "video",
+      "download_size": "16.9GB",
+      "vram_gb": 0,
+      "disk_gb": 16.9,
+      "tags": [
+        "wan",
+        "camera",
+        "movement",
+        "control",
+        "workflow"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.739741Z",
+      "file_count": 5,
+      "path": "presets/video/wan-2-2-fun-camera/preset.yaml"
+    },
+    "ltx-video-i2v": {
+      "name": "LTX-Video Image to Video",
+      "category": "Video Generation",
+      "type": "video",
+      "download_size": "16.1GB",
+      "vram_gb": 0,
+      "disk_gb": 16.1,
+      "tags": [
+        "ltx",
+        "i2v",
+        "image-to-video",
+        "efficient",
+        "workflow"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.677666Z",
+      "file_count": 5,
+      "path": "presets/video/ltx-video-i2v/preset.yaml"
+    },
+    "wan2-2-ti2v-5b-fp16": {
+      "name": "WAN 2.2 TI2V 5B FP16 Complete",
+      "category": "Video Generation",
+      "type": "video",
+      "download_size": "~15GB",
+      "vram_gb": 0,
+      "disk_gb": 15.0,
+      "tags": [
+        "wan",
+        "ti2v",
+        "fp16",
+        "video",
+        "official",
+        "workflow",
+        "complete"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.851025Z",
+      "file_count": 4,
+      "path": "presets/video/wan2-2-ti2v-5b-fp16/preset.yaml"
+    },
+    "hunyuan-i2v-v2-replace": {
+      "name": "Hunyuan I2V v2 Replace",
+      "category": "Video Generation",
+      "type": "video",
+      "download_size": "11.3GB",
+      "vram_gb": 0,
+      "disk_gb": 11.3,
+      "tags": [
+        "hunyuan",
+        "i2v",
+        "v2",
+        "replace",
+        "official",
+        "workflow"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.701247Z",
+      "file_count": 5,
+      "path": "presets/video/hunyuan-i2v-v2-replace/preset.yaml"
+    },
+    "ace-step-audio-to-audio": {
+      "name": "ACE Step Audio to Audio",
+      "category": "Audio Generation",
+      "type": "audio",
+      "download_size": "7.2GB",
+      "vram_gb": 0,
+      "disk_gb": 7.2,
+      "tags": [
+        "ace",
+        "step",
+        "audio-to-audio",
+        "remix",
+        "transform",
+        "music"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.824955Z",
+      "file_count": 2,
+      "path": "presets/audio/ace-step-audio-to-audio/preset.yaml"
+    },
+    "complete-audio-suite": {
+      "name": "Complete Audio Suite",
+      "category": "Audio Generation",
+      "type": "audio",
+      "download_size": "10.9GB",
+      "vram_gb": 0,
+      "disk_gb": 10.9,
+      "tags": [
+        "complete",
+        "audio",
+        "suite",
+        "all"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.818934Z",
+      "file_count": 6,
+      "path": "presets/audio/complete-audio-suite/preset.yaml"
+    },
+    "ace-step-v1-3-5b": {
+      "name": "ACE Step v1 3.5B",
+      "category": "Audio Generation",
+      "type": "audio",
+      "download_size": "7.17GB",
+      "vram_gb": 0,
+      "disk_gb": 7.17,
+      "tags": [
+        "ace",
+        "step",
+        "music",
+        "lyrics",
+        "audio"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.822979Z",
+      "file_count": 1,
+      "path": "presets/audio/ace-step-v1-3-5b/preset.yaml"
+    },
+    "ace-step-multi-track": {
+      "name": "ACE Step Multi-Track",
+      "category": "Audio Generation",
+      "type": "audio",
+      "download_size": "7.8GB",
+      "vram_gb": 0,
+      "disk_gb": 7.8,
+      "tags": [
+        "ace",
+        "step",
+        "multi-track",
+        "music",
+        "composition",
+        "audio"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.842112Z",
+      "file_count": 4,
+      "path": "presets/audio/ace-step-multi-track/preset.yaml"
+    },
+    "ace-step-music-extension": {
+      "name": "ACE Step Music Extension",
+      "category": "Audio Generation",
+      "type": "audio",
+      "download_size": "7.3GB",
+      "vram_gb": 0,
+      "disk_gb": 7.3,
+      "tags": [
+        "ace",
+        "step",
+        "music",
+        "extension",
+        "continuation",
+        "audio"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.839154Z",
+      "file_count": 3,
+      "path": "presets/audio/ace-step-music-extension/preset.yaml"
+    },
+    "sd1-5-text-to-image-basic": {
+      "name": "SD1.5 Text to Image Basic",
+      "category": "Image Generation",
+      "type": "image",
+      "download_size": "5.97GB",
+      "vram_gb": 0,
+      "disk_gb": 5.97,
+      "tags": [
+        "sd1.5",
+        "text-to-image",
+        "basic",
+        "official",
+        "workflow"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.758219Z",
+      "file_count": 2,
+      "path": "presets/image/sd1-5-text-to-image-basic/preset.yaml"
+    },
+    "complete-professional-suite": {
+      "name": "Complete Professional Suite",
+      "category": "Image Generation",
+      "type": "image",
+      "download_size": "85GB",
+      "vram_gb": 0,
+      "disk_gb": 85.0,
+      "tags": [
+        "complete",
+        "professional",
+        "suite",
+        "all",
+        "advanced",
+        "generation"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.845473Z",
+      "file_count": 10,
+      "path": "presets/image/complete-professional-suite/preset.yaml"
+    },
+    "sd3-5-large-basic": {
+      "name": "SD3.5 Large Basic",
+      "category": "Image Generation",
+      "type": "image",
+      "download_size": "12.5GB",
+      "vram_gb": 0,
+      "disk_gb": 12.5,
+      "tags": [
+        "sd3.5",
+        "large",
+        "professional",
+        "8b",
+        "quality"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.809558Z",
+      "file_count": 4,
+      "path": "presets/image/sd3-5-large-basic/preset.yaml"
+    },
+    "sd1-5-lora-basic": {
+      "name": "SD1.5 LoRA Basic",
+      "category": "Image Generation",
+      "type": "image",
+      "download_size": "4.1GB",
+      "vram_gb": 0,
+      "disk_gb": 4.1,
+      "tags": [
+        "sd1.5",
+        "lora",
+        "style",
+        "workflow"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.773575Z",
+      "file_count": 2,
+      "path": "presets/image/sd1-5-lora-basic/preset.yaml"
+    },
+    "qwen-image-complete": {
+      "name": "Qwen 20B Complete",
+      "category": "Image Generation",
+      "type": "image",
+      "download_size": "57GB",
+      "vram_gb": 0,
+      "disk_gb": 57.0,
+      "tags": [
+        "qwen",
+        "20b",
+        "complete",
+        "image",
+        "text",
+        "edit"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.799839Z",
+      "file_count": 4,
+      "path": "presets/image/qwen-image-complete/preset.yaml"
+    },
+    "sd1-5-multiple-loras": {
+      "name": "SD1.5 Multiple LoRAs",
+      "category": "Image Generation",
+      "type": "image",
+      "download_size": "4.3GB",
+      "vram_gb": 0,
+      "disk_gb": 4.3,
+      "tags": [
+        "sd1.5",
+        "lora",
+        "multiple",
+        "workflow"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.776019Z",
+      "file_count": 3,
+      "path": "presets/image/sd1-5-multiple-loras/preset.yaml"
+    },
+    "cosmos-predict2-t2i": {
+      "name": "Cosmos Predict2 T2I",
+      "category": "Image Generation",
+      "type": "image",
+      "download_size": "13.5GB",
+      "vram_gb": 0,
+      "disk_gb": 13.5,
+      "tags": [
+        "cosmos",
+        "predict2",
+        "nvidia",
+        "physical",
+        "world",
+        "t2i"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.802802Z",
+      "file_count": 2,
+      "path": "presets/image/cosmos-predict2-t2i/preset.yaml"
+    },
+    "qwen-image-basic": {
+      "name": "Qwen 20B Image",
+      "category": "Image Generation",
+      "type": "image",
+      "download_size": "38GB",
+      "vram_gb": 0,
+      "disk_gb": 38.0,
+      "tags": [
+        "qwen",
+        "20b",
+        "image",
+        "text",
+        "generation"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.794634Z",
+      "file_count": 3,
+      "path": "presets/image/qwen-image-basic/preset.yaml"
+    },
+    "sdxl-turbo-basic": {
+      "name": "SDXL Turbo Basic",
+      "category": "Image Generation",
+      "type": "image",
+      "download_size": "6.9GB",
+      "vram_gb": 0,
+      "disk_gb": 6.9,
+      "tags": [
+        "sdxl",
+        "turbo",
+        "real-time",
+        "fast",
+        "inference"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.816518Z",
+      "file_count": 2,
+      "path": "presets/image/sdxl-turbo-basic/preset.yaml"
+    },
+    "qwen-image-chinese": {
+      "name": "Qwen 20B Chinese Text",
+      "category": "Image Generation",
+      "type": "image",
+      "download_size": "38GB",
+      "vram_gb": 0,
+      "disk_gb": 38.0,
+      "tags": [
+        "qwen",
+        "20b",
+        "chinese",
+        "text",
+        "generation"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.806910Z",
+      "file_count": 3,
+      "path": "presets/image/qwen-image-chinese/preset.yaml"
+    },
+    "qwen-image-edit": {
+      "name": "Qwen 20B Image Edit",
+      "category": "Image Generation",
+      "type": "image",
+      "download_size": "38GB",
+      "vram_gb": 0,
+      "disk_gb": 38.0,
+      "tags": [
+        "qwen",
+        "20b",
+        "edit",
+        "image",
+        "text"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.797186Z",
+      "file_count": 3,
+      "path": "presets/image/qwen-image-edit/preset.yaml"
+    },
+    "omnigen2-unified": {
+      "name": "OmniGen2 Unified",
+      "category": "Image Generation",
+      "type": "image",
+      "download_size": "8.5GB",
+      "vram_gb": 0,
+      "disk_gb": 8.5,
+      "tags": [
+        "omnigen",
+        "omnigen2",
+        "unified",
+        "multi-modal",
+        "editing",
+        "generation"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.804874Z",
+      "file_count": 2,
+      "path": "presets/image/omnigen2-unified/preset.yaml"
+    },
+    "flux-schnell-basic": {
+      "name": "FLUX Schnell",
+      "category": "Image Generation",
+      "type": "image",
+      "download_size": "24GB",
+      "vram_gb": 0,
+      "disk_gb": 24.0,
+      "tags": [
+        "flux",
+        "schnell",
+        "fast",
+        "image"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.779112Z",
+      "file_count": 4,
+      "path": "presets/image/flux-schnell-basic/preset.yaml"
+    },
+    "flux-dev-basic": {
+      "name": "FLUX Dev",
+      "category": "Image Generation",
+      "type": "image",
+      "download_size": "24GB",
+      "vram_gb": 0,
+      "disk_gb": 24.0,
+      "tags": [
+        "flux",
+        "dev",
+        "quality",
+        "image"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.782376Z",
+      "file_count": 4,
+      "path": "presets/image/flux-dev-basic/preset.yaml"
+    },
+    "juggernaut-xl-v8": {
+      "name": "Juggernaut XL v8",
+      "category": "Image Generation",
+      "type": "image",
+      "download_size": "6.9GB",
+      "vram_gb": 0,
+      "disk_gb": 6.9,
+      "tags": [
+        "juggernaut",
+        "xl",
+        "photorealistic",
+        "image"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.788311Z",
+      "file_count": 2,
+      "path": "presets/image/juggernaut-xl-v8/preset.yaml"
+    },
+    "sd3-5-medium-basic": {
+      "name": "SD3.5 Medium Basic",
+      "category": "Image Generation",
+      "type": "image",
+      "download_size": "6.5GB",
+      "vram_gb": 0,
+      "disk_gb": 6.5,
+      "tags": [
+        "sd3.5",
+        "medium",
+        "balanced",
+        "performance",
+        "quality"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.827422Z",
+      "file_count": 4,
+      "path": "presets/image/sd3-5-medium-basic/preset.yaml"
+    },
+    "sd3-5-large-turbo": {
+      "name": "SD3.5 Large Turbo",
+      "category": "Image Generation",
+      "type": "image",
+      "download_size": "9.5GB",
+      "vram_gb": 0,
+      "disk_gb": 9.5,
+      "tags": [
+        "sd3.5",
+        "turbo",
+        "fast",
+        "professional",
+        "add"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.812871Z",
+      "file_count": 4,
+      "path": "presets/image/sd3-5-large-turbo/preset.yaml"
+    },
+    "sd1-5-image-to-image-basic": {
+      "name": "SD1.5 Image to Image Basic",
+      "category": "Image Generation",
+      "type": "image",
+      "download_size": "4.0GB",
+      "vram_gb": 0,
+      "disk_gb": 4.0,
+      "tags": [
+        "sd1.5",
+        "image-to-image",
+        "transform",
+        "workflow"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.765218Z",
+      "file_count": 1,
+      "path": "presets/image/sd1-5-image-to-image-basic/preset.yaml"
+    },
+    "realistic-vision-v6": {
+      "name": "Realistic Vision v6.0",
+      "category": "Image Generation",
+      "type": "image",
+      "download_size": "5.1GB",
+      "vram_gb": 0,
+      "disk_gb": 5.1,
+      "tags": [
+        "realistic",
+        "vision",
+        "photorealistic",
+        "image"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.790405Z",
+      "file_count": 1,
+      "path": "presets/image/realistic-vision-v6/preset.yaml"
+    },
+    "realvis-xl-v4": {
+      "name": "RealVis XL v4",
+      "category": "Image Generation",
+      "type": "image",
+      "download_size": "6.9GB",
+      "vram_gb": 0,
+      "disk_gb": 6.9,
+      "tags": [
+        "realvis",
+        "xl",
+        "realistic",
+        "image"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.792429Z",
+      "file_count": 2,
+      "path": "presets/image/realvis-xl-v4/preset.yaml"
+    },
+    "sd1-5-outpaint-basic": {
+      "name": "SD1.5 Outpainting Basic",
+      "category": "Image Generation",
+      "type": "image",
+      "download_size": "4.0GB",
+      "vram_gb": 0,
+      "disk_gb": 4.0,
+      "tags": [
+        "sd1.5",
+        "outpainting",
+        "extend",
+        "workflow"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.770689Z",
+      "file_count": 1,
+      "path": "presets/image/sd1-5-outpaint-basic/preset.yaml"
+    },
+    "sdxl-base-v1": {
+      "name": "SDXL Base 1.0",
+      "category": "Image Generation",
+      "type": "image",
+      "download_size": "6.9GB",
+      "vram_gb": 0,
+      "disk_gb": 6.9,
+      "tags": [
+        "sdxl",
+        "stable",
+        "base",
+        "image"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.785949Z",
+      "file_count": 2,
+      "path": "presets/image/sdxl-base-v1/preset.yaml"
+    },
+    "hidream-basic": {
+      "name": "HiDream Basic",
+      "category": "Image Generation",
+      "type": "image",
+      "download_size": "9.2GB",
+      "vram_gb": 0,
+      "disk_gb": 9.2,
+      "tags": [
+        "hidream",
+        "advanced",
+        "quality",
+        "detail",
+        "generation"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.830481Z",
+      "file_count": 2,
+      "path": "presets/image/hidream-basic/preset.yaml"
+    },
+    "sd1-5-upscale-basic": {
+      "name": "SD1.5 Upscale Basic",
+      "category": "Image Generation",
+      "type": "image",
+      "download_size": "6.9GB",
+      "vram_gb": 0,
+      "disk_gb": 6.9,
+      "tags": [
+        "sd1.5",
+        "upscale",
+        "enhance",
+        "workflow"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.761358Z",
+      "file_count": 4,
+      "path": "presets/image/sd1-5-upscale-basic/preset.yaml"
+    },
+    "sd1-5-inpaint-basic": {
+      "name": "SD1.5 Inpainting Basic",
+      "category": "Image Generation",
+      "type": "image",
+      "download_size": "4.0GB",
+      "vram_gb": 0,
+      "disk_gb": 4.0,
+      "tags": [
+        "sd1.5",
+        "inpainting",
+        "edit",
+        "workflow"
+      ],
+      "update_available": false,
+      "last_verified": "2026-02-20T16:36:33.767900Z",
+      "file_count": 1,
+      "path": "presets/image/sd1-5-inpaint-basic/preset.yaml"
+    }
+  },
   "stats": {
-    "total": 0,
+    "total": 56,
     "by_category": {
-      "video": 0,
-      "audio": 0,
-      "image": 0
+      "video": 26,
+      "audio": 5,
+      "image": 25
     }
   }
 }

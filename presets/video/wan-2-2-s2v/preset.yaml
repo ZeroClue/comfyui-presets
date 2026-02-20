@@ -1,0 +1,51 @@
+id: wan-2-2-s2v
+version: 1.0.0
+name: WAN 2.2 S2V
+category: Video Generation
+type: video
+description: WAN 2.2 sound-to-video workflow from ComfyUI documentation
+download_size: 12.6GB
+files:
+- path: diffusion_models/Wan2.2_S2V_FP8.safetensors
+  url: https://huggingface.co/Wailicv/Wan2.2/resolve/main/models/Wan2.2_S2V_FP8.safetensors
+  size: 10.0GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Wailicv/Wan2.2
+    revision: null
+- path: audio_encoders/audio_encoder.pth
+  url: https://huggingface.co/Wailicv/Wan2.2/resolve/main/models/audio_encoder.pth
+  size: 1.2GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Wailicv/Wan2.2
+    revision: null
+- path: text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors
+  url: https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors
+  size: 6.74GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/Wan_2.2_ComfyUI_Repackaged
+    revision: null
+- path: vae/wan2.2_vae.safetensors
+  url: https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors
+  size: 1.41GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/Wan_2.2_ComfyUI_Repackaged
+    revision: null
+tags:
+- wan
+- s2v
+- sound-to-video
+- audio
+- workflow
+use_case: Audio-to-video generation with sound synchronization
+created: '2026-02-20T16:36:33.736035Z'
+updated: '2026-02-20T16:36:33.736035Z'
+requirements:
+  disk_gb: 12.6

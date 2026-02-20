@@ -1,0 +1,42 @@
+id: upscale-models
+version: 1.0.0
+name: Video Upscale Models
+category: Video Generation
+type: video
+description: Video upscaling models collection
+download_size: 2.1GB
+files:
+- path: upscale_models/4x_NMKD-Siax_xl.pth
+  url: https://huggingface.co/Guillaume-M/4x_NMKD-Siax_xl/resolve/main/4x_NMKD-Siax_xl.pth
+  size: 690MB
+  optional: false
+  source:
+    type: huggingface
+    repo: Guillaume-M/4x_NMKD-Siax_xl
+    revision: null
+- path: upscale_models/4x_NMKD-Superscale_150k.pth
+  url: https://huggingface.co/ConseilsSuprimes/4x_NMKD-Superscale_150k/resolve/main/4x_NMKD-Superscale_150k.pth
+  size: 690MB
+  optional: false
+  source:
+    type: huggingface
+    repo: ConseilsSuprimes/4x_NMKD-Superscale_150k
+    revision: null
+- path: upscale_models/8x_NMKD-Superscale_150k.pth
+  url: https://huggingface.co/ConseilsSuprimes/8x_NMKD-Superscale_150k/resolve/main/8x_NMKD-Superscale_150k.pth
+  size: 720MB
+  optional: false
+  source:
+    type: huggingface
+    repo: ConseilsSuprimes/8x_NMKD-Superscale_150k
+    revision: null
+tags:
+- upscale
+- enhancement
+- video
+- quality
+use_case: Video quality enhancement and upscaling
+created: '2026-02-20T16:36:33.717296Z'
+updated: '2026-02-20T16:36:33.717296Z'
+requirements:
+  disk_gb: 2.1

@@ -1,0 +1,66 @@
+id: complete-audio-suite
+version: 1.0.0
+name: Complete Audio Suite
+category: Audio Generation
+type: audio
+description: Complete audio generation suite with all models
+download_size: 10.9GB
+files:
+- path: audio_encoders/musicgen_medium.safetensors
+  url: https://huggingface.co/facebook/musicgen-medium/resolve/main/pytorch_model.bin
+  size: 2.8GB
+  optional: false
+  source:
+    type: huggingface
+    repo: facebook/musicgen-medium
+    revision: null
+- path: audio_encoders/musicgen_small.safetensors
+  url: https://huggingface.co/facebook/musicgen-small/resolve/main/pytorch_model.bin
+  size: 1.3GB
+  optional: false
+  source:
+    type: huggingface
+    repo: facebook/musicgen-small
+    revision: null
+- path: audio_encoders/stable_audio_open.safetensors
+  url: https://huggingface.co/stabilityai/stable-audio-open-1.0/resolve/main/model.safetensors
+  size: 2.4GB
+  optional: false
+  source:
+    type: huggingface
+    repo: stabilityai/stable-audio-open-1.0
+    revision: null
+- path: TTS/bark_model.pth
+  url: https://huggingface.co/suno-ai/bark/resolve/main/pytorch_model.bin
+  size: 1.2GB
+  optional: false
+  source:
+    type: huggingface
+    repo: suno-ai/bark
+    revision: null
+- path: TTS/parler_tts_model.safetensors
+  url: https://huggingface.co/parler-tts/parler_tts_mini_v0.1/resolve/main/model.safetensors
+  size: 3.2GB
+  optional: false
+  source:
+    type: huggingface
+    repo: parler-tts/parler_tts_mini_v0.1
+    revision: null
+- path: audio_encoders/bark_encoder.pth
+  url: https://huggingface.co/suno-ai/bark/resolve/main/encoder.pth
+  size: 900MB
+  optional: false
+  source:
+    type: huggingface
+    repo: suno-ai/bark
+    revision: null
+tags:
+- complete
+- audio
+- suite
+- all
+use_case: Full audio generation capabilities
+created: '2026-02-20T16:36:33.818934Z'
+updated: '2026-02-20T16:36:33.818934Z'
+requirements:
+  disk_gb: 10.9

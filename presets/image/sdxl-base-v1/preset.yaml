@@ -1,0 +1,34 @@
+id: sdxl-base-v1
+version: 1.0.0
+name: SDXL Base 1.0
+category: Image Generation
+type: image
+description: Stable Diffusion XL 1.0 base model
+download_size: 6.9GB
+files:
+- path: checkpoints/sd_xl_base_1.0.safetensors
+  url: https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors
+  size: 6.9GB
+  optional: false
+  source:
+    type: huggingface
+    repo: stabilityai/stable-diffusion-xl-base-1.0
+    revision: null
+- path: vae/sdxl_vae.safetensors
+  url: https://huggingface.co/stabilityai/sdxl-vae-fp16-fix/resolve/main/sdxl_vae_fp16_fix.safetensors
+  size: 335MB
+  optional: false
+  source:
+    type: huggingface
+    repo: stabilityai/sdxl-vae-fp16-fix
+    revision: null
+tags:
+- sdxl
+- stable
+- base
+- image
+use_case: Standard high-resolution image generation
+created: '2026-02-20T16:36:33.785949Z'
+updated: '2026-02-20T16:36:33.785949Z'
+requirements:
+  disk_gb: 6.9

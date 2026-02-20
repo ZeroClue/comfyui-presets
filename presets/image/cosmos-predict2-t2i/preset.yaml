@@ -1,0 +1,36 @@
+id: cosmos-predict2-t2i
+version: 1.0.0
+name: Cosmos Predict2 T2I
+category: Image Generation
+type: image
+description: NVIDIA Cosmos Predict2 text-to-image physical world generation model
+download_size: 13.5GB
+files:
+- path: diffusion_models/cosmos_predict2_t2i.safetensors
+  url: https://huggingface.co/nvidia/Cosmos-Predict2/resolve/main/cosmos_predict2_t2i.safetensors
+  size: 13.2GB
+  optional: false
+  source:
+    type: huggingface
+    repo: nvidia/Cosmos-Predict2
+    revision: null
+- path: text_encoders/t5xxl_fp16.safetensors
+  url: https://huggingface.co/Comfy-Org/sd3-t5xxlfp16/resolve/main/t5xxl_fp16.safetensors
+  size: 4.9GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/sd3-t5xxlfp16
+    revision: null
+tags:
+- cosmos
+- predict2
+- nvidia
+- physical
+- world
+- t2i
+use_case: Physical world-aware image generation with NVIDIA's Cosmos model
+created: '2026-02-20T16:36:33.802802Z'
+updated: '2026-02-20T16:36:33.802802Z'
+requirements:
+  disk_gb: 13.5

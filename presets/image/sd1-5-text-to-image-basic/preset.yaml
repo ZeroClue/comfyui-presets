@@ -1,0 +1,35 @@
+id: sd1-5-text-to-image-basic
+version: 1.0.0
+name: SD1.5 Text to Image Basic
+category: Image Generation
+type: image
+description: Stable Diffusion 1.5 basic text-to-image workflow from ComfyUI documentation
+download_size: 5.97GB
+files:
+- path: checkpoints/v1-5-pruned-emaonly-fp16.safetensors
+  url: https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-archive/resolve/main/v1-5-pruned-emaonly-fp16.safetensors
+  size: 4.27GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/stable-diffusion-v1-5-archive
+    revision: null
+- path: text_encoders/clip_l.safetensors
+  url: https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/pytorch_model.bin
+  size: 1.7GB
+  optional: false
+  source:
+    type: huggingface
+    repo: openai/clip-vit-large-patch14
+    revision: null
+tags:
+- sd1.5
+- text-to-image
+- basic
+- official
+- workflow
+use_case: Basic text-to-image generation following official ComfyUI workflow
+created: '2026-02-20T16:36:33.758219Z'
+updated: '2026-02-20T16:36:33.758219Z'
+requirements:
+  disk_gb: 5.97

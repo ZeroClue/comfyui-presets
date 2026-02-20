@@ -1,0 +1,60 @@
+id: hunyuan-i2v-v2-replace
+version: 1.0.0
+name: Hunyuan I2V v2 Replace
+category: Video Generation
+type: video
+description: Hunyuan image-to-video v2 'replace' workflow from ComfyUI documentation
+download_size: 11.3GB
+files:
+- path: diffusion_models/hunyuan_video_v2_replace_image_to_video_720p_bf16.safetensors
+  url: https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/diffusion_models/hunyuan_video_v2_replace_image_to_video_720p_bf16.safetensors
+  size: 5.1GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/HunyuanVideo_repackaged
+    revision: null
+- path: clip_vision/llava_llama3_vision.safetensors
+  url: https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/clip_vision/llava_llama3_vision.safetensors
+  size: 2.4GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/HunyuanVideo_repackaged
+    revision: null
+- path: text_encoders/clip_l.safetensors
+  url: https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/text_encoders/clip_l.safetensors
+  size: 1.8GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/HunyuanVideo_repackaged
+    revision: null
+- path: text_encoders/llava_llama3_fp8_scaled.safetensors
+  url: https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/text_encoders/llava_llama3_fp8_scaled.safetensors
+  size: 3.2GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/HunyuanVideo_repackaged
+    revision: null
+- path: vae/hunyuan_video_vae_bf16.safetensors
+  url: https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/vae/hunyuan_video_vae_bf16.safetensors
+  size: 1.5GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/HunyuanVideo_repackaged
+    revision: null
+tags:
+- hunyuan
+- i2v
+- v2
+- replace
+- official
+- workflow
+use_case: Image-to-video conversion with better image guidance (v2 replace)
+created: '2026-02-20T16:36:33.701247Z'
+updated: '2026-02-20T16:36:33.701247Z'
+requirements:
+  disk_gb: 11.3

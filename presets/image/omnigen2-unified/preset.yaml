@@ -1,0 +1,36 @@
+id: omnigen2-unified
+version: 1.0.0
+name: OmniGen2 Unified
+category: Image Generation
+type: image
+description: OmniGen2 unified text-to-image, image editing, and multi-modal model
+download_size: 8.5GB
+files:
+- path: diffusion_models/omnigen2.safetensors
+  url: https://huggingface.co/stabilityai/omnigen/resolve/main/omnigen2.safetensors
+  size: 8.5GB
+  optional: false
+  source:
+    type: huggingface
+    repo: stabilityai/omnigen
+    revision: null
+- path: text_encoders/t5xxl_fp16.safetensors
+  url: https://huggingface.co/Comfy-Org/sd3-t5xxlfp16/resolve/main/t5xxl_fp16.safetensors
+  size: 4.9GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/sd3-t5xxlfp16
+    revision: null
+tags:
+- omnigen
+- omnigen2
+- unified
+- multi-modal
+- editing
+- generation
+use_case: Unified workflow for text-to-image, image editing, and multi-modal generation
+created: '2026-02-20T16:36:33.804874Z'
+updated: '2026-02-20T16:36:33.804874Z'
+requirements:
+  disk_gb: 8.5

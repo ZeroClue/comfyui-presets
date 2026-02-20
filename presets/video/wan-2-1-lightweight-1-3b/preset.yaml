@@ -1,0 +1,44 @@
+id: wan-2-1-lightweight-1-3b
+version: 1.0.0
+name: WAN 2.1 Lightweight 1.3B
+category: Video Generation
+type: video
+description: WAN 2.1 lightweight 1.3B parameter model for accessible video generation
+download_size: 8.5GB
+files:
+- path: diffusion_models/wan2.1_t2v_1.3b.safetensors
+  url: https://huggingface.co/Wailicv/WAN2.1/resolve/main/models/wan2.1_t2v_1.3b.safetensors
+  size: 1.6GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Wailicv/WAN2.1
+    revision: null
+- path: text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors
+  url: https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors
+  size: 6.74GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/Wan_2.2_ComfyUI_Repackaged
+    revision: null
+- path: vae/wan_2.1_vae.safetensors
+  url: https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors
+  size: 254MB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/Wan_2.2_ComfyUI_Repackaged
+    revision: null
+tags:
+- wan
+- wan2.1
+- lightweight
+- 1.3b
+- accessible
+- consumer
+use_case: Accessible video generation for consumer hardware (6GB+ VRAM)
+created: '2026-02-20T16:36:33.835763Z'
+updated: '2026-02-20T16:36:33.835763Z'
+requirements:
+  disk_gb: 8.5

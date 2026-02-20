@@ -1,0 +1,44 @@
+id: wan-2-1-t2v-14b
+version: 1.0.0
+name: WAN 2.1 T2V 14B
+category: Video Generation
+type: video
+description: WAN 2.1 text-to-video 14B parameter model optimized for 8GB VRAM
+download_size: 13.5GB
+files:
+- path: diffusion_models/wan2.1_t2v_14b.safetensors
+  url: https://huggingface.co/Wailicv/WAN2.1/resolve/main/models/wan2.1_t2v_14b.safetensors
+  size: 7.2GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Wailicv/WAN2.1
+    revision: null
+- path: text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors
+  url: https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors
+  size: 6.74GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/Wan_2.2_ComfyUI_Repackaged
+    revision: null
+- path: vae/wan_2.1_vae.safetensors
+  url: https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors
+  size: 254MB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/Wan_2.2_ComfyUI_Repackaged
+    revision: null
+tags:
+- wan
+- wan2.1
+- t2v
+- 14b
+- lightweight
+- efficient
+use_case: High-quality text-to-video generation with 8GB VRAM compatibility
+created: '2026-02-20T16:36:33.857769Z'
+updated: '2026-02-20T16:36:33.857769Z'
+requirements:
+  disk_gb: 13.5

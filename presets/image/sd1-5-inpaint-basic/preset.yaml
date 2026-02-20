@@ -1,0 +1,26 @@
+id: sd1-5-inpaint-basic
+version: 1.0.0
+name: SD1.5 Inpainting Basic
+category: Image Generation
+type: image
+description: Stable Diffusion 1.5 basic inpainting workflow from ComfyUI documentation
+download_size: 4.0GB
+files:
+- path: checkpoints/v1-5-pruned-emaonly-fp16.safetensors
+  url: https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-inpainting/blob/main/v1-5-inpainting-pruned-emaonly-fp16.safetensors
+  size: 4.0GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/stable-diffusion-v1-5-inpainting
+    revision: null
+tags:
+- sd1.5
+- inpainting
+- edit
+- workflow
+use_case: Fix or modify specific parts of images while preserving other areas
+created: '2026-02-20T16:36:33.767900Z'
+updated: '2026-02-20T16:36:33.767900Z'
+requirements:
+  disk_gb: 4.0

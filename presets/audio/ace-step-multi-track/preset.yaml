@@ -1,0 +1,52 @@
+id: ace-step-multi-track
+version: 1.0.0
+name: ACE Step Multi-Track
+category: Audio Generation
+type: audio
+description: ACE Step multi-track music generation and processing workflow
+download_size: 7.8GB
+files:
+- path: checkpoints/ace_step_v1_3.5b.safetensors
+  url: https://huggingface.co/Comfy-Org/ACE-Step_ComfyUI_repackaged/blob/main/all_in_one/ace_step_v1_3.5b.safetensors
+  size: 7.17GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/ACE-Step_ComfyUI_repackaged
+    revision: null
+- path: audio_encoders/ace_audio_encoder.pth
+  url: https://huggingface.co/billwuhao/ComfyUI_ACE-Step/resolve/main/models/audio_encoder.pth
+  size: 100MB
+  optional: false
+  source:
+    type: huggingface
+    repo: billwuhao/ComfyUI_ACE-Step
+    revision: null
+- path: audio_encoders/multi_track_processor.pth
+  url: https://huggingface.co/billwuhao/ComfyUI_ACE-Step/resolve/main/models/multi_track_processor.pth
+  size: 200MB
+  optional: false
+  source:
+    type: huggingface
+    repo: billwuhao/ComfyUI_ACE-Step
+    revision: null
+- path: audio_encoders/instrument_separator.pth
+  url: https://huggingface.co/billwuhao/ComfyUI_ACE-Step/resolve/main/models/instrument_separator.pth
+  size: 300MB
+  optional: false
+  source:
+    type: huggingface
+    repo: billwuhao/ComfyUI_ACE-Step
+    revision: null
+tags:
+- ace
+- step
+- multi-track
+- music
+- composition
+- audio
+use_case: Generate and process complex multi-track music compositions
+created: '2026-02-20T16:36:33.842112Z'
+updated: '2026-02-20T16:36:33.842112Z'
+requirements:
+  disk_gb: 7.8

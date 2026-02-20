@@ -1,0 +1,26 @@
+id: sd1-5-outpaint-basic
+version: 1.0.0
+name: SD1.5 Outpainting Basic
+category: Image Generation
+type: image
+description: Stable Diffusion 1.5 basic outpainting workflow from ComfyUI documentation
+download_size: 4.0GB
+files:
+- path: checkpoints/v1-5-pruned-emaonly-fp16.safetensors
+  url: https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-archive/blob/main/v1-5-pruned-emaonly-fp16.safetensors
+  size: 4.0GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/stable-diffusion-v1-5-archive
+    revision: null
+tags:
+- sd1.5
+- outpainting
+- extend
+- workflow
+use_case: Extend image borders and create larger compositions
+created: '2026-02-20T16:36:33.770689Z'
+updated: '2026-02-20T16:36:33.770689Z'
+requirements:
+  disk_gb: 4.0

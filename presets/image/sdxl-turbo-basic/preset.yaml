@@ -1,0 +1,35 @@
+id: sdxl-turbo-basic
+version: 1.0.0
+name: SDXL Turbo Basic
+category: Image Generation
+type: image
+description: Stable Diffusion XL Turbo for real-time image generation
+download_size: 6.9GB
+files:
+- path: checkpoints/sdxl_turbo_1.0_fp16.safetensors
+  url: https://huggingface.co/stabilityai/sdxl-turbo/resolve/main/sdxl_turbo_1.0_fp16.safetensors
+  size: 6.9GB
+  optional: false
+  source:
+    type: huggingface
+    repo: stabilityai/sdxl-turbo
+    revision: null
+- path: vae/sdxl_vae.safetensors
+  url: https://huggingface.co/stabilityai/sdxl-vae-fp16-fix/resolve/main/sdxl_vae_fp16_fix.safetensors
+  size: 335MB
+  optional: false
+  source:
+    type: huggingface
+    repo: stabilityai/sdxl-vae-fp16-fix
+    revision: null
+tags:
+- sdxl
+- turbo
+- real-time
+- fast
+- inference
+use_case: Real-time image generation with 1-4 step inference
+created: '2026-02-20T16:36:33.816518Z'
+updated: '2026-02-20T16:36:33.816518Z'
+requirements:
+  disk_gb: 6.9

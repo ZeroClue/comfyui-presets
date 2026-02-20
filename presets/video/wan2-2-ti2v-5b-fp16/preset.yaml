@@ -1,0 +1,54 @@
+id: wan2-2-ti2v-5b-fp16
+version: 1.0.0
+name: WAN 2.2 TI2V 5B FP16 Complete
+category: Video Generation
+type: video
+description: Complete WAN 2.2 Text-Image-to-Video workflow with all required components
+  based on official ComfyUI examples
+download_size: ~15GB
+files:
+- path: diffusion_models/wan2.2_ti2v_5B_fp16.safetensors
+  url: https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_ti2v_5B_fp16.safetensors
+  size: 9.31GB (9536MB)
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/Wan_2.2_ComfyUI_Repackaged
+    revision: null
+- path: clip_vision/sd_image_encoder.safetensors
+  url: https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/image_encoder/model.safetensors
+  size: 1.6GB
+  optional: false
+  source:
+    type: huggingface
+    repo: stabilityai/stable-diffusion-2-1
+    revision: null
+- path: vae/wan2.2_vae.safetensors
+  url: https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors
+  size: 1.41GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/Wan_2.2_ComfyUI_Repackaged
+    revision: null
+- path: text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors
+  url: https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors
+  size: 6.74GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/Wan_2.2_ComfyUI_Repackaged
+    revision: null
+tags:
+- wan
+- ti2v
+- fp16
+- video
+- official
+- workflow
+- complete
+use_case: Creating videos from text and images using complete WAN 2.2 TI2V workflow
+created: '2026-02-20T16:36:33.851025Z'
+updated: '2026-02-20T16:36:33.851025Z'
+requirements:
+  disk_gb: 15.0

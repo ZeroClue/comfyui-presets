@@ -1,0 +1,59 @@
+id: ltx-video-i2v
+version: 1.0.0
+name: LTX-Video Image to Video
+category: Video Generation
+type: video
+description: LTX-Video image-to-video workflow from ComfyUI documentation
+download_size: 16.1GB
+files:
+- path: checkpoints/ltx-video-2b-v0.9.5.safetensors
+  url: https://huggingface.co/Lightricks/LTX-Video/resolve/main/ltx-video-2b-v0.9.5.safetensors
+  size: 4.8GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Lightricks/LTX-Video
+    revision: null
+- path: clip_vision/sd_image_encoder.safetensors
+  url: https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/image_encoder/model.safetensors
+  size: 1.6GB
+  optional: false
+  source:
+    type: huggingface
+    repo: stabilityai/stable-diffusion-2-1
+    revision: null
+- path: text_encoders/t5xxl_fp16.safetensors
+  url: https://huggingface.co/Comfy-Org/mochi_preview_repackaged/resolve/main/split_files/text_encoders/t5xxl_fp16.safetensors
+  size: 4.9GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/mochi_preview_repackaged
+    revision: null
+- path: text_encoders/PixArt-XL-2-1024-MS/text_encoder/model-00001-of-00002.safetensors
+  url: https://huggingface.co/PixArt-alpha/PixArt-XL-2-1024-MS/resolve/main/text_encoder/model-00001-of-00002.safetensors
+  size: 2.3GB
+  optional: false
+  source:
+    type: huggingface
+    repo: PixArt-alpha/PixArt-XL-2-1024-MS
+    revision: null
+- path: text_encoders/PixArt-XL-2-1024-MS/text_encoder/model-00002-of-00002.safetensors
+  url: https://huggingface.co/PixArt-alpha/PixArt-XL-2-1024-MS/resolve/main/text_encoder/model-00002-of-00002.safetensors
+  size: 2.5GB
+  optional: false
+  source:
+    type: huggingface
+    repo: PixArt-alpha/PixArt-XL-2-1024-MS
+    revision: null
+tags:
+- ltx
+- i2v
+- image-to-video
+- efficient
+- workflow
+use_case: Convert static images to animated videos with LTX efficiency
+created: '2026-02-20T16:36:33.677666Z'
+updated: '2026-02-20T16:36:33.677666Z'
+requirements:
+  disk_gb: 16.1

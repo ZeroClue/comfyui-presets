@@ -1,0 +1,50 @@
+id: sd1-5-upscale-basic
+version: 1.0.0
+name: SD1.5 Upscale Basic
+category: Image Generation
+type: image
+description: Stable Diffusion 1.5 basic upscaling workflow from ComfyUI documentation
+download_size: 6.9GB
+files:
+- path: checkpoints/v1-5-pruned-emaonly-fp16.safetensors
+  url: https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-archive/blob/main/v1-5-pruned-emaonly-fp16.safetensors
+  size: 4.0GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/stable-diffusion-v1-5-archive
+    revision: null
+- path: upscale_models/4x_NMKD-Superscale_150k.pth
+  url: https://huggingface.co/ConseilsSuprimes/4x_NMKD-Superscale_150k/resolve/main/4x_NMKD-Superscale_150k.pth
+  size: 690MB
+  optional: false
+  source:
+    type: huggingface
+    repo: ConseilsSuprimes/4x_NMKD-Superscale_150k
+    revision: null
+- path: upscale_models/4x_NMKD-Siax_xl.pth
+  url: https://huggingface.co/Guillaume-M/4x_NMKD-Siax_xl/resolve/main/4x_NMKD-Siax_xl.pth
+  size: 690MB
+  optional: false
+  source:
+    type: huggingface
+    repo: Guillaume-M/4x_NMKD-Siax_xl
+    revision: null
+- path: upscale_models/8x_NMKD-Superscale_150k.pth
+  url: https://huggingface.co/ConseilsSuprimes/8x_NMKD-Superscale_150k/resolve/main/8x_NMKD-Superscale_150k.pth
+  size: 720MB
+  optional: false
+  source:
+    type: huggingface
+    repo: ConseilsSuprimes/8x_NMKD-Superscale_150k
+    revision: null
+tags:
+- sd1.5
+- upscale
+- enhance
+- workflow
+use_case: Basic image upscaling and quality enhancement
+created: '2026-02-20T16:36:33.761358Z'
+updated: '2026-02-20T16:36:33.761358Z'
+requirements:
+  disk_gb: 6.9
