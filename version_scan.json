@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-02-20T18:13:53.113017Z",
+  "scanned_at": "2026-02-20T18:24:47.910991Z",
   "results": [
     {
       "preset_id": "ace-step-v1-3-5b",
@@ -211,7 +211,7 @@
     {
       "preset_id": "qwen-image-complete",
       "file_path": "diffusion_models/qwen_image_fp8_e4m3fn.safetensors",
-      "repo": "Comfy-Org/Qwen-Image-Edit_ComfyUI",
+      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
@@ -229,7 +229,7 @@
     {
       "preset_id": "qwen-image-complete",
       "file_path": "text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors",
-      "repo": "Comfy-Org/Qwen-Image-Edit_ComfyUI",
+      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
@@ -238,7 +238,7 @@
     {
       "preset_id": "qwen-image-complete",
       "file_path": "vae/qwen_image_vae.safetensors",
-      "repo": "Comfy-Org/Qwen-Image-Edit_ComfyUI",
+      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
@@ -553,7 +553,7 @@
     {
       "preset_id": "qwen-image-edit",
       "file_path": "text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors",
-      "repo": "Comfy-Org/Qwen-Image-Edit_ComfyUI",
+      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
@@ -562,7 +562,7 @@
     {
       "preset_id": "qwen-image-edit",
       "file_path": "vae/qwen_image_vae.safetensors",
-      "repo": "Comfy-Org/Qwen-Image-Edit_ComfyUI",
+      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
@@ -678,7 +678,7 @@
     },
     {
       "preset_id": "realistic-vision-v6",
-      "file_path": "checkpoints/realisticVisionV60B1_v51VAE.safetensors",
+      "file_path": "checkpoints/Realistic_Vision_V6.0_NV_B1.safetensors",
       "repo": "SG161222/Realistic_Vision_V6.0_B1_noVAE",
       "tracked_revision": null,
       "latest_revision": null,
