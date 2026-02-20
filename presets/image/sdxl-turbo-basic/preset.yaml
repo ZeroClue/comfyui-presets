@@ -6,8 +6,8 @@ type: image
 description: Stable Diffusion XL Turbo for real-time image generation
 download_size: 6.9GB
 files:
-- path: checkpoints/sdxl_turbo_1.0_fp16.safetensors
-  url: https://huggingface.co/stabilityai/sdxl-turbo/resolve/main/sdxl_turbo_1.0_fp16.safetensors
+- path: checkpoints/sd_xl_turbo_1.0_fp16.safetensors
+  url: https://huggingface.co/stabilityai/sdxl-turbo/resolve/main/sd_xl_turbo_1.0_fp16.safetensors
   size: 6.9GB
   optional: false
   source:

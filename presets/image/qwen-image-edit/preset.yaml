@@ -7,28 +7,28 @@ description: Qwen 20B parameter image editing model
 download_size: 38GB
 files:
 - path: diffusion_models/qwen_image_edit_2509_fp8_e4m3fn.safetensors
-  url: https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_edit_2509_fp8_e4m3fn.safetensors
+  url: https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_edit_2509_fp8_e4m3fn.safetensors
   size: 19GB
   optional: false
   source:
     type: huggingface
-    repo: Comfy-Org/Qwen-Image_ComfyUI
+    repo: Comfy-Org/Qwen-Image-Edit_ComfyUI
     revision: null
 - path: text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors
-  url: https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors
+  url: https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors
   size: 14GB
   optional: false
   source:
     type: huggingface
-    repo: Comfy-Org/Qwen-Image_ComfyUI
+    repo: Comfy-Org/Qwen-Image-Edit_ComfyUI
     revision: null
 - path: vae/qwen_image_vae.safetensors
-  url: https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors
+  url: https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors
   size: 5GB
   optional: false
   source:
     type: huggingface
-    repo: Comfy-Org/Qwen-Image_ComfyUI
+    repo: Comfy-Org/Qwen-Image-Edit_ComfyUI
     revision: null
 tags:
 - qwen

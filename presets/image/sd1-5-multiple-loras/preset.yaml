@@ -15,7 +15,7 @@ files:
     repo: Comfy-Org/stable-diffusion-v1-5-archive
     revision: null
 - path: loras/character_lora.safetensors
-  url: https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-archive/blob/main/character_lora.safetensors
+  url: https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/resolve/main/pytorch_lora_weights.safetensors
   size: 150MB
   optional: false
   source:
@@ -23,7 +23,7 @@ files:
     repo: Comfy-Org/stable-diffusion-v1-5-archive
     revision: null
 - path: loras/style_lora.safetensors
-  url: https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-archive/blob/main/style_lora.safetensors
+  url: https://huggingface.co/latent-consistency/lcm-lora-sdxl/resolve/main/pytorch_lora_weights.safetensors
   size: 150MB
   optional: false
   source:

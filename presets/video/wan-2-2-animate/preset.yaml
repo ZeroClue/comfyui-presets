@@ -22,16 +22,16 @@ files:
     type: huggingface
     repo: Wailicv/Wan2.2
     revision: null
-- path: diffusion_models/hunyuan_t2v_720p.safetensors
-  url: https://huggingface.co/Tencent/HunyuanVideo/resolve/main/hunyuan_t2v_720p.safetensors
+- path: diffusion_models/hunyuan_video_t2v_720p_bf16.safetensors
+  url: https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/diffusion_models/hunyuan_video_t2v_720p_bf16.safetensors
   size: 5.1GB
   optional: false
   source:
     type: huggingface
     repo: Tencent/HunyuanVideo
     revision: null
-- path: diffusion_models/mochi_1_preview_fp8.safetensors
-  url: https://huggingface.co/genmo/mochi-1-preview/resolve/main/model.fp8.safetensors
+- path: diffusion_models/mochi_preview_fp8_scaled.safetensors
+  url: https://huggingface.co/Comfy-Org/mochi_preview_repackaged/resolve/main/split_files/diffusion_models/mochi_preview_fp8_scaled.safetensors
   size: 9.8GB
   optional: false
   source:

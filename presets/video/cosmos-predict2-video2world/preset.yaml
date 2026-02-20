@@ -23,7 +23,7 @@ files:
     repo: Comfy-Org/Wan_2.2_ComfyUI_Repackaged
     revision: null
 - path: text_encoders/oldt5_xxl_fp8_e4m3fn_scaled.safetensors
-  url: https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/text_encoders/oldt5_xxl_fp8_e4m3fn_scaled.safetensors
+  url: https://huggingface.co/comfyanonymous/cosmos_1.0_text_encoder_and_VAE_ComfyUI/resolve/main/text_encoders/oldt5_xxl_fp8_e4m3fn_scaled.safetensors
   size: 6.6GB
   optional: false
   source:
