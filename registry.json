@@ -1,13 +1,13 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-02-20T16:36:46.596363Z",
+  "generated_at": "2026-02-20T17:00:47.978789Z",
   "presets": {
     "wan-2-2-i2v-basic": {
       "name": "WAN 2.2 I2V Basic",
       "category": "Video Generation",
       "type": "video",
       "download_size": "15.7GB",
-      "vram_gb": 0,
+      "vram_gb": 24,
       "disk_gb": 15.7,
       "tags": [
         "wan",
@@ -100,7 +100,7 @@
       "category": "Video Generation",
       "type": "video",
       "download_size": "8.5GB",
-      "vram_gb": 0,
+      "vram_gb": 8,
       "disk_gb": 8.5,
       "tags": [
         "wan",
@@ -159,7 +159,7 @@
       "category": "Video Generation",
       "type": "video",
       "download_size": "15.5GB",
-      "vram_gb": 0,
+      "vram_gb": 24,
       "disk_gb": 15.5,
       "tags": [
         "wan",
@@ -196,7 +196,7 @@
       "category": "Video Generation",
       "type": "video",
       "download_size": "11.3GB",
-      "vram_gb": 0,
+      "vram_gb": 24,
       "disk_gb": 11.3,
       "tags": [
         "hunyuan",
@@ -235,7 +235,7 @@
       "category": "Video Generation",
       "type": "video",
       "download_size": "15.5GB",
-      "vram_gb": 0,
+      "vram_gb": 24,
       "disk_gb": 15.5,
       "tags": [
         "wan",
@@ -254,7 +254,7 @@
       "category": "Video Generation",
       "type": "video",
       "download_size": "14.5GB",
-      "vram_gb": 0,
+      "vram_gb": 16,
       "disk_gb": 14.5,
       "tags": [
         "ltx",
@@ -291,7 +291,7 @@
       "category": "Video Generation",
       "type": "video",
       "download_size": "7.6GB",
-      "vram_gb": 0,
+      "vram_gb": 24,
       "disk_gb": 7.6,
       "tags": [
         "hunyuan",
@@ -351,7 +351,7 @@
       "category": "Video Generation",
       "type": "video",
       "download_size": "13.5GB",
-      "vram_gb": 0,
+      "vram_gb": 24,
       "disk_gb": 13.5,
       "tags": [
         "wan",
@@ -390,7 +390,7 @@
       "category": "Video Generation",
       "type": "video",
       "download_size": "13.5GB",
-      "vram_gb": 0,
+      "vram_gb": 24,
       "disk_gb": 13.5,
       "tags": [
         "wan",
@@ -447,7 +447,7 @@
       "category": "Video Generation",
       "type": "video",
       "download_size": "16.1GB",
-      "vram_gb": 0,
+      "vram_gb": 16,
       "disk_gb": 16.1,
       "tags": [
         "ltx",
@@ -527,7 +527,7 @@
       "category": "Audio Generation",
       "type": "audio",
       "download_size": "10.9GB",
-      "vram_gb": 0,
+      "vram_gb": 4,
       "disk_gb": 10.9,
       "tags": [
         "complete",
@@ -545,7 +545,7 @@
       "category": "Audio Generation",
       "type": "audio",
       "download_size": "7.17GB",
-      "vram_gb": 0,
+      "vram_gb": 4,
       "disk_gb": 7.17,
       "tags": [
         "ace",
@@ -604,7 +604,7 @@
       "category": "Image Generation",
       "type": "image",
       "download_size": "5.97GB",
-      "vram_gb": 0,
+      "vram_gb": 6,
       "disk_gb": 5.97,
       "tags": [
         "sd1.5",
@@ -643,7 +643,7 @@
       "category": "Image Generation",
       "type": "image",
       "download_size": "12.5GB",
-      "vram_gb": 0,
+      "vram_gb": 16,
       "disk_gb": 12.5,
       "tags": [
         "sd3.5",
@@ -757,7 +757,7 @@
       "category": "Image Generation",
       "type": "image",
       "download_size": "6.9GB",
-      "vram_gb": 0,
+      "vram_gb": 8,
       "disk_gb": 6.9,
       "tags": [
         "sdxl",
@@ -834,7 +834,7 @@
       "category": "Image Generation",
       "type": "image",
       "download_size": "24GB",
-      "vram_gb": 0,
+      "vram_gb": 12,
       "disk_gb": 24.0,
       "tags": [
         "flux",
@@ -852,7 +852,7 @@
       "category": "Image Generation",
       "type": "image",
       "download_size": "24GB",
-      "vram_gb": 0,
+      "vram_gb": 16,
       "disk_gb": 24.0,
       "tags": [
         "flux",
@@ -870,7 +870,7 @@
       "category": "Image Generation",
       "type": "image",
       "download_size": "6.9GB",
-      "vram_gb": 0,
+      "vram_gb": 8,
       "disk_gb": 6.9,
       "tags": [
         "juggernaut",
@@ -888,7 +888,7 @@
       "category": "Image Generation",
       "type": "image",
       "download_size": "6.5GB",
-      "vram_gb": 0,
+      "vram_gb": 8,
       "disk_gb": 6.5,
       "tags": [
         "sd3.5",
@@ -926,7 +926,7 @@
       "category": "Image Generation",
       "type": "image",
       "download_size": "4.0GB",
-      "vram_gb": 0,
+      "vram_gb": 6,
       "disk_gb": 4.0,
       "tags": [
         "sd1.5",
@@ -944,7 +944,7 @@
       "category": "Image Generation",
       "type": "image",
       "download_size": "5.1GB",
-      "vram_gb": 0,
+      "vram_gb": 6,
       "disk_gb": 5.1,
       "tags": [
         "realistic",
@@ -998,7 +998,7 @@
       "category": "Image Generation",
       "type": "image",
       "download_size": "6.9GB",
-      "vram_gb": 0,
+      "vram_gb": 8,
       "disk_gb": 6.9,
       "tags": [
         "sdxl",
