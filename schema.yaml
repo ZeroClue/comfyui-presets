@@ -1,0 +1,134 @@
+# JSON Schema for preset validation
+$schema: "http://json-schema.org/draft-07/schema#"
+type: object
+required:
+  - id
+  - version
+  - name
+  - category
+  - type
+  - files
+properties:
+  id:
+    type: string
+    pattern: "^[a-z0-9-]+$"
+    description: "Unique preset identifier (lowercase, hyphens only)"
+  version:
+    type: string
+    pattern: "^\\d+\\.\\d+\\.\\d+$"
+    description: "Semantic version of preset schema"
+  name:
+    type: string
+    minLength: 1
+    maxLength: 100
+  category:
+    type: string
+    enum: ["Video Generation", "Image Generation", "Audio Generation"]
+  type:
+    type: string
+    enum: ["video", "image", "audio"]
+  description:
+    type: string
+    maxLength: 500
+  download_size:
+    type: string
+    pattern: "^\\d+(\\.\\d+)?(GB|MB)$"
+  requirements:
+    type: object
+    properties:
+      vram_gb:
+        type: number
+        minimum: 0
+      disk_gb:
+        type: number
+        minimum: 0
+      recommended_gpu:
+        type: array
+        items:
+          type: string
+      dependencies:
+        type: array
+        items:
+          type: string
+  files:
+    type: array
+    minItems: 1
+    items:
+      type: object
+      required:
+        - path
+        - url
+        - size
+      properties:
+        path:
+          type: string
+          description: "Relative path from /workspace/models/"
+        url:
+          type: string
+          format: uri
+        size:
+          type: string
+          pattern: "^\\d+(\\.\\d+)?(GB|MB)$"
+        optional:
+          type: boolean
+          default: false
+        source:
+          type: object
+          properties:
+            type:
+              type: string
+              enum: ["huggingface", "civitai", "direct"]
+            repo:
+              type: string
+            revision:
+              type: string
+              description: "Git commit SHA for version pinning"
+        checksum:
+          type: object
+          properties:
+            algorithm:
+              type: string
+              enum: ["sha256", "md5"]
+            value:
+              type: string
+  tags:
+    type: array
+    items:
+      type: string
+    maxItems: 10
+  use_case:
+    type: string
+    maxLength: 200
+  created:
+    type: string
+    format: date-time
+  updated:
+    type: string
+    format: date-time
+  model_version:
+    type: object
+    properties:
+      upstream_version:
+        type: string
+        description: "Version reported by model author"
+      tracked_branch:
+        type: string
+        description: "Branch we track for updates"
+      last_checked:
+        type: string
+        format: date-time
+      update_available:
+        type: boolean
+  compatible_workflows:
+    type: array
+    items:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        missing_requirements:
+          type: array
+          items:
+            type: string

@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "generated_at": null,
+  "presets": {},
+  "stats": {
+    "total": 0,
+    "by_category": {
+      "video": 0,
+      "image": 0,
+      "audio": 0
+    }
+  },
+  "alerts": []
+}
