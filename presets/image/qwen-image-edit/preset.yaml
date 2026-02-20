@@ -15,20 +15,20 @@ files:
     repo: Comfy-Org/Qwen-Image-Edit_ComfyUI
     revision: null
 - path: text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors
-  url: https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors
+  url: https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors
   size: 14GB
   optional: false
   source:
     type: huggingface
-    repo: Comfy-Org/Qwen-Image-Edit_ComfyUI
+    repo: Comfy-Org/Qwen-Image_ComfyUI
     revision: null
 - path: vae/qwen_image_vae.safetensors
-  url: https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors
+  url: https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors
   size: 5GB
   optional: false
   source:
     type: huggingface
-    repo: Comfy-Org/Qwen-Image-Edit_ComfyUI
+    repo: Comfy-Org/Qwen-Image_ComfyUI
     revision: null
 tags:
 - qwen
