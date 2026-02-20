@@ -1,14 +1,13 @@
 {
   "version": "1.0.0",
-  "generated_at": null,
+  "generated_at": "2026-02-20T16:28:39.550572Z",
   "presets": {},
   "stats": {
     "total": 0,
     "by_category": {
       "video": 0,
-      "image": 0,
-      "audio": 0
+      "audio": 0,
+      "image": 0
     }
-  },
-  "alerts": []
+  }
 }
