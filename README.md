@@ -1,24 +1,35 @@
 # ComfyUI Presets Registry
 
-Centralized preset definitions for ComfyUI models with version pinning and validation.
+[![Part of ComfyUI-Docker](https://img.shields.io/badge/Part%20of-ComfyUI--Docker-orange)](https://github.com/ZeroClue/ComfyUI-Docker)
+[![Presets](https://img.shields.io/badge/Presets-56-blue)](presets/)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
+> **Part of [ZeroClue/ComfyUI-Docker](https://github.com/ZeroClue/ComfyUI-Docker)** — A containerized ComfyUI environment with unified dashboard
+
+Centralized preset definitions for ComfyUI models with version pinning, VRAM requirements, and validation.
+
+## Quick Links
+
+- **Parent Project**: [ZeroClue/ComfyUI-Docker](https://github.com/ZeroClue/ComfyUI-Docker)
+- **Dashboard Demo**: See the parent repo for screenshots and features
+- **Registry JSON**: [registry.json](registry.json) — Pre-computed metadata for fast loading
 
 ## Structure
 
 ```
 comfyui-presets/
 ├── presets/           # Individual preset YAML files
-│   ├── video/         # Video generation models
-│   ├── image/         # Image generation models
-│   └── audio/         # Audio generation models
+│   ├── video/         # Video generation models (26 presets)
+│   ├── image/         # Image generation models (25 presets)
+│   └── audio/         # Audio generation models (5 presets)
 ├── scripts/           # Management scripts
 │   ├── validate.py    # Schema validation
-│   ├── migrate.py     # Migration from old format
 │   ├── generate_registry.py  # Registry generation
 │   ├── scan_versions.py      # HF version scanning
 │   └── check_urls.py         # URL health checking
 ├── schema.yaml        # JSON Schema for preset validation
 ├── registry.json      # Pre-computed metadata for fast loading
-└── .github/           # GitHub Actions workflows
+└── .github/           # Issue templates & CI workflows
 ```
 
 ## Preset Format
@@ -81,9 +92,23 @@ python scripts/validate.py --preset presets/video/wan-2-2-5-t2v/preset.yaml
 python scripts/generate_registry.py
 ```
 
+## Integration with ComfyUI-Docker
+
+This registry is consumed by the [ComfyUI-Docker](https://github.com/ZeroClue/ComfyUI-Docker) dashboard to provide:
+
+- **Preset Browsing**: Browse and install 56+ model presets
+- **GPU Recommendations**: Filter presets by VRAM compatibility
+- **Version Tracking**: See when updates are available
+- **Checksum Validation**: Verify downloaded files with SHA256
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on adding new presets.
+
+## Related Projects
+
+- **[ComfyUI-Docker](https://github.com/ZeroClue/ComfyUI-Docker)** — Main project with dashboard and Docker setup
+- **[ComfyUI](https://github.com/comfyanonymous/ComfyUI)** — The powerful and modular stable diffusion GUI
 
 ## License
 
