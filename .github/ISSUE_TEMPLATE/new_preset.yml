@@ -1,0 +1,142 @@
+name: New Preset Suggestion
+description: Suggest a new model preset to be added to the registry
+labels: ["new-preset", "community"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a new preset! Please provide as much detail as possible about the model you'd like to see added.
+
+  - type: input
+    id: preset-name
+    attributes:
+      label: Preset Name
+      description: The display name of the model (e.g., "FLUX.1-dev", "WAN 2.2 T2V")
+      placeholder: "Model Name Here"
+    validations:
+      required: true
+
+  - type: input
+    id: preset-id
+    attributes:
+      label: Suggested Preset ID
+      description: |
+        A unique identifier for the preset. Use lowercase letters, numbers, and hyphens only.
+        Format: `{model}-{variant}-{type}` (e.g., `flux-dev-basic`, `wan-2-2-t2v`)
+      placeholder: "model-variant-type"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Model Category
+      description: What type of content does this model generate?
+      options:
+        - Video Generation
+        - Image Generation
+        - Audio Generation
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Model Description
+      description: A brief description of the model and its capabilities.
+      placeholder: "State-of-the-art text-to-video model with support for high-resolution generation..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: urls
+    attributes:
+      label: Model URLs
+      description: |
+        List all files needed for this preset with their download URLs.
+        Include the target path relative to `/workspace/models/` and file size.
+      placeholder: |
+        - URL: https://huggingface.co/owner/model/resolve/main/model.safetensors
+          Path: checkpoints/model.safetensors
+          Size: 4.8GB
+        - URL: https://huggingface.co/owner/model/resolve/main/vae.safetensors
+          Path: vae/model_vae.safetensors
+          Size: 335MB
+      render: yaml
+    validations:
+      required: true
+
+  - type: input
+    id: vram
+    attributes:
+      label: VRAM Requirements (GB)
+      description: Minimum GPU VRAM required to run this model.
+      placeholder: "24"
+    validations:
+      required: true
+
+  - type: input
+    id: disk
+    attributes:
+      label: Disk Space Requirements (GB)
+      description: Total disk space needed for all model files.
+      placeholder: "15.5"
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Primary Use Case
+      description: What is this model best used for?
+      placeholder: "High-quality text-to-video generation for cinematic content..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: recommended-gpu
+    attributes:
+      label: Recommended GPUs
+      description: List GPUs that work well with this model.
+      placeholder: |
+        - RTX 4090 (24GB)
+        - RTX 3090 (24GB)
+        - A100 (40GB+)
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies (Optional)
+      description: Any additional models or files required (e.g., text encoders, VAEs).
+      placeholder: |
+        - T5-XXL text encoder (4.9GB)
+        - CLIP-L vision encoder (850MB)
+
+  - type: textarea
+    id: tags
+    attributes:
+      label: Tags
+      description: Relevant tags for categorization (comma-separated, max 10).
+      placeholder: "flux, text-to-image, high-quality, sdxl-alternative"
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-submission Checklist
+      description: Please confirm the following before submitting.
+      options:
+        - label: I have verified the model URLs are publicly accessible or have read the gated model access instructions
+          required: true
+        - label: I have checked that this preset does not already exist in the registry
+          required: true
+        - label: I have tested this model in ComfyUI and confirmed it works
+          required: false
+        - label: The model is from a reputable source (official HuggingFace repo, verified Civitai creator, etc.)
+          required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      description: Any other relevant information (license details, special requirements, etc.)
+      placeholder: "This model requires HuggingFace login for gated access..."

@@ -1,0 +1,85 @@
+name: Bug Report
+description: Report an issue with an existing preset
+labels: ["bug", "preset"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please fill out the sections below to help us fix the issue.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of what the bug is.
+      placeholder: "The preset fails to download with a 404 error..."
+    validations:
+      required: true
+
+  - type: input
+    id: preset-id
+    attributes:
+      label: Preset ID
+      description: The ID of the affected preset (e.g., `wan-22-5b-tiv2`, `flux-dev-basic`)
+      placeholder: "preset-id-here"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: preset-type
+    attributes:
+      label: Preset Type
+      description: What type of preset is affected?
+      options:
+        - Video Generation
+        - Image Generation
+        - Audio Generation
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+      placeholder: "The model should download successfully and be available for use."
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What actually happened?
+      placeholder: "Download failed with HTTP 404 error after 30 seconds."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce this issue?
+      placeholder: |
+        1. Go to the Models page
+        2. Click on the preset card
+        3. Click "Install"
+        4. Wait for download to start
+        5. Observe the error
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error Logs (Optional)
+      description: Paste any relevant error messages or logs here.
+      placeholder: "Error: HTTP 404 - File not found..."
+      render: shell
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Add any other context about the problem here.
+      placeholder: "This started happening after the latest registry update..."

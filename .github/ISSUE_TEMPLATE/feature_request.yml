@@ -1,0 +1,69 @@
+name: Feature Request
+description: Suggest an improvement or new feature for the preset system
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a feature! Please describe your idea in detail below.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Feature Description
+      description: A clear and concise description of the feature you'd like to see.
+      placeholder: "Add support for automatic model quantization selection based on available VRAM..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement
+      description: What problem does this feature solve? Why is it needed?
+      placeholder: "Currently, users must manually select the correct model variant for their GPU. This leads to confusion and failed downloads."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: How would you like this feature to work?
+      placeholder: "The dashboard could detect available VRAM and automatically recommend the appropriate preset variant..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: preset-type
+    attributes:
+      label: Affected Preset Category
+      description: Which preset category would benefit from this feature?
+      options:
+        - All categories
+        - Video Generation
+        - Image Generation
+        - Audio Generation
+    validations:
+      required: true
+
+  - type: textarea
+    id: presets
+    attributes:
+      label: Specific Presets (Optional)
+      description: List any specific preset IDs that would benefit from this feature.
+      placeholder: "wan-22-5b-tiv2, flux-dev-basic, ace-step-v1-3-5b"
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Have you considered any alternative solutions or workarounds?
+      placeholder: "Users could manually check their VRAM and select presets accordingly, but this requires technical knowledge."
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Add any other context, mockups, or examples here.
+      placeholder: "Similar to how Ollama automatically selects quantization based on system RAM..."

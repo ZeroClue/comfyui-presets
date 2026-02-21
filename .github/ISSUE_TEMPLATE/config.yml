@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: ComfyUI Documentation
+    url: https://docs.comfy.org/
+    about: Official ComfyUI documentation and guides
+  - name: ComfyUI Discord
+    url: https://discord.gg/comfyui
+    about: Join the community for discussions and support
