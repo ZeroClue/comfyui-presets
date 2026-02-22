@@ -1,0 +1,67 @@
+{
+  "_meta": {
+    "title": "WAN 2.1 Text-to-Video Basic",
+    "description": "Basic text-to-video generation with WAN 2.1 14B model",
+    "category": "Video Generation",
+    "required_presets": ["WAN_21_14B_TIV2"],
+    "author": "ZeroClue",
+    "version": "1.0.0"
+  },
+  "1": {
+    "class_type": "WanModelLoader",
+    "inputs": {
+      "model_name": "Wan2.1_T2V_14B.safetensors"
+    }
+  },
+  "2": {
+    "class_type": "WanTextEncode",
+    "inputs": {
+      "text": "A beautiful sunset over the ocean with waves gently rolling onto a sandy beach, golden hour lighting, cinematic",
+      "model": ["1", 0]
+    }
+  },
+  "3": {
+    "class_type": "WanTextEncode",
+    "inputs": {
+      "text": "blur, low quality, distorted, ugly, bad anatomy, watermark, text, logo",
+      "model": ["1", 1]
+    }
+  },
+  "4": {
+    "class_type": "WanLatentEncode",
+    "inputs": {
+      "width": 832,
+      "height": 480,
+      "batch_size": 1,
+      "model": ["1", 0]
+    }
+  },
+  "5": {
+    "class_type": "WanVideoSampler",
+    "inputs": {
+      "seed": 0,
+      "steps": 30,
+      "cfg": 5.0,
+      "scheduler": "uniform",
+      "model": ["1", 0],
+      "positive": ["2", 0],
+      "negative": ["3", 0],
+      "latent": ["4", 0]
+    }
+  },
+  "6": {
+    "class_type": "WanVideoDecode",
+    "inputs": {
+      "model": ["1", 0],
+      "latent": ["5", 0]
+    }
+  },
+  "7": {
+    "class_type": "VHS_SaveVideo",
+    "inputs": {
+      "filename_prefix": "wan_t2v",
+      "fps": 16,
+      "images": ["6", 0]
+    }
+  }
+}
