@@ -1,6 +1,6 @@
 {
-  "version": "2.0.0",
-  "generated_at": "2026-02-22T06:39:28.738330Z",
+  "version": "1.0.0",
+  "generated_at": "2026-02-23T06:57:40.625477Z",
   "presets": {
     "ace-step-v1-3-5b": {
       "name": "ACE Step v1 3.5B",
@@ -1065,34 +1065,6 @@
       "last_verified": "2026-02-20T16:36:33.857769Z",
       "file_count": 3,
       "path": "presets/video/wan-2-1-t2v-14b/preset.yaml"
-    }
-  },
-  "workflows": {
-    "WAN_T2V_BASIC": {
-      "name": "WAN 2.1 Text-to-Video Basic",
-      "description": "Basic text-to-video generation with WAN 2.1 14B model",
-      "category": "Video Generation",
-      "type": "video",
-      "input_types": ["text"],
-      "output_types": ["video"],
-      "workflow_file": "workflows/video/wan_t2v_basic.json",
-      "required_presets": ["WAN_21_14B_TIV2"],
-      "tags": ["wan", "t2v", "video"],
-      "author": "ZeroClue",
-      "version": "1.0.0"
-    },
-    "FLUX_SCHNELL_BASIC": {
-      "name": "FLUX Schnell Basic",
-      "description": "Fast image generation with FLUX.1 Schnell",
-      "category": "Image Generation",
-      "type": "image",
-      "input_types": ["text"],
-      "output_types": ["image"],
-      "workflow_file": "workflows/image/flux_schnell_basic.json",
-      "required_presets": ["FLUX_SCHNELL"],
-      "tags": ["flux", "schnell", "image"],
-      "author": "ZeroClue",
-      "version": "1.0.0"
     }
   },
   "stats": {
