@@ -1,6 +1,24 @@
 {
-  "scanned_at": "2026-02-25T06:56:10.279559Z",
+  "scanned_at": "2026-02-26T06:53:09.252018Z",
   "results": [
+    {
+      "preset_id": "ace-step-audio-to-audio",
+      "file_path": "checkpoints/ace_step_v1_3.5b.safetensors",
+      "repo": "Comfy-Org/ACE-Step_ComfyUI_repackaged",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "ace-step-audio-to-audio",
+      "file_path": "audio_encoders/ace_audio_encoder.pth",
+      "repo": "billwuhao/ComfyUI_ACE-Step",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
     {
       "preset_id": "ace-step-v1-3-5b",
       "file_path": "checkpoints/ace_step_v1_3.5b.safetensors",
@@ -47,7 +65,7 @@
       "error": "No revision tracked"
     },
     {
-      "preset_id": "ace-step-audio-to-audio",
+      "preset_id": "ace-step-music-extension",
       "file_path": "checkpoints/ace_step_v1_3.5b.safetensors",
       "repo": "Comfy-Org/ACE-Step_ComfyUI_repackaged",
       "tracked_revision": null,
@@ -56,8 +74,17 @@
       "error": "No revision tracked"
     },
     {
-      "preset_id": "ace-step-audio-to-audio",
+      "preset_id": "ace-step-music-extension",
       "file_path": "audio_encoders/ace_audio_encoder.pth",
+      "repo": "billwuhao/ComfyUI_ACE-Step",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "ace-step-music-extension",
+      "file_path": "audio_encoders/music_continuation_model.pth",
       "repo": "billwuhao/ComfyUI_ACE-Step",
       "tracked_revision": null,
       "latest_revision": null,
@@ -119,702 +146,27 @@
       "error": "No revision tracked"
     },
     {
-      "preset_id": "ace-step-music-extension",
-      "file_path": "checkpoints/ace_step_v1_3.5b.safetensors",
-      "repo": "Comfy-Org/ACE-Step_ComfyUI_repackaged",
+      "preset_id": "wan22-s2v-fp8-scaled",
+      "file_path": "diffusion_models/Wan2.2_S2V_FP8.safetensors",
+      "repo": "Wailicv/Wan2.2",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
       "error": "No revision tracked"
     },
     {
-      "preset_id": "ace-step-music-extension",
-      "file_path": "audio_encoders/ace_audio_encoder.pth",
-      "repo": "billwuhao/ComfyUI_ACE-Step",
+      "preset_id": "wan22-s2v-fp8-scaled",
+      "file_path": "audio_encoders/audio_encoder.pth",
+      "repo": "Wailicv/Wan2.2",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
       "error": "No revision tracked"
     },
     {
-      "preset_id": "ace-step-music-extension",
-      "file_path": "audio_encoders/music_continuation_model.pth",
-      "repo": "billwuhao/ComfyUI_ACE-Step",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "cosmos-predict2-t2i",
-      "file_path": "diffusion_models/cosmos_predict2_t2i.safetensors",
-      "repo": "nvidia/Cosmos-Predict2",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "cosmos-predict2-t2i",
-      "file_path": "text_encoders/t5xxl_fp16.safetensors",
-      "repo": "Comfy-Org/sd3-t5xxlfp16",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "sd1-5-lora-basic",
-      "file_path": "checkpoints/v1-5-pruned-emaonly-fp16.safetensors",
-      "repo": "Comfy-Org/stable-diffusion-v1-5-archive",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "sd1-5-lora-basic",
-      "file_path": "loras/example_lora.safetensors",
-      "repo": "Comfy-Org/stable-diffusion-v1-5-archive",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "qwen-image-basic",
-      "file_path": "diffusion_models/qwen_image_fp8_e4m3fn.safetensors",
-      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "qwen-image-basic",
-      "file_path": "text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors",
-      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "qwen-image-basic",
-      "file_path": "vae/qwen_image_vae.safetensors",
-      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "qwen-image-complete",
-      "file_path": "diffusion_models/qwen_image_fp8_e4m3fn.safetensors",
-      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "qwen-image-complete",
-      "file_path": "diffusion_models/qwen_image_edit_2509_fp8_e4m3fn.safetensors",
-      "repo": "Comfy-Org/Qwen-Image-Edit_ComfyUI",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "qwen-image-complete",
-      "file_path": "text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors",
-      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "qwen-image-complete",
-      "file_path": "vae/qwen_image_vae.safetensors",
-      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "realvis-xl-v4",
-      "file_path": "checkpoints/realvisxlV40.safetensors",
-      "repo": "SG161222/RealVisXL_V4.0",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "realvis-xl-v4",
-      "file_path": "vae/sdxl_vae.safetensors",
-      "repo": "stabilityai/sdxl-vae-fp16-fix",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "sd1-5-image-to-image-basic",
-      "file_path": "checkpoints/v1-5-pruned-emaonly-fp16.safetensors",
-      "repo": "Comfy-Org/stable-diffusion-v1-5-archive",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "flux-schnell-basic",
-      "file_path": "diffusion_models/flux1-schnell.safetensors",
-      "repo": "black-forest-labs/FLUX.1-schnell",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "flux-schnell-basic",
-      "file_path": "text_encoders/clip_l.safetensors",
-      "repo": "Comfy-Org/FLUX.1-dev",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "flux-schnell-basic",
-      "file_path": "text_encoders/t5xxl_fp16.safetensors",
-      "repo": "Comfy-Org/sd3-t5xxlfp16",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "flux-schnell-basic",
-      "file_path": "vae/ae.safetensors",
-      "repo": "black-forest-labs/FLUX.1-schnell",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "sdxl-turbo-basic",
-      "file_path": "checkpoints/sd_xl_turbo_1.0_fp16.safetensors",
-      "repo": "stabilityai/sdxl-turbo",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "sdxl-turbo-basic",
-      "file_path": "vae/sdxl_vae.safetensors",
-      "repo": "stabilityai/sdxl-vae-fp16-fix",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "juggernaut-xl-v8",
-      "file_path": "checkpoints/juggernautXL_v8Rundiffusion.safetensors",
-      "repo": "cagliostrolab/animagine-xl-3.0",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "juggernaut-xl-v8",
-      "file_path": "vae/sdxl_vae.safetensors",
-      "repo": "stabilityai/sdxl-vae-fp16-fix",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "sd3-5-large-basic",
-      "file_path": "diffusion_models/sd3_large.safetensors",
-      "repo": "stabilityai/stable-diffusion-3.5-large",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "sd3-5-large-basic",
-      "file_path": "text_encoders/clip_g.safetensors",
-      "repo": "stabilityai/stable-diffusion-3.5-large",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "sd3-5-large-basic",
-      "file_path": "text_encoders/clip_l.safetensors",
-      "repo": "stabilityai/stable-diffusion-3.5-large",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "sd3-5-large-basic",
-      "file_path": "text_encoders/t5xxl_fp16.safetensors",
-      "repo": "Comfy-Org/sd3-t5xxlfp16",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "hidream-basic",
-      "file_path": "diffusion_models/hidream.safetensors",
-      "repo": "HiDream-ai/HiDream",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "hidream-basic",
-      "file_path": "text_encoders/t5xxl_fp16.safetensors",
-      "repo": "Comfy-Org/sd3-t5xxlfp16",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "flux-dev-basic",
-      "file_path": "diffusion_models/flux1-dev.safetensors",
-      "repo": "black-forest-labs/FLUX.1-dev",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "flux-dev-basic",
-      "file_path": "text_encoders/clip_l.safetensors",
-      "repo": "Comfy-Org/FLUX.1-dev",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "flux-dev-basic",
-      "file_path": "text_encoders/t5xxl_fp16.safetensors",
-      "repo": "Comfy-Org/sd3-t5xxlfp16",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "flux-dev-basic",
-      "file_path": "vae/ae.safetensors",
-      "repo": "black-forest-labs/FLUX.1-dev",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "qwen-image-chinese",
-      "file_path": "diffusion_models/qwen_image_fp8_e4m3fn.safetensors",
-      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "qwen-image-chinese",
-      "file_path": "text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors",
-      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "qwen-image-chinese",
-      "file_path": "vae/qwen_image_vae.safetensors",
-      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "sd3-5-large-turbo",
-      "file_path": "diffusion_models/sd3_large_turbo.safetensors",
-      "repo": "stabilityai/stable-diffusion-3.5-large-turbo",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "sd3-5-large-turbo",
-      "file_path": "text_encoders/clip_g.safetensors",
-      "repo": "stabilityai/stable-diffusion-3.5-large-turbo",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "sd3-5-large-turbo",
-      "file_path": "text_encoders/clip_l.safetensors",
-      "repo": "stabilityai/stable-diffusion-3.5-large-turbo",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "sd3-5-large-turbo",
-      "file_path": "text_encoders/t5xxl_fp16.safetensors",
-      "repo": "Comfy-Org/sd3-t5xxlfp16",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "sd1-5-outpaint-basic",
-      "file_path": "checkpoints/v1-5-pruned-emaonly-fp16.safetensors",
-      "repo": "Comfy-Org/stable-diffusion-v1-5-archive",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "sd3-5-medium-basic",
-      "file_path": "diffusion_models/sd3_medium.safetensors",
-      "repo": "stabilityai/stable-diffusion-3.5-medium",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "sd3-5-medium-basic",
-      "file_path": "text_encoders/clip_g.safetensors",
-      "repo": "stabilityai/stable-diffusion-3.5-medium",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "sd3-5-medium-basic",
-      "file_path": "text_encoders/clip_l.safetensors",
-      "repo": "stabilityai/stable-diffusion-3.5-medium",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "sd3-5-medium-basic",
-      "file_path": "text_encoders/t5xxl_fp16.safetensors",
-      "repo": "Comfy-Org/sd3-t5xxlfp16",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "qwen-image-edit",
-      "file_path": "diffusion_models/qwen_image_edit_2509_fp8_e4m3fn.safetensors",
-      "repo": "Comfy-Org/Qwen-Image-Edit_ComfyUI",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "qwen-image-edit",
-      "file_path": "text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors",
-      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "qwen-image-edit",
-      "file_path": "vae/qwen_image_vae.safetensors",
-      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "sd1-5-upscale-basic",
-      "file_path": "checkpoints/v1-5-pruned-emaonly-fp16.safetensors",
-      "repo": "Comfy-Org/stable-diffusion-v1-5-archive",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "sd1-5-upscale-basic",
-      "file_path": "upscale_models/4x_NMKD-Superscale_150k.pth",
-      "repo": "ConseilsSuprimes/4x_NMKD-Superscale_150k",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "sd1-5-upscale-basic",
-      "file_path": "upscale_models/4x_NMKD-Siax_xl.pth",
-      "repo": "Guillaume-M/4x_NMKD-Siax_xl",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "sd1-5-upscale-basic",
-      "file_path": "upscale_models/8x_NMKD-Superscale_150k.pth",
-      "repo": "ConseilsSuprimes/8x_NMKD-Superscale_150k",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "sd1-5-multiple-loras",
-      "file_path": "checkpoints/v1-5-pruned-emaonly-fp16.safetensors",
-      "repo": "Comfy-Org/stable-diffusion-v1-5-archive",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "sd1-5-multiple-loras",
-      "file_path": "loras/character_lora.safetensors",
-      "repo": "Comfy-Org/stable-diffusion-v1-5-archive",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "sd1-5-multiple-loras",
-      "file_path": "loras/style_lora.safetensors",
-      "repo": "Comfy-Org/stable-diffusion-v1-5-archive",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "sdxl-base-v1",
-      "file_path": "checkpoints/sd_xl_base_1.0.safetensors",
-      "repo": "stabilityai/stable-diffusion-xl-base-1.0",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "sdxl-base-v1",
-      "file_path": "vae/sdxl_vae.safetensors",
-      "repo": "stabilityai/sdxl-vae-fp16-fix",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "omnigen2-unified",
-      "file_path": "diffusion_models/omnigen2.safetensors",
-      "repo": "stabilityai/omnigen",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "omnigen2-unified",
-      "file_path": "text_encoders/t5xxl_fp16.safetensors",
-      "repo": "Comfy-Org/sd3-t5xxlfp16",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "sd1-5-inpaint-basic",
-      "file_path": "checkpoints/v1-5-pruned-emaonly-fp16.safetensors",
-      "repo": "Comfy-Org/stable-diffusion-v1-5-inpainting",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "realistic-vision-v6",
-      "file_path": "checkpoints/Realistic_Vision_V6.0_NV_B1.safetensors",
-      "repo": "SG161222/Realistic_Vision_V6.0_B1_noVAE",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "complete-professional-suite",
-      "file_path": "diffusion_models/sd3_large.safetensors",
-      "repo": "stabilityai/stable-diffusion-3.5-large",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "complete-professional-suite",
-      "file_path": "diffusion_models/sd3_large_turbo.safetensors",
-      "repo": "stabilityai/stable-diffusion-3.5-large-turbo",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "complete-professional-suite",
-      "file_path": "diffusion_models/flux1-dev.safetensors",
-      "repo": "black-forest-labs/FLUX.1-dev",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "complete-professional-suite",
-      "file_path": "diffusion_models/qwen_image_fp8_e4m3fn.safetensors",
-      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "complete-professional-suite",
-      "file_path": "diffusion_models/cosmos_predict2_t2i.safetensors",
-      "repo": "nvidia/Cosmos-Predict2",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "complete-professional-suite",
-      "file_path": "diffusion_models/omnigen2.safetensors",
-      "repo": "stabilityai/omnigen",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "complete-professional-suite",
-      "file_path": "text_encoders/t5xxl_fp16.safetensors",
-      "repo": "Comfy-Org/sd3-t5xxlfp16",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "complete-professional-suite",
-      "file_path": "text_encoders/clip_g.safetensors",
-      "repo": "stabilityai/stable-diffusion-3.5-large",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "complete-professional-suite",
-      "file_path": "text_encoders/clip_l.safetensors",
-      "repo": "stabilityai/stable-diffusion-3.5-large",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "complete-professional-suite",
-      "file_path": "vae/ae.safetensors",
-      "repo": "black-forest-labs/FLUX.1-dev",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "sd1-5-text-to-image-basic",
-      "file_path": "checkpoints/v1-5-pruned-emaonly-fp16.safetensors",
-      "repo": "Comfy-Org/stable-diffusion-v1-5-archive",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "sd1-5-text-to-image-basic",
-      "file_path": "text_encoders/clip_l.safetensors",
-      "repo": "openai/clip-vit-large-patch14",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "upscale-models",
-      "file_path": "upscale_models/4x_NMKD-Siax_xl.pth",
-      "repo": "Guillaume-M/4x_NMKD-Siax_xl",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "upscale-models",
-      "file_path": "upscale_models/4x_NMKD-Superscale_150k.pth",
-      "repo": "ConseilsSuprimes/4x_NMKD-Superscale_150k",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "upscale-models",
-      "file_path": "upscale_models/8x_NMKD-Superscale_150k.pth",
-      "repo": "ConseilsSuprimes/8x_NMKD-Superscale_150k",
+      "preset_id": "wan22-s2v-fp8-scaled",
+      "file_path": "vae/wan2.2_vae.safetensors",
+      "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
@@ -857,35 +209,8 @@
       "error": "No revision tracked"
     },
     {
-      "preset_id": "cosmos-predict2-video2world",
-      "file_path": "diffusion_models/cosmos_predict2_video2world.safetensors",
-      "repo": "nvidia/Cosmos-Predict2",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "cosmos-predict2-video2world",
-      "file_path": "vae/wan_2.1_vae.safetensors",
-      "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "cosmos-predict2-video2world",
-      "file_path": "text_encoders/oldt5_xxl_fp8_e4m3fn_scaled.safetensors",
-      "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "wan-2-2-fun-inp",
-      "file_path": "diffusion_models/Wan2.2_T2V_5B.safetensors",
+      "preset_id": "wan22-nsfw-lora",
+      "file_path": "loras/wan22_nsfw_filter.safetensors",
       "repo": "Wailicv/Wan2.2",
       "tracked_revision": null,
       "latest_revision": null,
@@ -893,61 +218,16 @@
       "error": "No revision tracked"
     },
     {
-      "preset_id": "wan-2-2-fun-inp",
-      "file_path": "text_encoders/t5xxl_fp16.safetensors",
-      "repo": "Comfy-Org/sd3-t5xxlfp16",
+      "preset_id": "wan-2-1-lightweight-1-3b",
+      "file_path": "diffusion_models/wan2.1_t2v_1.3b.safetensors",
+      "repo": "Wailicv/WAN2.1",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
       "error": "No revision tracked"
     },
     {
-      "preset_id": "wan-2-2-fun-inp",
-      "file_path": "diffusion_models/wan_nsfw_filter_v140.safetensors",
-      "repo": "Wailicv/Wan2.2",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "wan-2-2-fun-inp",
-      "file_path": "loras/wan22_lightning.safetensors",
-      "repo": "Wailicv/Wan2.2",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "wan-2-2-fun-inp",
-      "file_path": "vae/wan2.2_vae.safetensors",
-      "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "wan-2-2-s2v",
-      "file_path": "diffusion_models/Wan2.2_S2V_FP8.safetensors",
-      "repo": "Wailicv/Wan2.2",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "wan-2-2-s2v",
-      "file_path": "audio_encoders/audio_encoder.pth",
-      "repo": "Wailicv/Wan2.2",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "wan-2-2-s2v",
+      "preset_id": "wan-2-1-lightweight-1-3b",
       "file_path": "text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
       "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
       "tracked_revision": null,
@@ -956,9 +236,135 @@
       "error": "No revision tracked"
     },
     {
-      "preset_id": "wan-2-2-s2v",
+      "preset_id": "wan-2-1-lightweight-1-3b",
+      "file_path": "vae/wan_2.1_vae.safetensors",
+      "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "ltx-video-i2v",
+      "file_path": "checkpoints/ltx-video-2b-v0.9.5.safetensors",
+      "repo": "Lightricks/LTX-Video",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "ltx-video-i2v",
+      "file_path": "clip_vision/sd_image_encoder.safetensors",
+      "repo": "stabilityai/stable-diffusion-2-1",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "ltx-video-i2v",
+      "file_path": "text_encoders/t5xxl_fp16.safetensors",
+      "repo": "Comfy-Org/mochi_preview_repackaged",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "ltx-video-i2v",
+      "file_path": "text_encoders/PixArt-XL-2-1024-MS/text_encoder/model-00001-of-00002.safetensors",
+      "repo": "PixArt-alpha/PixArt-XL-2-1024-MS",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "ltx-video-i2v",
+      "file_path": "text_encoders/PixArt-XL-2-1024-MS/text_encoder/model-00002-of-00002.safetensors",
+      "repo": "PixArt-alpha/PixArt-XL-2-1024-MS",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "wan-2-2-fun-camera",
+      "file_path": "diffusion_models/Wan2.2_T2V_5B.safetensors",
+      "repo": "Wailicv/Wan2.2",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "wan-2-2-fun-camera",
+      "file_path": "text_encoders/t5xxl_fp16.safetensors",
+      "repo": "Comfy-Org/sd3-t5xxlfp16",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "wan-2-2-fun-camera",
+      "file_path": "diffusion_models/wan_nsfw_filter_v140.safetensors",
+      "repo": "Wailicv/Wan2.2",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "wan-2-2-fun-camera",
+      "file_path": "loras/wan22_lightning.safetensors",
+      "repo": "Wailicv/Wan2.2",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "wan-2-2-fun-camera",
       "file_path": "vae/wan2.2_vae.safetensors",
       "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "wan-2-1-t2v-14b",
+      "file_path": "diffusion_models/wan2.1_t2v_14b.safetensors",
+      "repo": "Wailicv/WAN2.1",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "wan-2-1-t2v-14b",
+      "file_path": "text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+      "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "wan-2-1-t2v-14b",
+      "file_path": "vae/wan_2.1_vae.safetensors",
+      "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "wan22-lightning-lora",
+      "file_path": "loras/wan22_lightning.safetensors",
+      "repo": "Wailicv/Wan2.2",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
@@ -1001,9 +407,45 @@
       "error": "No revision tracked"
     },
     {
-      "preset_id": "wainsfw-v140",
-      "file_path": "diffusion_models/wan_nsfw_filter_v140.safetensors",
-      "repo": "Wailicv/Wan2.2",
+      "preset_id": "hunyuan-i2v-v2-replace",
+      "file_path": "diffusion_models/hunyuan_video_v2_replace_image_to_video_720p_bf16.safetensors",
+      "repo": "Comfy-Org/HunyuanVideo_repackaged",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "hunyuan-i2v-v2-replace",
+      "file_path": "clip_vision/llava_llama3_vision.safetensors",
+      "repo": "Comfy-Org/HunyuanVideo_repackaged",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "hunyuan-i2v-v2-replace",
+      "file_path": "text_encoders/clip_l.safetensors",
+      "repo": "Comfy-Org/HunyuanVideo_repackaged",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "hunyuan-i2v-v2-replace",
+      "file_path": "text_encoders/llava_llama3_fp8_scaled.safetensors",
+      "repo": "Comfy-Org/HunyuanVideo_repackaged",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "hunyuan-i2v-v2-replace",
+      "file_path": "vae/hunyuan_video_vae_bf16.safetensors",
+      "repo": "Comfy-Org/HunyuanVideo_repackaged",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
@@ -1046,8 +488,44 @@
       "error": "No revision tracked"
     },
     {
-      "preset_id": "wan22-lightning-lora",
-      "file_path": "loras/wan22_lightning.safetensors",
+      "preset_id": "wan2-2-ti2v-5b-fp16",
+      "file_path": "diffusion_models/wan2.2_ti2v_5B_fp16.safetensors",
+      "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "wan2-2-ti2v-5b-fp16",
+      "file_path": "clip_vision/sd_image_encoder.safetensors",
+      "repo": "stabilityai/stable-diffusion-2-1",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "wan2-2-ti2v-5b-fp16",
+      "file_path": "vae/wan2.2_vae.safetensors",
+      "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "wan2-2-ti2v-5b-fp16",
+      "file_path": "text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+      "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "wan-2-2-i2v-basic",
+      "file_path": "diffusion_models/Wan2.2_I2V_14B_Q8_0.gguf",
       "repo": "Wailicv/Wan2.2",
       "tracked_revision": null,
       "latest_revision": null,
@@ -1055,25 +533,16 @@
       "error": "No revision tracked"
     },
     {
-      "preset_id": "ntrmix-v40",
-      "file_path": "diffusion_models/ntrmix_v40.safetensors",
-      "repo": "zero-clue/ntrmix",
+      "preset_id": "wan-2-2-i2v-basic",
+      "file_path": "clip_vision/sd_image_encoder.safetensors",
+      "repo": "stabilityai/stable-diffusion-2-1",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
       "error": "No revision tracked"
     },
     {
-      "preset_id": "wan-2-2-fun-control",
-      "file_path": "diffusion_models/Wan2.2_T2V_5B.safetensors",
-      "repo": "Wailicv/Wan2.2",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "wan-2-2-fun-control",
+      "preset_id": "wan-2-2-i2v-basic",
       "file_path": "text_encoders/t5xxl_fp16.safetensors",
       "repo": "Comfy-Org/sd3-t5xxlfp16",
       "tracked_revision": null,
@@ -1082,25 +551,7 @@
       "error": "No revision tracked"
     },
     {
-      "preset_id": "wan-2-2-fun-control",
-      "file_path": "diffusion_models/wan_nsfw_filter_v140.safetensors",
-      "repo": "Wailicv/Wan2.2",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "wan-2-2-fun-control",
-      "file_path": "loras/wan22_lightning.safetensors",
-      "repo": "Wailicv/Wan2.2",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "wan-2-2-fun-control",
+      "preset_id": "wan-2-2-i2v-basic",
       "file_path": "vae/wan2.2_vae.safetensors",
       "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
       "tracked_revision": null,
@@ -1146,6 +597,303 @@
     },
     {
       "preset_id": "hunyuan-i2v-v1-concat",
+      "file_path": "vae/hunyuan_video_vae_bf16.safetensors",
+      "repo": "Comfy-Org/HunyuanVideo_repackaged",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "wan-2-2-fun-control",
+      "file_path": "diffusion_models/Wan2.2_T2V_5B.safetensors",
+      "repo": "Wailicv/Wan2.2",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "wan-2-2-fun-control",
+      "file_path": "text_encoders/t5xxl_fp16.safetensors",
+      "repo": "Comfy-Org/sd3-t5xxlfp16",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "wan-2-2-fun-control",
+      "file_path": "diffusion_models/wan_nsfw_filter_v140.safetensors",
+      "repo": "Wailicv/Wan2.2",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "wan-2-2-fun-control",
+      "file_path": "loras/wan22_lightning.safetensors",
+      "repo": "Wailicv/Wan2.2",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "wan-2-2-fun-control",
+      "file_path": "vae/wan2.2_vae.safetensors",
+      "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "ltx-video-t2v",
+      "file_path": "checkpoints/ltx-video-2b-v0.9.5.safetensors",
+      "repo": "Lightricks/LTX-Video",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "ltx-video-t2v",
+      "file_path": "text_encoders/t5xxl_fp16.safetensors",
+      "repo": "Comfy-Org/mochi_preview_repackaged",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "ltx-video-t2v",
+      "file_path": "text_encoders/PixArt-XL-2-1024-MS/text_encoder/model-00001-of-00002.safetensors",
+      "repo": "PixArt-alpha/PixArt-XL-2-1024-MS",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "ltx-video-t2v",
+      "file_path": "text_encoders/PixArt-XL-2-1024-MS/text_encoder/model-00002-of-00002.safetensors",
+      "repo": "PixArt-alpha/PixArt-XL-2-1024-MS",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "wan-2-2-fun-inp",
+      "file_path": "diffusion_models/Wan2.2_T2V_5B.safetensors",
+      "repo": "Wailicv/Wan2.2",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "wan-2-2-fun-inp",
+      "file_path": "text_encoders/t5xxl_fp16.safetensors",
+      "repo": "Comfy-Org/sd3-t5xxlfp16",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "wan-2-2-fun-inp",
+      "file_path": "diffusion_models/wan_nsfw_filter_v140.safetensors",
+      "repo": "Wailicv/Wan2.2",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "wan-2-2-fun-inp",
+      "file_path": "loras/wan22_lightning.safetensors",
+      "repo": "Wailicv/Wan2.2",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "wan-2-2-fun-inp",
+      "file_path": "vae/wan2.2_vae.safetensors",
+      "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "wan-22-5b-tiv2",
+      "file_path": "diffusion_models/Wan2.2_T2V_5B.safetensors",
+      "repo": "Wailicv/Wan2.2",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "wan-22-5b-tiv2",
+      "file_path": "text_encoders/t5xxl_fp16.safetensors",
+      "repo": "Comfy-Org/sd3-t5xxlfp16",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "wan-22-5b-tiv2",
+      "file_path": "vae/wan2.2_vae.safetensors",
+      "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "ntrmix-v40",
+      "file_path": "diffusion_models/ntrmix_v40.safetensors",
+      "repo": "zero-clue/ntrmix",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "wainsfw-v140",
+      "file_path": "diffusion_models/wan_nsfw_filter_v140.safetensors",
+      "repo": "Wailicv/Wan2.2",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "wan-2-2-t2v-basic",
+      "file_path": "diffusion_models/Wan2.2_T2V_5B.safetensors",
+      "repo": "Wailicv/Wan2.2",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "wan-2-2-t2v-basic",
+      "file_path": "text_encoders/t5xxl_fp16.safetensors",
+      "repo": "Comfy-Org/sd3-t5xxlfp16",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "wan-2-2-t2v-basic",
+      "file_path": "vae/wan2.2_vae.safetensors",
+      "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "wan-2-2-s2v",
+      "file_path": "diffusion_models/Wan2.2_S2V_FP8.safetensors",
+      "repo": "Wailicv/Wan2.2",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "wan-2-2-s2v",
+      "file_path": "audio_encoders/audio_encoder.pth",
+      "repo": "Wailicv/Wan2.2",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "wan-2-2-s2v",
+      "file_path": "text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+      "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "wan-2-2-s2v",
+      "file_path": "vae/wan2.2_vae.safetensors",
+      "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "cosmos-predict2-video2world",
+      "file_path": "diffusion_models/cosmos_predict2_video2world.safetensors",
+      "repo": "nvidia/Cosmos-Predict2",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "cosmos-predict2-video2world",
+      "file_path": "vae/wan_2.1_vae.safetensors",
+      "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "cosmos-predict2-video2world",
+      "file_path": "text_encoders/oldt5_xxl_fp8_e4m3fn_scaled.safetensors",
+      "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "hunyuan-t2v-720p",
+      "file_path": "diffusion_models/hunyuan_video_t2v_720p_bf16.safetensors",
+      "repo": "Comfy-Org/HunyuanVideo_repackaged",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "hunyuan-t2v-720p",
+      "file_path": "text_encoders/clip_l.safetensors",
+      "repo": "Comfy-Org/HunyuanVideo_repackaged",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "hunyuan-t2v-720p",
+      "file_path": "text_encoders/llava_llama3_fp8_scaled.safetensors",
+      "repo": "Comfy-Org/HunyuanVideo_repackaged",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "hunyuan-t2v-720p",
       "file_path": "vae/hunyuan_video_vae_bf16.safetensors",
       "repo": "Comfy-Org/HunyuanVideo_repackaged",
       "tracked_revision": null,
@@ -1226,205 +974,124 @@
       "error": "No revision tracked"
     },
     {
-      "preset_id": "wan22-nsfw-lora",
-      "file_path": "loras/wan22_nsfw_filter.safetensors",
-      "repo": "Wailicv/Wan2.2",
+      "preset_id": "upscale-models",
+      "file_path": "upscale_models/4x_NMKD-Siax_xl.pth",
+      "repo": "Guillaume-M/4x_NMKD-Siax_xl",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
       "error": "No revision tracked"
     },
     {
-      "preset_id": "hunyuan-i2v-v2-replace",
-      "file_path": "diffusion_models/hunyuan_video_v2_replace_image_to_video_720p_bf16.safetensors",
-      "repo": "Comfy-Org/HunyuanVideo_repackaged",
+      "preset_id": "upscale-models",
+      "file_path": "upscale_models/4x_NMKD-Superscale_150k.pth",
+      "repo": "ConseilsSuprimes/4x_NMKD-Superscale_150k",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
       "error": "No revision tracked"
     },
     {
-      "preset_id": "hunyuan-i2v-v2-replace",
-      "file_path": "clip_vision/llava_llama3_vision.safetensors",
-      "repo": "Comfy-Org/HunyuanVideo_repackaged",
+      "preset_id": "upscale-models",
+      "file_path": "upscale_models/8x_NMKD-Superscale_150k.pth",
+      "repo": "ConseilsSuprimes/8x_NMKD-Superscale_150k",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
       "error": "No revision tracked"
     },
     {
-      "preset_id": "hunyuan-i2v-v2-replace",
+      "preset_id": "qwen-image-edit",
+      "file_path": "diffusion_models/qwen_image_edit_2509_fp8_e4m3fn.safetensors",
+      "repo": "Comfy-Org/Qwen-Image-Edit_ComfyUI",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "qwen-image-edit",
+      "file_path": "text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors",
+      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "qwen-image-edit",
+      "file_path": "vae/qwen_image_vae.safetensors",
+      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "qwen-image-complete",
+      "file_path": "diffusion_models/qwen_image_fp8_e4m3fn.safetensors",
+      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "qwen-image-complete",
+      "file_path": "diffusion_models/qwen_image_edit_2509_fp8_e4m3fn.safetensors",
+      "repo": "Comfy-Org/Qwen-Image-Edit_ComfyUI",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "qwen-image-complete",
+      "file_path": "text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors",
+      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "qwen-image-complete",
+      "file_path": "vae/qwen_image_vae.safetensors",
+      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "sd3-5-large-turbo",
+      "file_path": "diffusion_models/sd3_large_turbo.safetensors",
+      "repo": "stabilityai/stable-diffusion-3.5-large-turbo",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "sd3-5-large-turbo",
+      "file_path": "text_encoders/clip_g.safetensors",
+      "repo": "stabilityai/stable-diffusion-3.5-large-turbo",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "sd3-5-large-turbo",
       "file_path": "text_encoders/clip_l.safetensors",
-      "repo": "Comfy-Org/HunyuanVideo_repackaged",
+      "repo": "stabilityai/stable-diffusion-3.5-large-turbo",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
       "error": "No revision tracked"
     },
     {
-      "preset_id": "hunyuan-i2v-v2-replace",
-      "file_path": "text_encoders/llava_llama3_fp8_scaled.safetensors",
-      "repo": "Comfy-Org/HunyuanVideo_repackaged",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "hunyuan-i2v-v2-replace",
-      "file_path": "vae/hunyuan_video_vae_bf16.safetensors",
-      "repo": "Comfy-Org/HunyuanVideo_repackaged",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "ltx-video-t2v",
-      "file_path": "checkpoints/ltx-video-2b-v0.9.5.safetensors",
-      "repo": "Lightricks/LTX-Video",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "ltx-video-t2v",
-      "file_path": "text_encoders/t5xxl_fp16.safetensors",
-      "repo": "Comfy-Org/mochi_preview_repackaged",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "ltx-video-t2v",
-      "file_path": "text_encoders/PixArt-XL-2-1024-MS/text_encoder/model-00001-of-00002.safetensors",
-      "repo": "PixArt-alpha/PixArt-XL-2-1024-MS",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "ltx-video-t2v",
-      "file_path": "text_encoders/PixArt-XL-2-1024-MS/text_encoder/model-00002-of-00002.safetensors",
-      "repo": "PixArt-alpha/PixArt-XL-2-1024-MS",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "wan-2-1-lightweight-1-3b",
-      "file_path": "diffusion_models/wan2.1_t2v_1.3b.safetensors",
-      "repo": "Wailicv/WAN2.1",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "wan-2-1-lightweight-1-3b",
-      "file_path": "text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
-      "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "wan-2-1-lightweight-1-3b",
-      "file_path": "vae/wan_2.1_vae.safetensors",
-      "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "wan2-2-ti2v-5b-fp16",
-      "file_path": "diffusion_models/wan2.2_ti2v_5B_fp16.safetensors",
-      "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "wan2-2-ti2v-5b-fp16",
-      "file_path": "clip_vision/sd_image_encoder.safetensors",
-      "repo": "stabilityai/stable-diffusion-2-1",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "wan2-2-ti2v-5b-fp16",
-      "file_path": "vae/wan2.2_vae.safetensors",
-      "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "wan2-2-ti2v-5b-fp16",
-      "file_path": "text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
-      "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "wan22-s2v-fp8-scaled",
-      "file_path": "diffusion_models/Wan2.2_S2V_FP8.safetensors",
-      "repo": "Wailicv/Wan2.2",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "wan22-s2v-fp8-scaled",
-      "file_path": "audio_encoders/audio_encoder.pth",
-      "repo": "Wailicv/Wan2.2",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "wan22-s2v-fp8-scaled",
-      "file_path": "vae/wan2.2_vae.safetensors",
-      "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "wan-2-2-i2v-basic",
-      "file_path": "diffusion_models/Wan2.2_I2V_14B_Q8_0.gguf",
-      "repo": "Wailicv/Wan2.2",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "wan-2-2-i2v-basic",
-      "file_path": "clip_vision/sd_image_encoder.safetensors",
-      "repo": "stabilityai/stable-diffusion-2-1",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "wan-2-2-i2v-basic",
+      "preset_id": "sd3-5-large-turbo",
       "file_path": "text_encoders/t5xxl_fp16.safetensors",
       "repo": "Comfy-Org/sd3-t5xxlfp16",
       "tracked_revision": null,
@@ -1433,106 +1100,160 @@
       "error": "No revision tracked"
     },
     {
-      "preset_id": "wan-2-2-i2v-basic",
-      "file_path": "vae/wan2.2_vae.safetensors",
-      "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "preset_id": "realistic-vision-v6",
+      "file_path": "checkpoints/Realistic_Vision_V6.0_NV_B1.safetensors",
+      "repo": "SG161222/Realistic_Vision_V6.0_B1_noVAE",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
       "error": "No revision tracked"
     },
     {
-      "preset_id": "ltx-video-i2v",
-      "file_path": "checkpoints/ltx-video-2b-v0.9.5.safetensors",
-      "repo": "Lightricks/LTX-Video",
+      "preset_id": "sd1-5-upscale-basic",
+      "file_path": "checkpoints/v1-5-pruned-emaonly-fp16.safetensors",
+      "repo": "Comfy-Org/stable-diffusion-v1-5-archive",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
       "error": "No revision tracked"
     },
     {
-      "preset_id": "ltx-video-i2v",
-      "file_path": "clip_vision/sd_image_encoder.safetensors",
-      "repo": "stabilityai/stable-diffusion-2-1",
+      "preset_id": "sd1-5-upscale-basic",
+      "file_path": "upscale_models/4x_NMKD-Superscale_150k.pth",
+      "repo": "ConseilsSuprimes/4x_NMKD-Superscale_150k",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
       "error": "No revision tracked"
     },
     {
-      "preset_id": "ltx-video-i2v",
+      "preset_id": "sd1-5-upscale-basic",
+      "file_path": "upscale_models/4x_NMKD-Siax_xl.pth",
+      "repo": "Guillaume-M/4x_NMKD-Siax_xl",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "sd1-5-upscale-basic",
+      "file_path": "upscale_models/8x_NMKD-Superscale_150k.pth",
+      "repo": "ConseilsSuprimes/8x_NMKD-Superscale_150k",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "complete-professional-suite",
+      "file_path": "diffusion_models/sd3_large.safetensors",
+      "repo": "stabilityai/stable-diffusion-3.5-large",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "complete-professional-suite",
+      "file_path": "diffusion_models/sd3_large_turbo.safetensors",
+      "repo": "stabilityai/stable-diffusion-3.5-large-turbo",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "complete-professional-suite",
+      "file_path": "diffusion_models/flux1-dev.safetensors",
+      "repo": "black-forest-labs/FLUX.1-dev",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "complete-professional-suite",
+      "file_path": "diffusion_models/qwen_image_fp8_e4m3fn.safetensors",
+      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "complete-professional-suite",
+      "file_path": "diffusion_models/cosmos_predict2_t2i.safetensors",
+      "repo": "nvidia/Cosmos-Predict2",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "complete-professional-suite",
+      "file_path": "diffusion_models/omnigen2.safetensors",
+      "repo": "stabilityai/omnigen",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "complete-professional-suite",
       "file_path": "text_encoders/t5xxl_fp16.safetensors",
-      "repo": "Comfy-Org/mochi_preview_repackaged",
+      "repo": "Comfy-Org/sd3-t5xxlfp16",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
       "error": "No revision tracked"
     },
     {
-      "preset_id": "ltx-video-i2v",
-      "file_path": "text_encoders/PixArt-XL-2-1024-MS/text_encoder/model-00001-of-00002.safetensors",
-      "repo": "PixArt-alpha/PixArt-XL-2-1024-MS",
+      "preset_id": "complete-professional-suite",
+      "file_path": "text_encoders/clip_g.safetensors",
+      "repo": "stabilityai/stable-diffusion-3.5-large",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
       "error": "No revision tracked"
     },
     {
-      "preset_id": "ltx-video-i2v",
-      "file_path": "text_encoders/PixArt-XL-2-1024-MS/text_encoder/model-00002-of-00002.safetensors",
-      "repo": "PixArt-alpha/PixArt-XL-2-1024-MS",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "hunyuan-t2v-720p",
-      "file_path": "diffusion_models/hunyuan_video_t2v_720p_bf16.safetensors",
-      "repo": "Comfy-Org/HunyuanVideo_repackaged",
-      "tracked_revision": null,
-      "latest_revision": null,
-      "update_available": true,
-      "error": "No revision tracked"
-    },
-    {
-      "preset_id": "hunyuan-t2v-720p",
+      "preset_id": "complete-professional-suite",
       "file_path": "text_encoders/clip_l.safetensors",
-      "repo": "Comfy-Org/HunyuanVideo_repackaged",
+      "repo": "stabilityai/stable-diffusion-3.5-large",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
       "error": "No revision tracked"
     },
     {
-      "preset_id": "hunyuan-t2v-720p",
-      "file_path": "text_encoders/llava_llama3_fp8_scaled.safetensors",
-      "repo": "Comfy-Org/HunyuanVideo_repackaged",
+      "preset_id": "complete-professional-suite",
+      "file_path": "vae/ae.safetensors",
+      "repo": "black-forest-labs/FLUX.1-dev",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
       "error": "No revision tracked"
     },
     {
-      "preset_id": "hunyuan-t2v-720p",
-      "file_path": "vae/hunyuan_video_vae_bf16.safetensors",
-      "repo": "Comfy-Org/HunyuanVideo_repackaged",
+      "preset_id": "flux-schnell-basic",
+      "file_path": "diffusion_models/flux1-schnell.safetensors",
+      "repo": "black-forest-labs/FLUX.1-schnell",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
       "error": "No revision tracked"
     },
     {
-      "preset_id": "wan-2-2-fun-camera",
-      "file_path": "diffusion_models/Wan2.2_T2V_5B.safetensors",
-      "repo": "Wailicv/Wan2.2",
+      "preset_id": "flux-schnell-basic",
+      "file_path": "text_encoders/clip_l.safetensors",
+      "repo": "Comfy-Org/FLUX.1-dev",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
       "error": "No revision tracked"
     },
     {
-      "preset_id": "wan-2-2-fun-camera",
+      "preset_id": "flux-schnell-basic",
       "file_path": "text_encoders/t5xxl_fp16.safetensors",
       "repo": "Comfy-Org/sd3-t5xxlfp16",
       "tracked_revision": null,
@@ -1541,43 +1262,151 @@
       "error": "No revision tracked"
     },
     {
-      "preset_id": "wan-2-2-fun-camera",
-      "file_path": "diffusion_models/wan_nsfw_filter_v140.safetensors",
-      "repo": "Wailicv/Wan2.2",
+      "preset_id": "flux-schnell-basic",
+      "file_path": "vae/ae.safetensors",
+      "repo": "black-forest-labs/FLUX.1-schnell",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
       "error": "No revision tracked"
     },
     {
-      "preset_id": "wan-2-2-fun-camera",
-      "file_path": "loras/wan22_lightning.safetensors",
-      "repo": "Wailicv/Wan2.2",
+      "preset_id": "sd1-5-outpaint-basic",
+      "file_path": "checkpoints/v1-5-pruned-emaonly-fp16.safetensors",
+      "repo": "Comfy-Org/stable-diffusion-v1-5-archive",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
       "error": "No revision tracked"
     },
     {
-      "preset_id": "wan-2-2-fun-camera",
-      "file_path": "vae/wan2.2_vae.safetensors",
-      "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "preset_id": "realvis-xl-v4",
+      "file_path": "checkpoints/realvisxlV40.safetensors",
+      "repo": "SG161222/RealVisXL_V4.0",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
       "error": "No revision tracked"
     },
     {
-      "preset_id": "wan-22-5b-tiv2",
-      "file_path": "diffusion_models/Wan2.2_T2V_5B.safetensors",
-      "repo": "Wailicv/Wan2.2",
+      "preset_id": "realvis-xl-v4",
+      "file_path": "vae/sdxl_vae.safetensors",
+      "repo": "stabilityai/sdxl-vae-fp16-fix",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
       "error": "No revision tracked"
     },
     {
-      "preset_id": "wan-22-5b-tiv2",
+      "preset_id": "sdxl-turbo-basic",
+      "file_path": "checkpoints/sd_xl_turbo_1.0_fp16.safetensors",
+      "repo": "stabilityai/sdxl-turbo",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "sdxl-turbo-basic",
+      "file_path": "vae/sdxl_vae.safetensors",
+      "repo": "stabilityai/sdxl-vae-fp16-fix",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "qwen-image-chinese",
+      "file_path": "diffusion_models/qwen_image_fp8_e4m3fn.safetensors",
+      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "qwen-image-chinese",
+      "file_path": "text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors",
+      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "qwen-image-chinese",
+      "file_path": "vae/qwen_image_vae.safetensors",
+      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "juggernaut-xl-v8",
+      "file_path": "checkpoints/juggernautXL_v8Rundiffusion.safetensors",
+      "repo": "cagliostrolab/animagine-xl-3.0",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "juggernaut-xl-v8",
+      "file_path": "vae/sdxl_vae.safetensors",
+      "repo": "stabilityai/sdxl-vae-fp16-fix",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "sdxl-base-v1",
+      "file_path": "checkpoints/sd_xl_base_1.0.safetensors",
+      "repo": "stabilityai/stable-diffusion-xl-base-1.0",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "sdxl-base-v1",
+      "file_path": "vae/sdxl_vae.safetensors",
+      "repo": "stabilityai/sdxl-vae-fp16-fix",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "sd1-5-lora-basic",
+      "file_path": "checkpoints/v1-5-pruned-emaonly-fp16.safetensors",
+      "repo": "Comfy-Org/stable-diffusion-v1-5-archive",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "sd1-5-lora-basic",
+      "file_path": "loras/example_lora.safetensors",
+      "repo": "Comfy-Org/stable-diffusion-v1-5-archive",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "cosmos-predict2-t2i",
+      "file_path": "diffusion_models/cosmos_predict2_t2i.safetensors",
+      "repo": "nvidia/Cosmos-Predict2",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "cosmos-predict2-t2i",
       "file_path": "text_encoders/t5xxl_fp16.safetensors",
       "repo": "Comfy-Org/sd3-t5xxlfp16",
       "tracked_revision": null,
@@ -1586,25 +1415,34 @@
       "error": "No revision tracked"
     },
     {
-      "preset_id": "wan-22-5b-tiv2",
-      "file_path": "vae/wan2.2_vae.safetensors",
-      "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "preset_id": "sd1-5-image-to-image-basic",
+      "file_path": "checkpoints/v1-5-pruned-emaonly-fp16.safetensors",
+      "repo": "Comfy-Org/stable-diffusion-v1-5-archive",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
       "error": "No revision tracked"
     },
     {
-      "preset_id": "wan-2-2-t2v-basic",
-      "file_path": "diffusion_models/Wan2.2_T2V_5B.safetensors",
-      "repo": "Wailicv/Wan2.2",
+      "preset_id": "sd1-5-inpaint-basic",
+      "file_path": "checkpoints/v1-5-pruned-emaonly-fp16.safetensors",
+      "repo": "Comfy-Org/stable-diffusion-v1-5-inpainting",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
       "error": "No revision tracked"
     },
     {
-      "preset_id": "wan-2-2-t2v-basic",
+      "preset_id": "hidream-basic",
+      "file_path": "diffusion_models/hidream.safetensors",
+      "repo": "HiDream-ai/HiDream",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "hidream-basic",
       "file_path": "text_encoders/t5xxl_fp16.safetensors",
       "repo": "Comfy-Org/sd3-t5xxlfp16",
       "tracked_revision": null,
@@ -1613,36 +1451,198 @@
       "error": "No revision tracked"
     },
     {
-      "preset_id": "wan-2-2-t2v-basic",
-      "file_path": "vae/wan2.2_vae.safetensors",
-      "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "preset_id": "qwen-image-basic",
+      "file_path": "diffusion_models/qwen_image_fp8_e4m3fn.safetensors",
+      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
       "error": "No revision tracked"
     },
     {
-      "preset_id": "wan-2-1-t2v-14b",
-      "file_path": "diffusion_models/wan2.1_t2v_14b.safetensors",
-      "repo": "Wailicv/WAN2.1",
+      "preset_id": "qwen-image-basic",
+      "file_path": "text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors",
+      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
       "error": "No revision tracked"
     },
     {
-      "preset_id": "wan-2-1-t2v-14b",
-      "file_path": "text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
-      "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "preset_id": "qwen-image-basic",
+      "file_path": "vae/qwen_image_vae.safetensors",
+      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
       "error": "No revision tracked"
     },
     {
-      "preset_id": "wan-2-1-t2v-14b",
-      "file_path": "vae/wan_2.1_vae.safetensors",
-      "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "preset_id": "omnigen2-unified",
+      "file_path": "diffusion_models/omnigen2.safetensors",
+      "repo": "stabilityai/omnigen",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "omnigen2-unified",
+      "file_path": "text_encoders/t5xxl_fp16.safetensors",
+      "repo": "Comfy-Org/sd3-t5xxlfp16",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "sd1-5-text-to-image-basic",
+      "file_path": "checkpoints/v1-5-pruned-emaonly-fp16.safetensors",
+      "repo": "Comfy-Org/stable-diffusion-v1-5-archive",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "sd1-5-text-to-image-basic",
+      "file_path": "text_encoders/clip_l.safetensors",
+      "repo": "openai/clip-vit-large-patch14",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "sd3-5-medium-basic",
+      "file_path": "diffusion_models/sd3_medium.safetensors",
+      "repo": "stabilityai/stable-diffusion-3.5-medium",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "sd3-5-medium-basic",
+      "file_path": "text_encoders/clip_g.safetensors",
+      "repo": "stabilityai/stable-diffusion-3.5-medium",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "sd3-5-medium-basic",
+      "file_path": "text_encoders/clip_l.safetensors",
+      "repo": "stabilityai/stable-diffusion-3.5-medium",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "sd3-5-medium-basic",
+      "file_path": "text_encoders/t5xxl_fp16.safetensors",
+      "repo": "Comfy-Org/sd3-t5xxlfp16",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "sd3-5-large-basic",
+      "file_path": "diffusion_models/sd3_large.safetensors",
+      "repo": "stabilityai/stable-diffusion-3.5-large",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "sd3-5-large-basic",
+      "file_path": "text_encoders/clip_g.safetensors",
+      "repo": "stabilityai/stable-diffusion-3.5-large",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "sd3-5-large-basic",
+      "file_path": "text_encoders/clip_l.safetensors",
+      "repo": "stabilityai/stable-diffusion-3.5-large",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "sd3-5-large-basic",
+      "file_path": "text_encoders/t5xxl_fp16.safetensors",
+      "repo": "Comfy-Org/sd3-t5xxlfp16",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "sd1-5-multiple-loras",
+      "file_path": "checkpoints/v1-5-pruned-emaonly-fp16.safetensors",
+      "repo": "Comfy-Org/stable-diffusion-v1-5-archive",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "sd1-5-multiple-loras",
+      "file_path": "loras/character_lora.safetensors",
+      "repo": "Comfy-Org/stable-diffusion-v1-5-archive",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "sd1-5-multiple-loras",
+      "file_path": "loras/style_lora.safetensors",
+      "repo": "Comfy-Org/stable-diffusion-v1-5-archive",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "flux-dev-basic",
+      "file_path": "diffusion_models/flux1-dev.safetensors",
+      "repo": "black-forest-labs/FLUX.1-dev",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "flux-dev-basic",
+      "file_path": "text_encoders/clip_l.safetensors",
+      "repo": "Comfy-Org/FLUX.1-dev",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "flux-dev-basic",
+      "file_path": "text_encoders/t5xxl_fp16.safetensors",
+      "repo": "Comfy-Org/sd3-t5xxlfp16",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "flux-dev-basic",
+      "file_path": "vae/ae.safetensors",
+      "repo": "black-forest-labs/FLUX.1-dev",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
