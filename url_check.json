@@ -1,12 +1,12 @@
 {
-  "checked_at": "2026-04-01T07:10:53.291025Z",
+  "checked_at": "2026-04-02T07:02:55.277056Z",
   "results": [
     {
       "url": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_fp8_e4m3fn.safetensors",
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 155,
+      "response_time_ms": 167,
       "preset_id": "qwen-image-chinese",
       "file_path": "diffusion_models/qwen_image_fp8_e4m3fn.safetensors"
     },
@@ -15,7 +15,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 157,
+      "response_time_ms": 165,
       "preset_id": "qwen-image-chinese",
       "file_path": "text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors"
     },
@@ -24,7 +24,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 155,
+      "response_time_ms": 168,
       "preset_id": "qwen-image-chinese",
       "file_path": "vae/qwen_image_vae.safetensors"
     },
@@ -33,7 +33,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 154,
+      "response_time_ms": 172,
       "preset_id": "juggernaut-xl-v8",
       "file_path": "checkpoints/juggernautXL_v8Rundiffusion.safetensors"
     },
@@ -42,7 +42,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 122,
+      "response_time_ms": 150,
       "preset_id": "juggernaut-xl-v8",
       "file_path": "vae/sdxl_vae.safetensors"
     },
@@ -51,7 +51,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 75,
+      "response_time_ms": 83,
       "preset_id": "sd3-5-large-turbo",
       "file_path": "diffusion_models/sd3_large_turbo.safetensors"
     },
@@ -60,7 +60,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 70,
+      "response_time_ms": 72,
       "preset_id": "sd3-5-large-turbo",
       "file_path": "text_encoders/clip_g.safetensors"
     },
@@ -69,7 +69,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 197,
+      "response_time_ms": 73,
       "preset_id": "sd3-5-large-turbo",
       "file_path": "text_encoders/clip_l.safetensors"
     },
@@ -78,7 +78,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 130,
+      "response_time_ms": 74,
       "preset_id": "sd3-5-large-turbo",
       "file_path": "text_encoders/t5xxl_fp16.safetensors"
     },
@@ -87,7 +87,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 191,
+      "response_time_ms": 150,
       "preset_id": "sd1-5-image-to-image-basic",
       "file_path": "checkpoints/v1-5-pruned-emaonly-fp16.safetensors"
     },
@@ -96,7 +96,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 71,
+      "response_time_ms": 74,
       "preset_id": "flux-dev-basic",
       "file_path": "diffusion_models/flux1-dev.safetensors"
     },
@@ -105,7 +105,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 74,
+      "response_time_ms": 73,
       "preset_id": "flux-dev-basic",
       "file_path": "text_encoders/clip_l.safetensors"
     },
@@ -114,7 +114,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 73,
+      "response_time_ms": 75,
       "preset_id": "flux-dev-basic",
       "file_path": "text_encoders/t5xxl_fp16.safetensors"
     },
@@ -123,7 +123,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 71,
+      "response_time_ms": 74,
       "preset_id": "flux-dev-basic",
       "file_path": "vae/ae.safetensors"
     },
@@ -132,7 +132,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 83,
+      "response_time_ms": 82,
       "preset_id": "qwen-image-edit",
       "file_path": "diffusion_models/qwen_image_edit_2509_fp8_e4m3fn.safetensors"
     },
@@ -141,7 +141,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 81,
+      "response_time_ms": 78,
       "preset_id": "qwen-image-edit",
       "file_path": "text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors"
     },
@@ -150,7 +150,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 80,
+      "response_time_ms": 84,
       "preset_id": "qwen-image-edit",
       "file_path": "vae/qwen_image_vae.safetensors"
     },
@@ -159,7 +159,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 83,
+      "response_time_ms": 85,
       "preset_id": "realistic-vision-v6",
       "file_path": "checkpoints/Realistic_Vision_V6.0_NV_B1.safetensors"
     },
@@ -168,7 +168,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 82,
+      "response_time_ms": 87,
       "preset_id": "sdxl-turbo-basic",
       "file_path": "checkpoints/sd_xl_turbo_1.0_fp16.safetensors"
     },
@@ -177,7 +177,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 71,
+      "response_time_ms": 78,
       "preset_id": "sdxl-turbo-basic",
       "file_path": "vae/sdxl_vae.safetensors"
     },
@@ -186,7 +186,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 71,
+      "response_time_ms": 72,
       "preset_id": "complete-professional-suite",
       "file_path": "diffusion_models/sd3_large.safetensors"
     },
@@ -195,7 +195,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 71,
+      "response_time_ms": 75,
       "preset_id": "complete-professional-suite",
       "file_path": "diffusion_models/sd3_large_turbo.safetensors"
     },
@@ -204,7 +204,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 73,
+      "response_time_ms": 74,
       "preset_id": "complete-professional-suite",
       "file_path": "diffusion_models/flux1-dev.safetensors"
     },
@@ -213,7 +213,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 87,
+      "response_time_ms": 78,
       "preset_id": "complete-professional-suite",
       "file_path": "diffusion_models/qwen_image_fp8_e4m3fn.safetensors"
     },
@@ -222,7 +222,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 75,
+      "response_time_ms": 73,
       "preset_id": "complete-professional-suite",
       "file_path": "diffusion_models/cosmos_predict2_t2i.safetensors"
     },
@@ -231,7 +231,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 75,
+      "response_time_ms": 80,
       "preset_id": "complete-professional-suite",
       "file_path": "diffusion_models/omnigen2.safetensors"
     },
@@ -240,7 +240,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 124,
+      "response_time_ms": 75,
       "preset_id": "complete-professional-suite",
       "file_path": "text_encoders/t5xxl_fp16.safetensors"
     },
@@ -258,7 +258,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 76,
+      "response_time_ms": 72,
       "preset_id": "complete-professional-suite",
       "file_path": "text_encoders/clip_l.safetensors"
     },
@@ -267,7 +267,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 74,
+      "response_time_ms": 70,
       "preset_id": "complete-professional-suite",
       "file_path": "vae/ae.safetensors"
     },
@@ -276,7 +276,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 73,
+      "response_time_ms": 74,
       "preset_id": "omnigen2-unified",
       "file_path": "diffusion_models/omnigen2.safetensors"
     },
@@ -303,7 +303,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 72,
+      "response_time_ms": 76,
       "preset_id": "cosmos-predict2-t2i",
       "file_path": "text_encoders/t5xxl_fp16.safetensors"
     },
@@ -312,7 +312,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 174,
+      "response_time_ms": 159,
       "preset_id": "sd1-5-upscale-basic",
       "file_path": "checkpoints/v1-5-pruned-emaonly-fp16.safetensors"
     },
@@ -321,7 +321,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 72,
+      "response_time_ms": 76,
       "preset_id": "sd1-5-upscale-basic",
       "file_path": "upscale_models/4x_NMKD-Superscale_150k.pth"
     },
@@ -330,7 +330,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 76,
+      "response_time_ms": 86,
       "preset_id": "sd1-5-upscale-basic",
       "file_path": "upscale_models/4x_NMKD-Siax_xl.pth"
     },
@@ -339,7 +339,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 72,
+      "response_time_ms": 80,
       "preset_id": "sd1-5-upscale-basic",
       "file_path": "upscale_models/8x_NMKD-Superscale_150k.pth"
     },
@@ -348,7 +348,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 147,
+      "response_time_ms": 220,
       "preset_id": "sd1-5-lora-basic",
       "file_path": "checkpoints/v1-5-pruned-emaonly-fp16.safetensors"
     },
@@ -357,7 +357,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 104,
+      "response_time_ms": 86,
       "preset_id": "sd1-5-lora-basic",
       "file_path": "loras/example_lora.safetensors"
     },
@@ -366,7 +366,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 79,
+      "response_time_ms": 73,
       "preset_id": "flux-schnell-basic",
       "file_path": "diffusion_models/flux1-schnell.safetensors"
     },
@@ -375,7 +375,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 108,
+      "response_time_ms": 73,
       "preset_id": "flux-schnell-basic",
       "file_path": "text_encoders/clip_l.safetensors"
     },
@@ -384,7 +384,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 71,
+      "response_time_ms": 114,
       "preset_id": "flux-schnell-basic",
       "file_path": "text_encoders/t5xxl_fp16.safetensors"
     },
@@ -393,7 +393,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 72,
+      "response_time_ms": 76,
       "preset_id": "flux-schnell-basic",
       "file_path": "vae/ae.safetensors"
     },
@@ -411,7 +411,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 151,
+      "response_time_ms": 180,
       "preset_id": "sd1-5-outpaint-basic",
       "file_path": "checkpoints/v1-5-pruned-emaonly-fp16.safetensors"
     },
@@ -420,7 +420,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 69,
+      "response_time_ms": 78,
       "preset_id": "sd3-5-medium-basic",
       "file_path": "diffusion_models/sd3_medium.safetensors"
     },
@@ -429,7 +429,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 103,
+      "response_time_ms": 134,
       "preset_id": "sd3-5-medium-basic",
       "file_path": "text_encoders/clip_g.safetensors"
     },
@@ -438,7 +438,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 70,
+      "response_time_ms": 85,
       "preset_id": "sd3-5-medium-basic",
       "file_path": "text_encoders/clip_l.safetensors"
     },
@@ -456,7 +456,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 71,
+      "response_time_ms": 77,
       "preset_id": "hidream-basic",
       "file_path": "diffusion_models/hidream.safetensors"
     },
@@ -465,7 +465,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 72,
+      "response_time_ms": 74,
       "preset_id": "hidream-basic",
       "file_path": "text_encoders/t5xxl_fp16.safetensors"
     },
@@ -474,7 +474,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 83,
+      "response_time_ms": 89,
       "preset_id": "qwen-image-complete",
       "file_path": "diffusion_models/qwen_image_fp8_e4m3fn.safetensors"
     },
@@ -483,7 +483,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 84,
+      "response_time_ms": 81,
       "preset_id": "qwen-image-complete",
       "file_path": "diffusion_models/qwen_image_edit_2509_fp8_e4m3fn.safetensors"
     },
@@ -492,7 +492,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 76,
+      "response_time_ms": 82,
       "preset_id": "qwen-image-complete",
       "file_path": "text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors"
     },
@@ -501,7 +501,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 79,
+      "response_time_ms": 98,
       "preset_id": "qwen-image-complete",
       "file_path": "vae/qwen_image_vae.safetensors"
     },
@@ -510,7 +510,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 83,
+      "response_time_ms": 94,
       "preset_id": "qwen-image-basic",
       "file_path": "diffusion_models/qwen_image_fp8_e4m3fn.safetensors"
     },
@@ -519,7 +519,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 76,
+      "response_time_ms": 87,
       "preset_id": "qwen-image-basic",
       "file_path": "text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors"
     },
@@ -528,7 +528,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 81,
+      "response_time_ms": 80,
       "preset_id": "qwen-image-basic",
       "file_path": "vae/qwen_image_vae.safetensors"
     },
@@ -537,7 +537,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 127,
+      "response_time_ms": 99,
       "preset_id": "sd1-5-text-to-image-basic",
       "file_path": "checkpoints/v1-5-pruned-emaonly-fp16.safetensors"
     },
@@ -546,7 +546,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 85,
+      "response_time_ms": 79,
       "preset_id": "sd1-5-text-to-image-basic",
       "file_path": "text_encoders/clip_l.safetensors"
     },
@@ -555,7 +555,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 71,
+      "response_time_ms": 76,
       "preset_id": "sd3-5-large-basic",
       "file_path": "diffusion_models/sd3_large.safetensors"
     },
@@ -564,7 +564,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 74,
+      "response_time_ms": 73,
       "preset_id": "sd3-5-large-basic",
       "file_path": "text_encoders/clip_g.safetensors"
     },
@@ -573,7 +573,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 72,
+      "response_time_ms": 71,
       "preset_id": "sd3-5-large-basic",
       "file_path": "text_encoders/clip_l.safetensors"
     },
@@ -582,7 +582,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 72,
+      "response_time_ms": 87,
       "preset_id": "sd3-5-large-basic",
       "file_path": "text_encoders/t5xxl_fp16.safetensors"
     },
@@ -591,7 +591,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 84,
+      "response_time_ms": 92,
       "preset_id": "sdxl-base-v1",
       "file_path": "checkpoints/sd_xl_base_1.0.safetensors"
     },
@@ -609,7 +609,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 160,
+      "response_time_ms": 148,
       "preset_id": "sd1-5-multiple-loras",
       "file_path": "checkpoints/v1-5-pruned-emaonly-fp16.safetensors"
     },
@@ -618,7 +618,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 77,
+      "response_time_ms": 81,
       "preset_id": "sd1-5-multiple-loras",
       "file_path": "loras/character_lora.safetensors"
     },
@@ -627,7 +627,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 87,
+      "response_time_ms": 95,
       "preset_id": "sd1-5-multiple-loras",
       "file_path": "loras/style_lora.safetensors"
     },
@@ -636,7 +636,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 82,
+      "response_time_ms": 86,
       "preset_id": "realvis-xl-v4",
       "file_path": "checkpoints/realvisxlV40.safetensors"
     },
@@ -645,7 +645,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 72,
+      "response_time_ms": 78,
       "preset_id": "realvis-xl-v4",
       "file_path": "vae/sdxl_vae.safetensors"
     },
@@ -654,7 +654,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 148,
+      "response_time_ms": 158,
       "preset_id": "ace-step-music-extension",
       "file_path": "checkpoints/ace_step_v1_3.5b.safetensors"
     },
@@ -663,7 +663,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 70,
+      "response_time_ms": 74,
       "preset_id": "ace-step-music-extension",
       "file_path": "audio_encoders/ace_audio_encoder.pth"
     },
@@ -672,7 +672,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 72,
+      "response_time_ms": 71,
       "preset_id": "ace-step-music-extension",
       "file_path": "audio_encoders/music_continuation_model.pth"
     },
@@ -681,7 +681,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 170,
+      "response_time_ms": 216,
       "preset_id": "ace-step-multi-track",
       "file_path": "checkpoints/ace_step_v1_3.5b.safetensors"
     },
@@ -690,7 +690,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 75,
+      "response_time_ms": 74,
       "preset_id": "ace-step-multi-track",
       "file_path": "audio_encoders/ace_audio_encoder.pth"
     },
@@ -699,7 +699,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 70,
+      "response_time_ms": 74,
       "preset_id": "ace-step-multi-track",
       "file_path": "audio_encoders/multi_track_processor.pth"
     },
@@ -708,7 +708,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 71,
+      "response_time_ms": 73,
       "preset_id": "ace-step-multi-track",
       "file_path": "audio_encoders/instrument_separator.pth"
     },
@@ -717,7 +717,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 88,
+      "response_time_ms": 83,
       "preset_id": "complete-audio-suite",
       "file_path": "audio_encoders/musicgen_medium.safetensors"
     },
@@ -726,7 +726,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 87,
+      "response_time_ms": 83,
       "preset_id": "complete-audio-suite",
       "file_path": "audio_encoders/musicgen_small.safetensors"
     },
@@ -735,7 +735,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 70,
+      "response_time_ms": 77,
       "preset_id": "complete-audio-suite",
       "file_path": "audio_encoders/stable_audio_open.safetensors"
     },
@@ -744,7 +744,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 70,
+      "response_time_ms": 72,
       "preset_id": "complete-audio-suite",
       "file_path": "TTS/bark_model.pth"
     },
@@ -753,7 +753,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 90,
+      "response_time_ms": 91,
       "preset_id": "complete-audio-suite",
       "file_path": "TTS/parler_tts_model.safetensors"
     },
@@ -762,7 +762,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 70,
+      "response_time_ms": 73,
       "preset_id": "complete-audio-suite",
       "file_path": "audio_encoders/bark_encoder.pth"
     },
@@ -771,7 +771,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 209,
+      "response_time_ms": 143,
       "preset_id": "ace-step-v1-3-5b",
       "file_path": "checkpoints/ace_step_v1_3.5b.safetensors"
     },
@@ -780,7 +780,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 146,
+      "response_time_ms": 150,
       "preset_id": "ace-step-audio-to-audio",
       "file_path": "checkpoints/ace_step_v1_3.5b.safetensors"
     },
@@ -789,7 +789,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 72,
+      "response_time_ms": 76,
       "preset_id": "ace-step-audio-to-audio",
       "file_path": "audio_encoders/ace_audio_encoder.pth"
     },
@@ -798,7 +798,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 73,
+      "response_time_ms": 86,
       "preset_id": "cosmos-predict2-video2world",
       "file_path": "diffusion_models/cosmos_predict2_video2world.safetensors"
     },
@@ -807,7 +807,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 75,
+      "response_time_ms": 80,
       "preset_id": "cosmos-predict2-video2world",
       "file_path": "vae/wan_2.1_vae.safetensors"
     },
@@ -816,7 +816,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 94,
+      "response_time_ms": 84,
       "preset_id": "cosmos-predict2-video2world",
       "file_path": "text_encoders/oldt5_xxl_fp8_e4m3fn_scaled.safetensors"
     },
@@ -825,7 +825,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 74,
+      "response_time_ms": 75,
       "preset_id": "wan-2-2-fun-inp",
       "file_path": "diffusion_models/Wan2.2_T2V_5B.safetensors"
     },
@@ -834,7 +834,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 73,
+      "response_time_ms": 72,
       "preset_id": "wan-2-2-fun-inp",
       "file_path": "text_encoders/t5xxl_fp16.safetensors"
     },
@@ -843,7 +843,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 84,
+      "response_time_ms": 101,
       "preset_id": "wan-2-2-fun-inp",
       "file_path": "diffusion_models/wan_nsfw_filter_v140.safetensors"
     },
@@ -852,7 +852,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 73,
+      "response_time_ms": 72,
       "preset_id": "wan-2-2-fun-inp",
       "file_path": "loras/wan22_lightning.safetensors"
     },
@@ -861,7 +861,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 81,
+      "response_time_ms": 82,
       "preset_id": "wan-2-2-fun-inp",
       "file_path": "vae/wan2.2_vae.safetensors"
     },
@@ -870,7 +870,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 75,
+      "response_time_ms": 74,
       "preset_id": "wan-2-1-lightweight-1-3b",
       "file_path": "diffusion_models/wan2.1_t2v_1.3b.safetensors"
     },
@@ -879,7 +879,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 81,
+      "response_time_ms": 82,
       "preset_id": "wan-2-1-lightweight-1-3b",
       "file_path": "text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors"
     },
@@ -888,7 +888,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 86,
+      "response_time_ms": 79,
       "preset_id": "wan-2-1-lightweight-1-3b",
       "file_path": "vae/wan_2.1_vae.safetensors"
     },
@@ -897,7 +897,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 85,
+      "response_time_ms": 82,
       "preset_id": "wan2-2-ti2v-5b-fp16",
       "file_path": "diffusion_models/wan2.2_ti2v_5B_fp16.safetensors"
     },
@@ -906,7 +906,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 71,
+      "response_time_ms": 75,
       "preset_id": "wan2-2-ti2v-5b-fp16",
       "file_path": "clip_vision/sd_image_encoder.safetensors"
     },
@@ -915,7 +915,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 84,
+      "response_time_ms": 82,
       "preset_id": "wan2-2-ti2v-5b-fp16",
       "file_path": "vae/wan2.2_vae.safetensors"
     },
@@ -924,7 +924,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 81,
+      "response_time_ms": 82,
       "preset_id": "wan2-2-ti2v-5b-fp16",
       "file_path": "text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors"
     },
@@ -933,7 +933,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 74,
+      "response_time_ms": 78,
       "preset_id": "wan-2-2-s2v",
       "file_path": "diffusion_models/Wan2.2_S2V_FP8.safetensors"
     },
@@ -942,7 +942,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 84,
+      "response_time_ms": 74,
       "preset_id": "wan-2-2-s2v",
       "file_path": "audio_encoders/audio_encoder.pth"
     },
@@ -951,7 +951,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 84,
+      "response_time_ms": 123,
       "preset_id": "wan-2-2-s2v",
       "file_path": "text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors"
     },
@@ -960,7 +960,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 85,
+      "response_time_ms": 81,
       "preset_id": "wan-2-2-s2v",
       "file_path": "vae/wan2.2_vae.safetensors"
     },
@@ -969,7 +969,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 74,
+      "response_time_ms": 73,
       "preset_id": "wan-2-2-fun-camera",
       "file_path": "diffusion_models/Wan2.2_T2V_5B.safetensors"
     },
@@ -978,7 +978,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 72,
+      "response_time_ms": 73,
       "preset_id": "wan-2-2-fun-camera",
       "file_path": "text_encoders/t5xxl_fp16.safetensors"
     },
@@ -987,7 +987,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 71,
+      "response_time_ms": 76,
       "preset_id": "wan-2-2-fun-camera",
       "file_path": "diffusion_models/wan_nsfw_filter_v140.safetensors"
     },
@@ -996,7 +996,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 74,
+      "response_time_ms": 75,
       "preset_id": "wan-2-2-fun-camera",
       "file_path": "loras/wan22_lightning.safetensors"
     },
@@ -1005,7 +1005,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 90,
+      "response_time_ms": 83,
       "preset_id": "wan-2-2-fun-camera",
       "file_path": "vae/wan2.2_vae.safetensors"
     },
@@ -1014,7 +1014,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 71,
+      "response_time_ms": 75,
       "preset_id": "wan22-lightning-lora",
       "file_path": "loras/wan22_lightning.safetensors"
     },
@@ -1023,7 +1023,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 72,
+      "response_time_ms": 76,
       "preset_id": "wan-2-1-t2v-14b",
       "file_path": "diffusion_models/wan2.1_t2v_14b.safetensors"
     },
@@ -1032,7 +1032,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 94,
+      "response_time_ms": 80,
       "preset_id": "wan-2-1-t2v-14b",
       "file_path": "text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors"
     },
@@ -1041,7 +1041,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 86,
+      "response_time_ms": 75,
       "preset_id": "wan-2-1-t2v-14b",
       "file_path": "vae/wan_2.1_vae.safetensors"
     },
@@ -1050,7 +1050,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 83,
+      "response_time_ms": 81,
       "preset_id": "wan2-2-s2v-14b-fp8-scaled",
       "file_path": "diffusion_models/wan2.2_s2v_14B_fp8_scaled.safetensors"
     },
@@ -1059,7 +1059,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 92,
+      "response_time_ms": 82,
       "preset_id": "wan2-2-s2v-14b-fp8-scaled",
       "file_path": "vae/wan_2.1_vae.safetensors"
     },
@@ -1068,7 +1068,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 84,
+      "response_time_ms": 86,
       "preset_id": "wan2-2-s2v-14b-fp8-scaled",
       "file_path": "text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors"
     },
@@ -1086,7 +1086,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 82,
+      "response_time_ms": 94,
       "preset_id": "ltx-video-t2v",
       "file_path": "checkpoints/ltx-video-2b-v0.9.5.safetensors"
     },
@@ -1104,7 +1104,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 84,
+      "response_time_ms": 88,
       "preset_id": "ltx-video-t2v",
       "file_path": "text_encoders/PixArt-XL-2-1024-MS/text_encoder/model-00001-of-00002.safetensors"
     },
@@ -1113,7 +1113,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 81,
+      "response_time_ms": 121,
       "preset_id": "ltx-video-t2v",
       "file_path": "text_encoders/PixArt-XL-2-1024-MS/text_encoder/model-00002-of-00002.safetensors"
     },
@@ -1131,7 +1131,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 80,
+      "response_time_ms": 90,
       "preset_id": "hunyuan-i2v-v1-concat",
       "file_path": "clip_vision/llava_llama3_vision.safetensors"
     },
@@ -1140,458 +1140,8 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 91,
-      "preset_id": "hunyuan-i2v-v1-concat",
-      "file_path": "text_encoders/clip_l.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/text_encoders/llava_llama3_fp8_scaled.safetensors",
-      "status": "ok",
-      "status_code": 200,
-      "error": null,
-      "response_time_ms": 86,
-      "preset_id": "hunyuan-i2v-v1-concat",
-      "file_path": "text_encoders/llava_llama3_fp8_scaled.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/vae/hunyuan_video_vae_bf16.safetensors",
-      "status": "ok",
-      "status_code": 200,
-      "error": null,
-      "response_time_ms": 80,
-      "preset_id": "hunyuan-i2v-v1-concat",
-      "file_path": "vae/hunyuan_video_vae_bf16.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Wailicv/Wan2.2/resolve/main/models/Wan2.2_T2V_5B.safetensors",
-      "status": "auth_required",
-      "status_code": 401,
-      "error": null,
-      "response_time_ms": 72,
-      "preset_id": "wan-2-2-t2v-basic",
-      "file_path": "diffusion_models/Wan2.2_T2V_5B.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Comfy-Org/sd3-t5xxlfp16/resolve/main/t5xxl_fp16.safetensors",
-      "status": "auth_required",
-      "status_code": 401,
-      "error": null,
-      "response_time_ms": 74,
-      "preset_id": "wan-2-2-t2v-basic",
-      "file_path": "text_encoders/t5xxl_fp16.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors",
-      "status": "ok",
-      "status_code": 200,
-      "error": null,
-      "response_time_ms": 81,
-      "preset_id": "wan-2-2-t2v-basic",
-      "file_path": "vae/wan2.2_vae.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/diffusion_models/hunyuan_video_t2v_720p_bf16.safetensors",
-      "status": "ok",
-      "status_code": 200,
-      "error": null,
-      "response_time_ms": 80,
-      "preset_id": "hunyuan-t2v-720p",
-      "file_path": "diffusion_models/hunyuan_video_t2v_720p_bf16.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/text_encoders/clip_l.safetensors",
-      "status": "ok",
-      "status_code": 200,
-      "error": null,
-      "response_time_ms": 83,
-      "preset_id": "hunyuan-t2v-720p",
-      "file_path": "text_encoders/clip_l.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/text_encoders/llava_llama3_fp8_scaled.safetensors",
-      "status": "ok",
-      "status_code": 200,
-      "error": null,
-      "response_time_ms": 82,
-      "preset_id": "hunyuan-t2v-720p",
-      "file_path": "text_encoders/llava_llama3_fp8_scaled.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/vae/hunyuan_video_vae_bf16.safetensors",
-      "status": "ok",
-      "status_code": 200,
-      "error": null,
-      "response_time_ms": 81,
-      "preset_id": "hunyuan-t2v-720p",
-      "file_path": "vae/hunyuan_video_vae_bf16.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Wailicv/Wan2.2/resolve/main/loras/wan22_nsfw_filter.safetensors",
-      "status": "auth_required",
-      "status_code": 401,
-      "error": null,
-      "response_time_ms": 74,
-      "preset_id": "wan22-nsfw-lora",
-      "file_path": "loras/wan22_nsfw_filter.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Wailicv/Wan2.2/resolve/main/models/Wan2.2_T2V_5B.safetensors",
-      "status": "auth_required",
-      "status_code": 401,
-      "error": null,
-      "response_time_ms": 71,
-      "preset_id": "wan-22-5b-tiv2",
-      "file_path": "diffusion_models/Wan2.2_T2V_5B.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Comfy-Org/sd3-t5xxlfp16/resolve/main/t5xxl_fp16.safetensors",
-      "status": "auth_required",
-      "status_code": 401,
-      "error": null,
-      "response_time_ms": 72,
-      "preset_id": "wan-22-5b-tiv2",
-      "file_path": "text_encoders/t5xxl_fp16.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors",
-      "status": "ok",
-      "status_code": 200,
-      "error": null,
       "response_time_ms": 85,
-      "preset_id": "wan-22-5b-tiv2",
-      "file_path": "vae/wan2.2_vae.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Lightricks/LTX-Video/resolve/main/ltx-video-2b-v0.9.5.safetensors",
-      "status": "ok",
-      "status_code": 200,
-      "error": null,
-      "response_time_ms": 103,
-      "preset_id": "ltx-video-multi-frame",
-      "file_path": "checkpoints/ltx-video-2b-v0.9.5.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Comfy-Org/mochi_preview_repackaged/resolve/main/split_files/text_encoders/t5xxl_fp16.safetensors",
-      "status": "ok",
-      "status_code": 200,
-      "error": null,
-      "response_time_ms": 94,
-      "preset_id": "ltx-video-multi-frame",
-      "file_path": "text_encoders/t5xxl_fp16.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/PixArt-alpha/PixArt-XL-2-1024-MS/resolve/main/text_encoder/model-00001-of-00002.safetensors",
-      "status": "ok",
-      "status_code": 200,
-      "error": null,
-      "response_time_ms": 84,
-      "preset_id": "ltx-video-multi-frame",
-      "file_path": "text_encoders/PixArt-XL-2-1024-MS/text_encoder/model-00001-of-00002.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/PixArt-alpha/PixArt-XL-2-1024-MS/resolve/main/text_encoder/model-00002-of-00002.safetensors",
-      "status": "ok",
-      "status_code": 200,
-      "error": null,
-      "response_time_ms": 85,
-      "preset_id": "ltx-video-multi-frame",
-      "file_path": "text_encoders/PixArt-XL-2-1024-MS/text_encoder/model-00002-of-00002.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Wailicv/Wan2.2/resolve/main/models/Wan2.2_I2V_14B_Q8_0.gguf",
-      "status": "auth_required",
-      "status_code": 401,
-      "error": null,
-      "response_time_ms": 70,
-      "preset_id": "wan-2-2-i2v-basic",
-      "file_path": "diffusion_models/Wan2.2_I2V_14B_Q8_0.gguf"
-    },
-    {
-      "url": "https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/image_encoder/model.safetensors",
-      "status": "auth_required",
-      "status_code": 401,
-      "error": null,
-      "response_time_ms": 70,
-      "preset_id": "wan-2-2-i2v-basic",
-      "file_path": "clip_vision/sd_image_encoder.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Comfy-Org/sd3-t5xxlfp16/resolve/main/t5xxl_fp16.safetensors",
-      "status": "auth_required",
-      "status_code": 401,
-      "error": null,
-      "response_time_ms": 74,
-      "preset_id": "wan-2-2-i2v-basic",
-      "file_path": "text_encoders/t5xxl_fp16.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors",
-      "status": "ok",
-      "status_code": 200,
-      "error": null,
-      "response_time_ms": 81,
-      "preset_id": "wan-2-2-i2v-basic",
-      "file_path": "vae/wan2.2_vae.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Wailicv/Wan2.2/resolve/main/models/Wan2.2_S2V_FP8.safetensors",
-      "status": "auth_required",
-      "status_code": 401,
-      "error": null,
-      "response_time_ms": 70,
-      "preset_id": "wan22-s2v-fp8-scaled",
-      "file_path": "diffusion_models/Wan2.2_S2V_FP8.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Wailicv/Wan2.2/resolve/main/models/audio_encoder.pth",
-      "status": "auth_required",
-      "status_code": 401,
-      "error": null,
-      "response_time_ms": 72,
-      "preset_id": "wan22-s2v-fp8-scaled",
-      "file_path": "audio_encoders/audio_encoder.pth"
-    },
-    {
-      "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors",
-      "status": "ok",
-      "status_code": 200,
-      "error": null,
-      "response_time_ms": 87,
-      "preset_id": "wan22-s2v-fp8-scaled",
-      "file_path": "vae/wan2.2_vae.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Guillaume-M/4x_NMKD-Siax_xl/resolve/main/4x_NMKD-Siax_xl.pth",
-      "status": "auth_required",
-      "status_code": 401,
-      "error": null,
-      "response_time_ms": 72,
-      "preset_id": "upscale-models",
-      "file_path": "upscale_models/4x_NMKD-Siax_xl.pth"
-    },
-    {
-      "url": "https://huggingface.co/ConseilsSuprimes/4x_NMKD-Superscale_150k/resolve/main/4x_NMKD-Superscale_150k.pth",
-      "status": "auth_required",
-      "status_code": 401,
-      "error": null,
-      "response_time_ms": 70,
-      "preset_id": "upscale-models",
-      "file_path": "upscale_models/4x_NMKD-Superscale_150k.pth"
-    },
-    {
-      "url": "https://huggingface.co/ConseilsSuprimes/8x_NMKD-Superscale_150k/resolve/main/8x_NMKD-Superscale_150k.pth",
-      "status": "auth_required",
-      "status_code": 401,
-      "error": null,
-      "response_time_ms": 71,
-      "preset_id": "upscale-models",
-      "file_path": "upscale_models/8x_NMKD-Superscale_150k.pth"
-    },
-    {
-      "url": "https://huggingface.co/Lightricks/LTXV/resolve/main/transformers/diffusion_pytorch_model.safetensors",
-      "status": "auth_required",
-      "status_code": 401,
-      "error": null,
-      "response_time_ms": 161,
-      "preset_id": "wan-2-2-animate",
-      "file_path": "diffusion_models/LTXV_2B_FP8_SCALED.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Wailicv/Wan2.2/resolve/main/models/Wan2.2_T2V_5B.safetensors",
-      "status": "auth_required",
-      "status_code": 401,
-      "error": null,
-      "response_time_ms": 74,
-      "preset_id": "wan-2-2-animate",
-      "file_path": "diffusion_models/Wan2.2_T2V_5B.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/diffusion_models/hunyuan_video_t2v_720p_bf16.safetensors",
-      "status": "ok",
-      "status_code": 200,
-      "error": null,
-      "response_time_ms": 81,
-      "preset_id": "wan-2-2-animate",
-      "file_path": "diffusion_models/hunyuan_video_t2v_720p_bf16.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Comfy-Org/mochi_preview_repackaged/resolve/main/split_files/diffusion_models/mochi_preview_fp8_scaled.safetensors",
-      "status": "ok",
-      "status_code": 200,
-      "error": null,
-      "response_time_ms": 93,
-      "preset_id": "wan-2-2-animate",
-      "file_path": "diffusion_models/mochi_preview_fp8_scaled.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Comfy-Org/sd3-t5xxlfp16/resolve/main/t5xxl_fp16.safetensors",
-      "status": "auth_required",
-      "status_code": 401,
-      "error": null,
-      "response_time_ms": 73,
-      "preset_id": "wan-2-2-animate",
-      "file_path": "text_encoders/t5xxl_fp16.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Wailicv/Wan2.2/resolve/main/loras/wan22_lightning.safetensors",
-      "status": "auth_required",
-      "status_code": 401,
-      "error": null,
-      "response_time_ms": 73,
-      "preset_id": "wan-2-2-animate",
-      "file_path": "loras/wan22_lightning.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Guillaume-M/4x_NMKD-Siax_xl/resolve/main/4x_NMKD-Siax_xl.pth",
-      "status": "auth_required",
-      "status_code": 401,
-      "error": null,
-      "response_time_ms": 77,
-      "preset_id": "wan-2-2-animate",
-      "file_path": "upscale_models/4x_NMKD-Siax_xl.pth"
-    },
-    {
-      "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors",
-      "status": "ok",
-      "status_code": 200,
-      "error": null,
-      "response_time_ms": 86,
-      "preset_id": "wan-2-2-animate",
-      "file_path": "vae/wan2.2_vae.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Lightricks/LTX-Video/resolve/main/ltx-video-2b-v0.9.5.safetensors",
-      "status": "ok",
-      "status_code": 200,
-      "error": null,
-      "response_time_ms": 86,
-      "preset_id": "ltx-video-i2v",
-      "file_path": "checkpoints/ltx-video-2b-v0.9.5.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/image_encoder/model.safetensors",
-      "status": "auth_required",
-      "status_code": 401,
-      "error": null,
-      "response_time_ms": 86,
-      "preset_id": "ltx-video-i2v",
-      "file_path": "clip_vision/sd_image_encoder.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Comfy-Org/mochi_preview_repackaged/resolve/main/split_files/text_encoders/t5xxl_fp16.safetensors",
-      "status": "ok",
-      "status_code": 200,
-      "error": null,
-      "response_time_ms": 84,
-      "preset_id": "ltx-video-i2v",
-      "file_path": "text_encoders/t5xxl_fp16.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/PixArt-alpha/PixArt-XL-2-1024-MS/resolve/main/text_encoder/model-00001-of-00002.safetensors",
-      "status": "ok",
-      "status_code": 200,
-      "error": null,
-      "response_time_ms": 83,
-      "preset_id": "ltx-video-i2v",
-      "file_path": "text_encoders/PixArt-XL-2-1024-MS/text_encoder/model-00001-of-00002.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/PixArt-alpha/PixArt-XL-2-1024-MS/resolve/main/text_encoder/model-00002-of-00002.safetensors",
-      "status": "ok",
-      "status_code": 200,
-      "error": null,
-      "response_time_ms": 90,
-      "preset_id": "ltx-video-i2v",
-      "file_path": "text_encoders/PixArt-XL-2-1024-MS/text_encoder/model-00002-of-00002.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Wailicv/Wan2.2/resolve/main/models/wan_nsfw_filter_v140.safetensors",
-      "status": "auth_required",
-      "status_code": 401,
-      "error": null,
-      "response_time_ms": 70,
-      "preset_id": "wainsfw-v140",
-      "file_path": "diffusion_models/wan_nsfw_filter_v140.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Wailicv/Wan2.2/resolve/main/models/Wan2.2_T2V_5B.safetensors",
-      "status": "auth_required",
-      "status_code": 401,
-      "error": null,
-      "response_time_ms": 73,
-      "preset_id": "wan-2-2-fun-control",
-      "file_path": "diffusion_models/Wan2.2_T2V_5B.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Comfy-Org/sd3-t5xxlfp16/resolve/main/t5xxl_fp16.safetensors",
-      "status": "auth_required",
-      "status_code": 401,
-      "error": null,
-      "response_time_ms": 70,
-      "preset_id": "wan-2-2-fun-control",
-      "file_path": "text_encoders/t5xxl_fp16.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Wailicv/Wan2.2/resolve/main/models/wan_nsfw_filter_v140.safetensors",
-      "status": "auth_required",
-      "status_code": 401,
-      "error": null,
-      "response_time_ms": 90,
-      "preset_id": "wan-2-2-fun-control",
-      "file_path": "diffusion_models/wan_nsfw_filter_v140.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Wailicv/Wan2.2/resolve/main/loras/wan22_lightning.safetensors",
-      "status": "auth_required",
-      "status_code": 401,
-      "error": null,
-      "response_time_ms": 83,
-      "preset_id": "wan-2-2-fun-control",
-      "file_path": "loras/wan22_lightning.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors",
-      "status": "ok",
-      "status_code": 200,
-      "error": null,
-      "response_time_ms": 84,
-      "preset_id": "wan-2-2-fun-control",
-      "file_path": "vae/wan2.2_vae.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/zero-clue/ntrmix/resolve/main/v40/ntrmix_v40.safetensors",
-      "status": "auth_required",
-      "status_code": 401,
-      "error": null,
-      "response_time_ms": 73,
-      "preset_id": "ntrmix-v40",
-      "file_path": "diffusion_models/ntrmix_v40.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/diffusion_models/hunyuan_video_v2_replace_image_to_video_720p_bf16.safetensors",
-      "status": "ok",
-      "status_code": 200,
-      "error": null,
-      "response_time_ms": 88,
-      "preset_id": "hunyuan-i2v-v2-replace",
-      "file_path": "diffusion_models/hunyuan_video_v2_replace_image_to_video_720p_bf16.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/clip_vision/llava_llama3_vision.safetensors",
-      "status": "ok",
-      "status_code": 200,
-      "error": null,
-      "response_time_ms": 82,
-      "preset_id": "hunyuan-i2v-v2-replace",
-      "file_path": "clip_vision/llava_llama3_vision.safetensors"
-    },
-    {
-      "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/text_encoders/clip_l.safetensors",
-      "status": "ok",
-      "status_code": 200,
-      "error": null,
-      "response_time_ms": 97,
-      "preset_id": "hunyuan-i2v-v2-replace",
+      "preset_id": "hunyuan-i2v-v1-concat",
       "file_path": "text_encoders/clip_l.safetensors"
     },
     {
@@ -1600,6 +1150,456 @@
       "status_code": 200,
       "error": null,
       "response_time_ms": 89,
+      "preset_id": "hunyuan-i2v-v1-concat",
+      "file_path": "text_encoders/llava_llama3_fp8_scaled.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/vae/hunyuan_video_vae_bf16.safetensors",
+      "status": "ok",
+      "status_code": 200,
+      "error": null,
+      "response_time_ms": 90,
+      "preset_id": "hunyuan-i2v-v1-concat",
+      "file_path": "vae/hunyuan_video_vae_bf16.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Wailicv/Wan2.2/resolve/main/models/Wan2.2_T2V_5B.safetensors",
+      "status": "auth_required",
+      "status_code": 401,
+      "error": null,
+      "response_time_ms": 71,
+      "preset_id": "wan-2-2-t2v-basic",
+      "file_path": "diffusion_models/Wan2.2_T2V_5B.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Comfy-Org/sd3-t5xxlfp16/resolve/main/t5xxl_fp16.safetensors",
+      "status": "auth_required",
+      "status_code": 401,
+      "error": null,
+      "response_time_ms": 76,
+      "preset_id": "wan-2-2-t2v-basic",
+      "file_path": "text_encoders/t5xxl_fp16.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors",
+      "status": "ok",
+      "status_code": 200,
+      "error": null,
+      "response_time_ms": 81,
+      "preset_id": "wan-2-2-t2v-basic",
+      "file_path": "vae/wan2.2_vae.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/diffusion_models/hunyuan_video_t2v_720p_bf16.safetensors",
+      "status": "ok",
+      "status_code": 200,
+      "error": null,
+      "response_time_ms": 83,
+      "preset_id": "hunyuan-t2v-720p",
+      "file_path": "diffusion_models/hunyuan_video_t2v_720p_bf16.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/text_encoders/clip_l.safetensors",
+      "status": "ok",
+      "status_code": 200,
+      "error": null,
+      "response_time_ms": 90,
+      "preset_id": "hunyuan-t2v-720p",
+      "file_path": "text_encoders/clip_l.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/text_encoders/llava_llama3_fp8_scaled.safetensors",
+      "status": "ok",
+      "status_code": 200,
+      "error": null,
+      "response_time_ms": 86,
+      "preset_id": "hunyuan-t2v-720p",
+      "file_path": "text_encoders/llava_llama3_fp8_scaled.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/vae/hunyuan_video_vae_bf16.safetensors",
+      "status": "ok",
+      "status_code": 200,
+      "error": null,
+      "response_time_ms": 90,
+      "preset_id": "hunyuan-t2v-720p",
+      "file_path": "vae/hunyuan_video_vae_bf16.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Wailicv/Wan2.2/resolve/main/loras/wan22_nsfw_filter.safetensors",
+      "status": "auth_required",
+      "status_code": 401,
+      "error": null,
+      "response_time_ms": 78,
+      "preset_id": "wan22-nsfw-lora",
+      "file_path": "loras/wan22_nsfw_filter.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Wailicv/Wan2.2/resolve/main/models/Wan2.2_T2V_5B.safetensors",
+      "status": "auth_required",
+      "status_code": 401,
+      "error": null,
+      "response_time_ms": 75,
+      "preset_id": "wan-22-5b-tiv2",
+      "file_path": "diffusion_models/Wan2.2_T2V_5B.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Comfy-Org/sd3-t5xxlfp16/resolve/main/t5xxl_fp16.safetensors",
+      "status": "auth_required",
+      "status_code": 401,
+      "error": null,
+      "response_time_ms": 78,
+      "preset_id": "wan-22-5b-tiv2",
+      "file_path": "text_encoders/t5xxl_fp16.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors",
+      "status": "ok",
+      "status_code": 200,
+      "error": null,
+      "response_time_ms": 81,
+      "preset_id": "wan-22-5b-tiv2",
+      "file_path": "vae/wan2.2_vae.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Lightricks/LTX-Video/resolve/main/ltx-video-2b-v0.9.5.safetensors",
+      "status": "ok",
+      "status_code": 200,
+      "error": null,
+      "response_time_ms": 83,
+      "preset_id": "ltx-video-multi-frame",
+      "file_path": "checkpoints/ltx-video-2b-v0.9.5.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Comfy-Org/mochi_preview_repackaged/resolve/main/split_files/text_encoders/t5xxl_fp16.safetensors",
+      "status": "ok",
+      "status_code": 200,
+      "error": null,
+      "response_time_ms": 85,
+      "preset_id": "ltx-video-multi-frame",
+      "file_path": "text_encoders/t5xxl_fp16.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/PixArt-alpha/PixArt-XL-2-1024-MS/resolve/main/text_encoder/model-00001-of-00002.safetensors",
+      "status": "ok",
+      "status_code": 200,
+      "error": null,
+      "response_time_ms": 81,
+      "preset_id": "ltx-video-multi-frame",
+      "file_path": "text_encoders/PixArt-XL-2-1024-MS/text_encoder/model-00001-of-00002.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/PixArt-alpha/PixArt-XL-2-1024-MS/resolve/main/text_encoder/model-00002-of-00002.safetensors",
+      "status": "ok",
+      "status_code": 200,
+      "error": null,
+      "response_time_ms": 86,
+      "preset_id": "ltx-video-multi-frame",
+      "file_path": "text_encoders/PixArt-XL-2-1024-MS/text_encoder/model-00002-of-00002.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Wailicv/Wan2.2/resolve/main/models/Wan2.2_I2V_14B_Q8_0.gguf",
+      "status": "auth_required",
+      "status_code": 401,
+      "error": null,
+      "response_time_ms": 75,
+      "preset_id": "wan-2-2-i2v-basic",
+      "file_path": "diffusion_models/Wan2.2_I2V_14B_Q8_0.gguf"
+    },
+    {
+      "url": "https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/image_encoder/model.safetensors",
+      "status": "auth_required",
+      "status_code": 401,
+      "error": null,
+      "response_time_ms": 75,
+      "preset_id": "wan-2-2-i2v-basic",
+      "file_path": "clip_vision/sd_image_encoder.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Comfy-Org/sd3-t5xxlfp16/resolve/main/t5xxl_fp16.safetensors",
+      "status": "auth_required",
+      "status_code": 401,
+      "error": null,
+      "response_time_ms": 91,
+      "preset_id": "wan-2-2-i2v-basic",
+      "file_path": "text_encoders/t5xxl_fp16.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors",
+      "status": "ok",
+      "status_code": 200,
+      "error": null,
+      "response_time_ms": 83,
+      "preset_id": "wan-2-2-i2v-basic",
+      "file_path": "vae/wan2.2_vae.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Wailicv/Wan2.2/resolve/main/models/Wan2.2_S2V_FP8.safetensors",
+      "status": "auth_required",
+      "status_code": 401,
+      "error": null,
+      "response_time_ms": 74,
+      "preset_id": "wan22-s2v-fp8-scaled",
+      "file_path": "diffusion_models/Wan2.2_S2V_FP8.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Wailicv/Wan2.2/resolve/main/models/audio_encoder.pth",
+      "status": "auth_required",
+      "status_code": 401,
+      "error": null,
+      "response_time_ms": 74,
+      "preset_id": "wan22-s2v-fp8-scaled",
+      "file_path": "audio_encoders/audio_encoder.pth"
+    },
+    {
+      "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors",
+      "status": "ok",
+      "status_code": 200,
+      "error": null,
+      "response_time_ms": 81,
+      "preset_id": "wan22-s2v-fp8-scaled",
+      "file_path": "vae/wan2.2_vae.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Guillaume-M/4x_NMKD-Siax_xl/resolve/main/4x_NMKD-Siax_xl.pth",
+      "status": "auth_required",
+      "status_code": 401,
+      "error": null,
+      "response_time_ms": 73,
+      "preset_id": "upscale-models",
+      "file_path": "upscale_models/4x_NMKD-Siax_xl.pth"
+    },
+    {
+      "url": "https://huggingface.co/ConseilsSuprimes/4x_NMKD-Superscale_150k/resolve/main/4x_NMKD-Superscale_150k.pth",
+      "status": "auth_required",
+      "status_code": 401,
+      "error": null,
+      "response_time_ms": 75,
+      "preset_id": "upscale-models",
+      "file_path": "upscale_models/4x_NMKD-Superscale_150k.pth"
+    },
+    {
+      "url": "https://huggingface.co/ConseilsSuprimes/8x_NMKD-Superscale_150k/resolve/main/8x_NMKD-Superscale_150k.pth",
+      "status": "auth_required",
+      "status_code": 401,
+      "error": null,
+      "response_time_ms": 72,
+      "preset_id": "upscale-models",
+      "file_path": "upscale_models/8x_NMKD-Superscale_150k.pth"
+    },
+    {
+      "url": "https://huggingface.co/Lightricks/LTXV/resolve/main/transformers/diffusion_pytorch_model.safetensors",
+      "status": "auth_required",
+      "status_code": 401,
+      "error": null,
+      "response_time_ms": 74,
+      "preset_id": "wan-2-2-animate",
+      "file_path": "diffusion_models/LTXV_2B_FP8_SCALED.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Wailicv/Wan2.2/resolve/main/models/Wan2.2_T2V_5B.safetensors",
+      "status": "auth_required",
+      "status_code": 401,
+      "error": null,
+      "response_time_ms": 80,
+      "preset_id": "wan-2-2-animate",
+      "file_path": "diffusion_models/Wan2.2_T2V_5B.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/diffusion_models/hunyuan_video_t2v_720p_bf16.safetensors",
+      "status": "ok",
+      "status_code": 200,
+      "error": null,
+      "response_time_ms": 86,
+      "preset_id": "wan-2-2-animate",
+      "file_path": "diffusion_models/hunyuan_video_t2v_720p_bf16.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Comfy-Org/mochi_preview_repackaged/resolve/main/split_files/diffusion_models/mochi_preview_fp8_scaled.safetensors",
+      "status": "ok",
+      "status_code": 200,
+      "error": null,
+      "response_time_ms": 147,
+      "preset_id": "wan-2-2-animate",
+      "file_path": "diffusion_models/mochi_preview_fp8_scaled.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Comfy-Org/sd3-t5xxlfp16/resolve/main/t5xxl_fp16.safetensors",
+      "status": "auth_required",
+      "status_code": 401,
+      "error": null,
+      "response_time_ms": 74,
+      "preset_id": "wan-2-2-animate",
+      "file_path": "text_encoders/t5xxl_fp16.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Wailicv/Wan2.2/resolve/main/loras/wan22_lightning.safetensors",
+      "status": "auth_required",
+      "status_code": 401,
+      "error": null,
+      "response_time_ms": 77,
+      "preset_id": "wan-2-2-animate",
+      "file_path": "loras/wan22_lightning.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Guillaume-M/4x_NMKD-Siax_xl/resolve/main/4x_NMKD-Siax_xl.pth",
+      "status": "auth_required",
+      "status_code": 401,
+      "error": null,
+      "response_time_ms": 72,
+      "preset_id": "wan-2-2-animate",
+      "file_path": "upscale_models/4x_NMKD-Siax_xl.pth"
+    },
+    {
+      "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors",
+      "status": "ok",
+      "status_code": 200,
+      "error": null,
+      "response_time_ms": 81,
+      "preset_id": "wan-2-2-animate",
+      "file_path": "vae/wan2.2_vae.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Lightricks/LTX-Video/resolve/main/ltx-video-2b-v0.9.5.safetensors",
+      "status": "ok",
+      "status_code": 200,
+      "error": null,
+      "response_time_ms": 83,
+      "preset_id": "ltx-video-i2v",
+      "file_path": "checkpoints/ltx-video-2b-v0.9.5.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/image_encoder/model.safetensors",
+      "status": "auth_required",
+      "status_code": 401,
+      "error": null,
+      "response_time_ms": 71,
+      "preset_id": "ltx-video-i2v",
+      "file_path": "clip_vision/sd_image_encoder.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Comfy-Org/mochi_preview_repackaged/resolve/main/split_files/text_encoders/t5xxl_fp16.safetensors",
+      "status": "ok",
+      "status_code": 200,
+      "error": null,
+      "response_time_ms": 92,
+      "preset_id": "ltx-video-i2v",
+      "file_path": "text_encoders/t5xxl_fp16.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/PixArt-alpha/PixArt-XL-2-1024-MS/resolve/main/text_encoder/model-00001-of-00002.safetensors",
+      "status": "ok",
+      "status_code": 200,
+      "error": null,
+      "response_time_ms": 84,
+      "preset_id": "ltx-video-i2v",
+      "file_path": "text_encoders/PixArt-XL-2-1024-MS/text_encoder/model-00001-of-00002.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/PixArt-alpha/PixArt-XL-2-1024-MS/resolve/main/text_encoder/model-00002-of-00002.safetensors",
+      "status": "ok",
+      "status_code": 200,
+      "error": null,
+      "response_time_ms": 85,
+      "preset_id": "ltx-video-i2v",
+      "file_path": "text_encoders/PixArt-XL-2-1024-MS/text_encoder/model-00002-of-00002.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Wailicv/Wan2.2/resolve/main/models/wan_nsfw_filter_v140.safetensors",
+      "status": "auth_required",
+      "status_code": 401,
+      "error": null,
+      "response_time_ms": 77,
+      "preset_id": "wainsfw-v140",
+      "file_path": "diffusion_models/wan_nsfw_filter_v140.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Wailicv/Wan2.2/resolve/main/models/Wan2.2_T2V_5B.safetensors",
+      "status": "auth_required",
+      "status_code": 401,
+      "error": null,
+      "response_time_ms": 76,
+      "preset_id": "wan-2-2-fun-control",
+      "file_path": "diffusion_models/Wan2.2_T2V_5B.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Comfy-Org/sd3-t5xxlfp16/resolve/main/t5xxl_fp16.safetensors",
+      "status": "auth_required",
+      "status_code": 401,
+      "error": null,
+      "response_time_ms": 72,
+      "preset_id": "wan-2-2-fun-control",
+      "file_path": "text_encoders/t5xxl_fp16.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Wailicv/Wan2.2/resolve/main/models/wan_nsfw_filter_v140.safetensors",
+      "status": "auth_required",
+      "status_code": 401,
+      "error": null,
+      "response_time_ms": 76,
+      "preset_id": "wan-2-2-fun-control",
+      "file_path": "diffusion_models/wan_nsfw_filter_v140.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Wailicv/Wan2.2/resolve/main/loras/wan22_lightning.safetensors",
+      "status": "auth_required",
+      "status_code": 401,
+      "error": null,
+      "response_time_ms": 74,
+      "preset_id": "wan-2-2-fun-control",
+      "file_path": "loras/wan22_lightning.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors",
+      "status": "ok",
+      "status_code": 200,
+      "error": null,
+      "response_time_ms": 79,
+      "preset_id": "wan-2-2-fun-control",
+      "file_path": "vae/wan2.2_vae.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/zero-clue/ntrmix/resolve/main/v40/ntrmix_v40.safetensors",
+      "status": "auth_required",
+      "status_code": 401,
+      "error": null,
+      "response_time_ms": 74,
+      "preset_id": "ntrmix-v40",
+      "file_path": "diffusion_models/ntrmix_v40.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/diffusion_models/hunyuan_video_v2_replace_image_to_video_720p_bf16.safetensors",
+      "status": "ok",
+      "status_code": 200,
+      "error": null,
+      "response_time_ms": 83,
+      "preset_id": "hunyuan-i2v-v2-replace",
+      "file_path": "diffusion_models/hunyuan_video_v2_replace_image_to_video_720p_bf16.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/clip_vision/llava_llama3_vision.safetensors",
+      "status": "ok",
+      "status_code": 200,
+      "error": null,
+      "response_time_ms": 88,
+      "preset_id": "hunyuan-i2v-v2-replace",
+      "file_path": "clip_vision/llava_llama3_vision.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/text_encoders/clip_l.safetensors",
+      "status": "ok",
+      "status_code": 200,
+      "error": null,
+      "response_time_ms": 85,
+      "preset_id": "hunyuan-i2v-v2-replace",
+      "file_path": "text_encoders/clip_l.safetensors"
+    },
+    {
+      "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/text_encoders/llava_llama3_fp8_scaled.safetensors",
+      "status": "ok",
+      "status_code": 200,
+      "error": null,
+      "response_time_ms": 90,
       "preset_id": "hunyuan-i2v-v2-replace",
       "file_path": "text_encoders/llava_llama3_fp8_scaled.safetensors"
     },
@@ -1608,7 +1608,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 84,
+      "response_time_ms": 86,
       "preset_id": "hunyuan-i2v-v2-replace",
       "file_path": "vae/hunyuan_video_vae_bf16.safetensors"
     },
@@ -1617,7 +1617,7 @@
       "status": "auth_required",
       "status_code": 401,
       "error": null,
-      "response_time_ms": 75,
+      "response_time_ms": 74,
       "preset_id": "wan-2-1-i2v-14b",
       "file_path": "diffusion_models/wan2.1_i2v_14b.safetensors"
     },
@@ -1635,7 +1635,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 83,
+      "response_time_ms": 82,
       "preset_id": "wan-2-1-i2v-14b",
       "file_path": "text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors"
     },
@@ -1644,7 +1644,7 @@
       "status": "ok",
       "status_code": 200,
       "error": null,
-      "response_time_ms": 107,
+      "response_time_ms": 83,
       "preset_id": "wan-2-1-i2v-14b",
       "file_path": "vae/wan_2.1_vae.safetensors"
     }
