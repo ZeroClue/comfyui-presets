@@ -93,6 +93,14 @@ def main():
     print(f"Generated registry.json with {registry['stats']['total']} presets")
     print(f"By category: {registry['stats']['by_category']}")
 
+    # Also generate model_index.json
+    from generate_model_index import generate_model_index
+    index = generate_model_index(args.presets_dir)
+    index_path = args.output.parent / "model_index.json"
+    with open(index_path, 'w') as f:
+        json.dump(index, f, indent=2)
+    print(f"Generated model_index.json with {len(index['mappings'])} mappings")
+
 
 if __name__ == "__main__":
     main()

@@ -12,7 +12,7 @@ Centralized preset management for ComfyUI models. Dashboard pods consume `regist
 # Validate all preset YAML files
 python scripts/validate.py
 
-# Generate registry.json from presets/
+# Generate registry.json and model_index.json from presets/
 python scripts/generate_registry.py
 
 # Check URL health (requires HF_TOKEN for gated models)
@@ -27,6 +27,7 @@ HF_TOKEN=xxx python scripts/scan_versions.py
 - `presets/` - YAML preset files organized by type (image/, video/, audio/)
 - `schema.yaml` - JSON Schema for preset validation
 - `registry.json` - Pre-computed metadata for fast dashboard loading
+- `model_index.json` - Maps model file paths to preset IDs (consumed by ComfyUI-docker workflow scanner)
 - `scripts/` - Validation, generation, and scanning tools
 
 ## Preset Schema
@@ -47,5 +48,5 @@ See `schema.yaml` for full specification.
 
 1. Create YAML in `presets/{type}/{preset-id}/preset.yaml`
 2. Run `python scripts/validate.py`
-3. Run `python scripts/generate_registry.py`
-4. Commit both preset and updated registry.json
+3. Run `python scripts/generate_registry.py` (generates both registry.json and model_index.json)
+4. Commit preset, updated registry.json, and model_index.json
