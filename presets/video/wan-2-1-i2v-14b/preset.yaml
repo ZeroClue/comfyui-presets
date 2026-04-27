@@ -4,7 +4,7 @@ name: WAN 2.1 I2V 14B
 category: Video Generation
 type: video
 description: WAN 2.1 image-to-video 14B parameter model optimized for 8GB VRAM
-download_size: 13.5GB
+download_size: 15GB
 files:
 - path: diffusion_models/wan2.1_i2v_14b.safetensors
   url: https://huggingface.co/Wailicv/WAN2.1/resolve/main/models/wan2.1_i2v_14b.safetensors
@@ -24,7 +24,7 @@ files:
     revision: null
 - path: text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors
   url: https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors
-  size: 6.74GB
+  size: 6.3GB
   optional: false
   source:
     type: huggingface
@@ -32,7 +32,7 @@ files:
     revision: null
 - path: vae/wan_2.1_vae.safetensors
   url: https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors
-  size: 254MB
+  size: 242MB
   optional: false
   source:
     type: huggingface
@@ -50,4 +50,4 @@ created: '2026-02-20T16:36:33.860663Z'
 updated: '2026-02-20T16:36:33.860663Z'
 requirements:
   vram_gb: 24
-  disk_gb: 13.5
+  disk_gb: 15.3

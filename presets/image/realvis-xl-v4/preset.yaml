@@ -4,11 +4,11 @@ name: RealVis XL v4
 category: Image Generation
 type: image
 description: RealVis XL v4 for realistic images
-download_size: 6.9GB
+download_size: 6.8GB
 files:
 - path: checkpoints/realvisxlV40.safetensors
   url: https://huggingface.co/SG161222/RealVisXL_V4.0/resolve/main/RealVisXL_V4.0.safetensors
-  size: 6.9GB
+  size: 6.5GB
   optional: false
   source:
     type: huggingface
@@ -31,4 +31,4 @@ use_case: Realistic image generation
 created: '2026-02-20T16:36:33.792429Z'
 updated: '2026-02-20T16:36:33.792429Z'
 requirements:
-  disk_gb: 6.9
+  disk_gb: 6.8

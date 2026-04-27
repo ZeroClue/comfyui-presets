@@ -4,7 +4,7 @@ name: SD1.5 Multiple LoRAs
 category: Image Generation
 type: image
 description: Stable Diffusion 1.5 multiple LoRA workflow from ComfyUI documentation
-download_size: 4.3GB
+download_size: 4.5GB
 files:
 - path: checkpoints/v1-5-pruned-emaonly-fp16.safetensors
   url: https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-archive/blob/main/v1-5-pruned-emaonly-fp16.safetensors
@@ -16,7 +16,7 @@ files:
     revision: null
 - path: loras/character_lora.safetensors
   url: https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/resolve/main/pytorch_lora_weights.safetensors
-  size: 150MB
+  size: 128MB
   optional: false
   source:
     type: huggingface
@@ -24,7 +24,7 @@ files:
     revision: null
 - path: loras/style_lora.safetensors
   url: https://huggingface.co/latent-consistency/lcm-lora-sdxl/resolve/main/pytorch_lora_weights.safetensors
-  size: 150MB
+  size: 376MB
   optional: false
   source:
     type: huggingface
@@ -39,4 +39,4 @@ use_case: Combine multiple LoRA models for complex style and character combinati
 created: '2026-02-20T16:36:33.776019Z'
 updated: '2026-02-20T16:36:33.776019Z'
 requirements:
-  disk_gb: 4.3
+  disk_gb: 4.5

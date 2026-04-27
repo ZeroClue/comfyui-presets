@@ -1,20 +1,12 @@
-id: qwen-image-complete
-version: 2.0.0
-name: Qwen Image Complete
+id: qwen-image-edit-2511
+version: 1.0.0
+name: Qwen Image Edit 2511
 category: Image Generation
 type: image
-description: Complete Qwen Image suite — 2512 text-to-image and Edit 2511 image editing
-  with Lightning LoRA
-download_size: 52GB
+description: Qwen Image Edit 2511 — instruction-based image editing with Lightning
+  LoRA (4-step/8-step)
+download_size: 30GB
 files:
-- path: diffusion_models/qwen_image_2512_fp8_e4m3fn.safetensors
-  url: https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_2512_fp8_e4m3fn.safetensors
-  size: 19GB
-  optional: false
-  source:
-    type: huggingface
-    repo: Comfy-Org/Qwen-Image_ComfyUI
-    revision: null
 - path: diffusion_models/qwen_image_edit_2511_fp8mixed.safetensors
   url: https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_edit_2511_fp8mixed.safetensors
   size: 19GB
@@ -39,22 +31,6 @@ files:
     type: huggingface
     repo: Comfy-Org/Qwen-Image_ComfyUI
     revision: null
-- path: loras/Qwen-Image-2512-Lightning-4steps-V1.0-fp32.safetensors
-  url: https://huggingface.co/lightx2v/Qwen-Image-2512-Lightning/resolve/main/Qwen-Image-2512-Lightning-4steps-V1.0-fp32.safetensors
-  size: 1.6GB
-  optional: true
-  source:
-    type: huggingface
-    repo: lightx2v/Qwen-Image-2512-Lightning
-    revision: null
-- path: loras/Qwen-Image-2512-Lightning-8steps-V1.0-fp32.safetensors
-  url: https://huggingface.co/lightx2v/Qwen-Image-2512-Lightning/resolve/main/Qwen-Image-2512-Lightning-8steps-V1.0-fp32.safetensors
-  size: 1.6GB
-  optional: true
-  source:
-    type: huggingface
-    repo: lightx2v/Qwen-Image-2512-Lightning
-    revision: null
 - path: loras/Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors
   url: https://huggingface.co/lightx2v/Qwen-Image-Edit-2511-Lightning/resolve/main/Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors
   size: 810MB
@@ -73,17 +49,14 @@ files:
     revision: null
 tags:
 - qwen
-- '2512'
 - '2511'
-- complete
-- image
 - edit
+- image
 - lightning
 - lora
-use_case: Complete Qwen image generation (2512) and editing (2511) with Lightning
-  LoRA
-created: '2026-02-20T16:36:33.799839Z'
+use_case: Instruction-based image editing with fast Lightning LoRA inference
+created: '2026-04-27T12:00:00.000000Z'
 updated: '2026-04-27T12:00:00.000000Z'
 requirements:
   vram_gb: 16
-  disk_gb: 51.7
+  disk_gb: 29.5

@@ -15,6 +15,10 @@ python scripts/validate.py
 # Generate registry.json and model_index.json from presets/
 python scripts/generate_registry.py
 
+# Fetch actual file sizes from HuggingFace (HEAD requests, updates YAML + recalculates totals)
+python scripts/fetch_sizes.py            # Update in place
+python scripts/fetch_sizes.py --dry-run  # Preview changes only
+
 # Check URL health (requires HF_TOKEN for gated models)
 HF_TOKEN=xxx python scripts/check_urls.py
 
@@ -48,5 +52,12 @@ See `schema.yaml` for full specification.
 
 1. Create YAML in `presets/{type}/{preset-id}/preset.yaml`
 2. Run `python scripts/validate.py`
-3. Run `python scripts/generate_registry.py` (generates both registry.json and model_index.json)
-4. Commit preset, updated registry.json, and model_index.json
+3. Run `python scripts/fetch_sizes.py` to get actual file sizes from HF (optional but recommended)
+4. Run `python scripts/generate_registry.py` (generates both registry.json and model_index.json)
+5. Commit preset, updated registry.json, and model_index.json
+
+Note: `fetch_sizes.py` uses HEAD requests to get Content-Length from HF LFS. It skips files from gated repos that return redirect pages (detected when actual size <1MB but estimate >100MB). Gated repos require `HF_TOKEN` in the dashboard settings, not in this script.
+
+- **Avoid duplicate presets**: When updating an old preset to a new model version, delete the old one if creating a new preset for the updated model. Don't have both coexist.
+- **Use `text_encoders/` for preset file paths** (not `clip/`) — matches HF source structure and ComfyUI official workflows. Both directories work in ComfyUI but `text_encoders/` is the convention for presets.
+- **YAML numeric tags must be quoted**: Use `'2512'` not `2512` in tags — YAML parses unquoted numbers as integers, but the schema requires strings.

@@ -5,11 +5,11 @@ category: Video Generation
 type: video
 description: Complete WAN 2.2 Text-Image-to-Video workflow with all required components
   based on official ComfyUI examples
-download_size: ~15GB
+download_size: 18GB
 files:
 - path: diffusion_models/wan2.2_ti2v_5B_fp16.safetensors
   url: https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_ti2v_5B_fp16.safetensors
-  size: 9.31GB (9536MB)
+  size: 9.3GB
   optional: false
   source:
     type: huggingface
@@ -25,7 +25,7 @@ files:
     revision: null
 - path: vae/wan2.2_vae.safetensors
   url: https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors
-  size: 1.41GB
+  size: 1.3GB
   optional: false
   source:
     type: huggingface
@@ -33,7 +33,7 @@ files:
     revision: null
 - path: text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors
   url: https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors
-  size: 6.74GB
+  size: 6.3GB
   optional: false
   source:
     type: huggingface
@@ -51,4 +51,4 @@ use_case: Creating videos from text and images using complete WAN 2.2 TI2V workf
 created: '2026-02-20T16:36:33.851025Z'
 updated: '2026-02-20T16:36:33.851025Z'
 requirements:
-  disk_gb: 15.0
+  disk_gb: 18.5

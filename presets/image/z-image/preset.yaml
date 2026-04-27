@@ -1,0 +1,44 @@
+id: z-image
+version: 1.0.0
+name: Z-Image
+category: Image Generation
+type: image
+description: Z-Image — high-quality image generation with Lumina2 architecture
+download_size: 19GB
+files:
+- path: diffusion_models/z_image_bf16.safetensors
+  url: https://huggingface.co/Comfy-Org/z_image/resolve/main/split_files/diffusion_models/z_image_bf16.safetensors
+  size: 11GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/z_image
+    revision: null
+- path: text_encoders/qwen_3_4b.safetensors
+  url: https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/text_encoders/qwen_3_4b.safetensors
+  size: 7.5GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/z_image_turbo
+    revision: null
+- path: vae/ae.safetensors
+  url: https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/vae/ae.safetensors
+  size: 320MB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/z_image_turbo
+    revision: null
+tags:
+- z-image
+- lumina2
+- quality
+- image
+- alibaba
+use_case: High-quality image generation with Lumina2 CLIP architecture
+created: '2026-04-27T12:00:00.000000Z'
+updated: '2026-04-27T12:00:00.000000Z'
+requirements:
+  vram_gb: 12
+  disk_gb: 18.8

@@ -4,11 +4,11 @@ name: Realistic Vision v6.0
 category: Image Generation
 type: image
 description: Realistic Vision v6.0 for SD 1.5
-download_size: 5.1GB
+download_size: 4GB
 files:
 - path: checkpoints/Realistic_Vision_V6.0_NV_B1.safetensors
   url: https://huggingface.co/SG161222/Realistic_Vision_V6.0_B1_noVAE/resolve/main/Realistic_Vision_V6.0_NV_B1.safetensors
-  size: 5.1GB
+  size: 4GB
   optional: false
   source:
     type: huggingface
@@ -24,4 +24,4 @@ created: '2026-02-20T16:36:33.790405Z'
 updated: '2026-02-20T16:36:33.790405Z'
 requirements:
   vram_gb: 6
-  disk_gb: 5.1
+  disk_gb: 4.0

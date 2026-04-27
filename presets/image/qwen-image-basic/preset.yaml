@@ -4,7 +4,7 @@ name: Qwen 20B Image
 category: Image Generation
 type: image
 description: Qwen 20B parameter image generation model
-download_size: 38GB
+download_size: 28GB
 files:
 - path: diffusion_models/qwen_image_fp8_e4m3fn.safetensors
   url: https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_fp8_e4m3fn.safetensors
@@ -16,7 +16,7 @@ files:
     revision: null
 - path: text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors
   url: https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors
-  size: 14GB
+  size: 8.7GB
   optional: false
   source:
     type: huggingface
@@ -24,7 +24,7 @@ files:
     revision: null
 - path: vae/qwen_image_vae.safetensors
   url: https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors
-  size: 5GB
+  size: 242MB
   optional: false
   source:
     type: huggingface
@@ -40,4 +40,4 @@ use_case: Advanced image generation with superior text rendering
 created: '2026-02-20T16:36:33.794634Z'
 updated: '2026-02-20T16:36:33.794634Z'
 requirements:
-  disk_gb: 38.0
+  disk_gb: 27.9

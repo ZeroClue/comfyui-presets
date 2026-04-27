@@ -4,11 +4,11 @@ name: SDXL Turbo Basic
 category: Image Generation
 type: image
 description: Stable Diffusion XL Turbo for real-time image generation
-download_size: 6.9GB
+download_size: 6.8GB
 files:
 - path: checkpoints/sd_xl_turbo_1.0_fp16.safetensors
   url: https://huggingface.co/stabilityai/sdxl-turbo/resolve/main/sd_xl_turbo_1.0_fp16.safetensors
-  size: 6.9GB
+  size: 6.5GB
   optional: false
   source:
     type: huggingface
@@ -33,4 +33,4 @@ created: '2026-02-20T16:36:33.816518Z'
 updated: '2026-02-20T16:36:33.816518Z'
 requirements:
   vram_gb: 8
-  disk_gb: 6.9
+  disk_gb: 6.8

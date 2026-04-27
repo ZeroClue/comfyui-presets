@@ -4,7 +4,7 @@ name: Complete Video Workflow
 category: Video Generation
 type: video
 description: Complete video generation workflow with all models
-download_size: 26.4GB
+download_size: 56GB
 files:
 - path: diffusion_models/LTXV_2B_FP8_SCALED.safetensors
   url: https://huggingface.co/Lightricks/LTXV/resolve/main/transformers/diffusion_pytorch_model.safetensors
@@ -24,7 +24,7 @@ files:
     revision: null
 - path: diffusion_models/hunyuan_video_t2v_720p_bf16.safetensors
   url: https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/diffusion_models/hunyuan_video_t2v_720p_bf16.safetensors
-  size: 5.1GB
+  size: 24GB
   optional: false
   source:
     type: huggingface
@@ -32,7 +32,7 @@ files:
     revision: null
 - path: diffusion_models/mochi_preview_fp8_scaled.safetensors
   url: https://huggingface.co/Comfy-Org/mochi_preview_repackaged/resolve/main/split_files/diffusion_models/mochi_preview_fp8_scaled.safetensors
-  size: 9.8GB
+  size: 9.3GB
   optional: false
   source:
     type: huggingface
@@ -64,7 +64,7 @@ files:
     revision: null
 - path: vae/wan2.2_vae.safetensors
   url: https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors
-  size: 1.41GB
+  size: 1.3GB
   optional: false
   source:
     type: huggingface
@@ -79,4 +79,4 @@ use_case: Full video generation capabilities
 created: '2026-02-20T16:36:33.751888Z'
 updated: '2026-02-20T16:36:33.751888Z'
 requirements:
-  disk_gb: 26.4
+  disk_gb: 55.6

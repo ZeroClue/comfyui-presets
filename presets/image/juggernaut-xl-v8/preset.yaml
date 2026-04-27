@@ -4,11 +4,11 @@ name: Juggernaut XL v8
 category: Image Generation
 type: image
 description: Juggernaut XL v8 for photorealistic images
-download_size: 6.9GB
+download_size: 6.8GB
 files:
 - path: checkpoints/juggernautXL_v8Rundiffusion.safetensors
   url: https://huggingface.co/cagliostrolab/animagine-xl-3.0/resolve/main/animagine-xl-3.0.safetensors
-  size: 6.9GB
+  size: 6.5GB
   optional: false
   source:
     type: huggingface
@@ -32,4 +32,4 @@ created: '2026-02-20T16:36:33.788311Z'
 updated: '2026-02-20T16:36:33.788311Z'
 requirements:
   vram_gb: 8
-  disk_gb: 6.9
+  disk_gb: 6.8

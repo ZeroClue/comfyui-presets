@@ -4,11 +4,11 @@ name: LTX-Video Multi Frame Control
 category: Video Generation
 type: video
 description: LTX-Video multi-frame control workflow from ComfyUI documentation
-download_size: 14.5GB
+download_size: 33GB
 files:
 - path: checkpoints/ltx-video-2b-v0.9.5.safetensors
   url: https://huggingface.co/Lightricks/LTX-Video/resolve/main/ltx-video-2b-v0.9.5.safetensors
-  size: 4.8GB
+  size: 5.9GB
   optional: false
   source:
     type: huggingface
@@ -16,7 +16,7 @@ files:
     revision: null
 - path: text_encoders/t5xxl_fp16.safetensors
   url: https://huggingface.co/Comfy-Org/mochi_preview_repackaged/resolve/main/split_files/text_encoders/t5xxl_fp16.safetensors
-  size: 4.9GB
+  size: 9.1GB
   optional: false
   source:
     type: huggingface
@@ -24,7 +24,7 @@ files:
     revision: null
 - path: text_encoders/PixArt-XL-2-1024-MS/text_encoder/model-00001-of-00002.safetensors
   url: https://huggingface.co/PixArt-alpha/PixArt-XL-2-1024-MS/resolve/main/text_encoder/model-00001-of-00002.safetensors
-  size: 2.3GB
+  size: 9.3GB
   optional: false
   source:
     type: huggingface
@@ -32,7 +32,7 @@ files:
     revision: null
 - path: text_encoders/PixArt-XL-2-1024-MS/text_encoder/model-00002-of-00002.safetensors
   url: https://huggingface.co/PixArt-alpha/PixArt-XL-2-1024-MS/resolve/main/text_encoder/model-00002-of-00002.safetensors
-  size: 2.5GB
+  size: 8.4GB
   optional: false
   source:
     type: huggingface
@@ -48,4 +48,4 @@ use_case: Control video generation with multiple reference frames
 created: '2026-02-20T16:36:33.685884Z'
 updated: '2026-02-20T16:36:33.685884Z'
 requirements:
-  disk_gb: 14.5
+  disk_gb: 32.7

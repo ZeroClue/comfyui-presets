@@ -1,0 +1,56 @@
+id: z-image-turbo-controlnet
+version: 1.0.0
+name: Z-Image Turbo ControlNet
+category: Image Generation
+type: image
+description: Z-Image Turbo with Fun Union ControlNet — guided generation using Canny
+  edge detection on a reference image
+download_size: 22GB
+files:
+- path: diffusion_models/z_image_turbo_bf16.safetensors
+  url: https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/diffusion_models/z_image_turbo_bf16.safetensors
+  size: 11GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/z_image_turbo
+    revision: null
+- path: text_encoders/qwen_3_4b.safetensors
+  url: https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/text_encoders/qwen_3_4b.safetensors
+  size: 7.5GB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/z_image_turbo
+    revision: null
+- path: vae/ae.safetensors
+  url: https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/vae/ae.safetensors
+  size: 320MB
+  optional: false
+  source:
+    type: huggingface
+    repo: Comfy-Org/z_image_turbo
+    revision: null
+- path: controlnet/Z-Image-Turbo-Fun-Controlnet-Union.safetensors
+  url: https://huggingface.co/alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union/resolve/main/Z-Image-Turbo-Fun-Controlnet-Union.safetensors
+  size: 2.9GB
+  optional: false
+  source:
+    type: huggingface
+    repo: alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union
+    revision: null
+tags:
+- z-image
+- turbo
+- controlnet
+- canny
+- guided
+- image
+- alibaba
+use_case: ControlNet-guided image generation using Canny edge detection on reference
+  images
+created: '2026-04-27T12:00:00.000000Z'
+updated: '2026-04-27T12:00:00.000000Z'
+requirements:
+  vram_gb: 16
+  disk_gb: 21.7

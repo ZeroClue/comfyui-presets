@@ -4,11 +4,11 @@ name: Complete Audio Suite
 category: Audio Generation
 type: audio
 description: Complete audio generation suite with all models
-download_size: 10.9GB
+download_size: 17GB
 files:
 - path: audio_encoders/musicgen_medium.safetensors
   url: https://huggingface.co/facebook/musicgen-medium/resolve/main/pytorch_model.bin
-  size: 2.8GB
+  size: 7.5GB
   optional: false
   source:
     type: huggingface
@@ -16,7 +16,7 @@ files:
     revision: null
 - path: audio_encoders/musicgen_small.safetensors
   url: https://huggingface.co/facebook/musicgen-small/resolve/main/pytorch_model.bin
-  size: 1.3GB
+  size: 2.2GB
   optional: false
   source:
     type: huggingface
@@ -40,7 +40,7 @@ files:
     revision: null
 - path: TTS/parler_tts_model.safetensors
   url: https://huggingface.co/parler-tts/parler_tts_mini_v0.1/resolve/main/model.safetensors
-  size: 3.2GB
+  size: 2.4GB
   optional: false
   source:
     type: huggingface
@@ -64,4 +64,4 @@ created: '2026-02-20T16:36:33.818934Z'
 updated: '2026-02-20T16:36:33.818934Z'
 requirements:
   vram_gb: 4
-  disk_gb: 10.9
+  disk_gb: 16.6

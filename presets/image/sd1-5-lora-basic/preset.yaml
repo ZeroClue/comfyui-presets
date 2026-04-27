@@ -16,7 +16,7 @@ files:
     revision: null
 - path: loras/example_lora.safetensors
   url: https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/resolve/main/pytorch_lora_weights.safetensors
-  size: 100MB
+  size: 128MB
   optional: false
   source:
     type: huggingface
