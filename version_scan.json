@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-04-27T08:10:29.084442Z",
+  "scanned_at": "2026-04-28T08:12:07.732477Z",
   "results": [
     {
       "preset_id": "wan2-2-s2v-14b-fp8-scaled",
@@ -1019,6 +1019,51 @@
       "error": "No revision tracked"
     },
     {
+      "preset_id": "qwen-image-2512",
+      "file_path": "diffusion_models/qwen_image_2512_fp8_e4m3fn.safetensors",
+      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "qwen-image-2512",
+      "file_path": "text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors",
+      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "qwen-image-2512",
+      "file_path": "vae/qwen_image_vae.safetensors",
+      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "qwen-image-2512",
+      "file_path": "loras/Qwen-Image-2512-Lightning-4steps-V1.0-fp32.safetensors",
+      "repo": "lightx2v/Qwen-Image-2512-Lightning",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "qwen-image-2512",
+      "file_path": "loras/Qwen-Image-2512-Lightning-8steps-V1.0-fp32.safetensors",
+      "repo": "lightx2v/Qwen-Image-2512-Lightning",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
       "preset_id": "sd1-5-lora-basic",
       "file_path": "checkpoints/v1-5-pruned-emaonly-fp16.safetensors",
       "repo": "Comfy-Org/stable-diffusion-v1-5-archive",
@@ -1037,27 +1082,54 @@
       "error": "No revision tracked"
     },
     {
-      "preset_id": "qwen-image-edit",
-      "file_path": "diffusion_models/qwen_image_edit_2509_fp8_e4m3fn.safetensors",
-      "repo": "Comfy-Org/Qwen-Image-Edit_ComfyUI",
+      "preset_id": "z-image",
+      "file_path": "diffusion_models/z_image_bf16.safetensors",
+      "repo": "Comfy-Org/z_image",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
       "error": "No revision tracked"
     },
     {
-      "preset_id": "qwen-image-edit",
-      "file_path": "text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors",
-      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+      "preset_id": "z-image",
+      "file_path": "text_encoders/qwen_3_4b.safetensors",
+      "repo": "Comfy-Org/z_image_turbo",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
       "error": "No revision tracked"
     },
     {
-      "preset_id": "qwen-image-edit",
-      "file_path": "vae/qwen_image_vae.safetensors",
-      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+      "preset_id": "z-image",
+      "file_path": "vae/ae.safetensors",
+      "repo": "Comfy-Org/z_image_turbo",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "z-image-turbo",
+      "file_path": "diffusion_models/z_image_turbo_bf16.safetensors",
+      "repo": "Comfy-Org/z_image_turbo",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "z-image-turbo",
+      "file_path": "text_encoders/qwen_3_4b.safetensors",
+      "repo": "Comfy-Org/z_image_turbo",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "z-image-turbo",
+      "file_path": "vae/ae.safetensors",
+      "repo": "Comfy-Org/z_image_turbo",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
@@ -1184,6 +1256,42 @@
       "preset_id": "sd1-5-upscale-basic",
       "file_path": "upscale_models/8x_NMKD-Superscale_150k.pth",
       "repo": "ConseilsSuprimes/8x_NMKD-Superscale_150k",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "z-image-turbo-controlnet",
+      "file_path": "diffusion_models/z_image_turbo_bf16.safetensors",
+      "repo": "Comfy-Org/z_image_turbo",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "z-image-turbo-controlnet",
+      "file_path": "text_encoders/qwen_3_4b.safetensors",
+      "repo": "Comfy-Org/z_image_turbo",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "z-image-turbo-controlnet",
+      "file_path": "vae/ae.safetensors",
+      "repo": "Comfy-Org/z_image_turbo",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "z-image-turbo-controlnet",
+      "file_path": "controlnet/Z-Image-Turbo-Fun-Controlnet-Union.safetensors",
+      "repo": "alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
@@ -1317,7 +1425,25 @@
     },
     {
       "preset_id": "complete-professional-suite",
-      "file_path": "diffusion_models/qwen_image_fp8_e4m3fn.safetensors",
+      "file_path": "diffusion_models/qwen_image_2512_fp8_e4m3fn.safetensors",
+      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "complete-professional-suite",
+      "file_path": "text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors",
+      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "complete-professional-suite",
+      "file_path": "vae/qwen_image_vae.safetensors",
       "repo": "Comfy-Org/Qwen-Image_ComfyUI",
       "tracked_revision": null,
       "latest_revision": null,
@@ -1596,7 +1722,7 @@
     },
     {
       "preset_id": "qwen-image-complete",
-      "file_path": "diffusion_models/qwen_image_fp8_e4m3fn.safetensors",
+      "file_path": "diffusion_models/qwen_image_2512_fp8_e4m3fn.safetensors",
       "repo": "Comfy-Org/Qwen-Image_ComfyUI",
       "tracked_revision": null,
       "latest_revision": null,
@@ -1605,7 +1731,7 @@
     },
     {
       "preset_id": "qwen-image-complete",
-      "file_path": "diffusion_models/qwen_image_edit_2509_fp8_e4m3fn.safetensors",
+      "file_path": "diffusion_models/qwen_image_edit_2511_fp8mixed.safetensors",
       "repo": "Comfy-Org/Qwen-Image-Edit_ComfyUI",
       "tracked_revision": null,
       "latest_revision": null,
@@ -1631,9 +1757,90 @@
       "error": "No revision tracked"
     },
     {
+      "preset_id": "qwen-image-complete",
+      "file_path": "loras/Qwen-Image-2512-Lightning-4steps-V1.0-fp32.safetensors",
+      "repo": "lightx2v/Qwen-Image-2512-Lightning",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "qwen-image-complete",
+      "file_path": "loras/Qwen-Image-2512-Lightning-8steps-V1.0-fp32.safetensors",
+      "repo": "lightx2v/Qwen-Image-2512-Lightning",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "qwen-image-complete",
+      "file_path": "loras/Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors",
+      "repo": "lightx2v/Qwen-Image-Edit-2511-Lightning",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "qwen-image-complete",
+      "file_path": "loras/Qwen-Image-Edit-2511-Lightning-8steps-V1.0-bf16.safetensors",
+      "repo": "lightx2v/Qwen-Image-Edit-2511-Lightning",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
       "preset_id": "sd1-5-image-to-image-basic",
       "file_path": "checkpoints/v1-5-pruned-emaonly-fp16.safetensors",
       "repo": "Comfy-Org/stable-diffusion-v1-5-archive",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "qwen-image-edit-2511",
+      "file_path": "diffusion_models/qwen_image_edit_2511_fp8mixed.safetensors",
+      "repo": "Comfy-Org/Qwen-Image-Edit_ComfyUI",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "qwen-image-edit-2511",
+      "file_path": "text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors",
+      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "qwen-image-edit-2511",
+      "file_path": "vae/qwen_image_vae.safetensors",
+      "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "qwen-image-edit-2511",
+      "file_path": "loras/Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors",
+      "repo": "lightx2v/Qwen-Image-Edit-2511-Lightning",
+      "tracked_revision": null,
+      "latest_revision": null,
+      "update_available": true,
+      "error": "No revision tracked"
+    },
+    {
+      "preset_id": "qwen-image-edit-2511",
+      "file_path": "loras/Qwen-Image-Edit-2511-Lightning-8steps-V1.0-bf16.safetensors",
+      "repo": "lightx2v/Qwen-Image-Edit-2511-Lightning",
       "tracked_revision": null,
       "latest_revision": null,
       "update_available": true,
