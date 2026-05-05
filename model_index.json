@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-05-04T08:21:49.188521Z",
+  "generated_at": "2026-05-05T07:59:11.392696Z",
   "mappings": {
     "diffusion_models/wan2.2_s2v_14B_fp8_scaled.safetensors": "wan2-2-s2v-14b-fp8-scaled",
     "vae/wan_2.1_vae.safetensors": "wan-2-1-lightweight-1-3b",
