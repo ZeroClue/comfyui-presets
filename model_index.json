@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-06-07T08:48:25.717248Z",
+  "generated_at": "2026-06-08T10:22:46.081333Z",
   "mappings": {
     "audio_encoders/musicgen_medium.safetensors": "complete-audio-suite",
     "audio_encoders/musicgen_small.safetensors": "complete-audio-suite",
