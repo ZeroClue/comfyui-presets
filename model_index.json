@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-06-12T10:00:28.041736Z",
+  "generated_at": "2026-06-13T08:50:11.662812Z",
   "mappings": {
     "checkpoints/ace_step_v1_3.5b.safetensors": "ace-step-music-extension",
     "audio_encoders/ace_audio_encoder.pth": "ace-step-music-extension",
