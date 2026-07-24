@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-07-23T06:50:19.200587Z",
+  "generated_at": "2026-07-24T06:50:30.090859Z",
   "mappings": {
     "diffusion_models/qwen_image_2512_fp8_e4m3fn.safetensors": "qwen-image-complete",
     "text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors": "qwen-image-complete",
