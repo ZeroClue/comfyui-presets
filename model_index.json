@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-08-25T06:09:30.032121Z",
+  "generated_at": "2026-08-26T06:10:25.029440Z",
   "mappings": {
     "diffusion_models/Wan2.2_I2V_14B_Q8_0.gguf": "wan-2-2-i2v-basic",
     "clip_vision/sd_image_encoder.safetensors": "wan-2-1-i2v-14b",
