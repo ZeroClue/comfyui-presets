@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-10-15T06:11:03.494552Z",
+  "generated_at": "2026-10-16T06:10:53.341894Z",
   "mappings": {
     "diffusion_models/sd3_large_turbo.safetensors": "complete-professional-suite",
     "text_encoders/clip_g.safetensors": "sd3-5-medium-basic",
