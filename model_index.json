@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-10-29T06:08:30.733502Z",
+  "generated_at": "2026-10-30T06:08:32.228727Z",
   "mappings": {
     "checkpoints/v1-5-pruned-emaonly-fp16.safetensors": "sd1-5-multiple-loras",
     "checkpoints/Realistic_Vision_V6.0_NV_B1.safetensors": "realistic-vision-v6",
