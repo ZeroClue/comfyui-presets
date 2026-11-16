@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-11-15T13:15:45.988271Z",
+  "generated_at": "2026-11-16T14:25:37.627408Z",
   "mappings": {
     "diffusion_models/hidream.safetensors": "hidream-basic",
     "text_encoders/t5xxl_fp16.safetensors": "wan-2-2-fun-inp",
