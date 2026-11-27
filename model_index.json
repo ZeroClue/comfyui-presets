@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-11-26T16:07:21.133659Z",
+  "generated_at": "2026-11-27T15:55:47.121399Z",
   "mappings": {
     "checkpoints/ace_step_v1_3.5b.safetensors": "ace-step-multi-track",
     "audio_encoders/ace_audio_encoder.pth": "ace-step-multi-track",
